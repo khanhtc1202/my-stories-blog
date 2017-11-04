@@ -8,6 +8,8 @@ Mấy hôm trước trong lúc làm việc có search ra từ này, thấy khá 
 
 >Galápagos syndrome (ガラパゴス化) - hội chứng Galapagos là 1 thuật ngữ chỉ việc các sản phẩm của Nhật Bản phát triển theo 1 hướng khác so với thế giới. Khái niệm này bắt nguồn từ Darwin, khi ông đến đảo Galapagos và phát hiện ra loài chim ở trên đảo có kết cấu xương khác biệt; từ đó phát minh ra thuyết tiến hóa. 
 >>*Mà nghe nói người ta cũng đang tranh cãi khá nhiều quanh thuyết này*
+
+
 <!-- more -->
 Có lẽ những người ở độ tuổi của mình đổ về trước vẫn còn nhớ những ký ức về độ "xịn" của đồ Nhật, thuở bé nghe người lớn nói đến cái mini Nhật bãi thấy người ta ưa chuộng thế, chắc là xịn lắm. Rồi còn đủ thứ chỉ thấy qua vô tuyến như tàu điện, máy nghe nhạc,... Ấy vậy mà càng ngày càng thấy đồ Nhật mất dần vị thế; hàng của Hàn Quốc, Trung Quốc,... lên ngôi, vừa nhiều chức năng vừa rẻ. Như cái điện thoại mua về dùng vài năm rồi đổi, cũng chẳng cần bền quá làm gì. Dần dần trong đầu mình chỉ còn nhớ về hàng Nhật là bền và xấu :s
 
