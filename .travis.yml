@@ -2,7 +2,7 @@ language: generic
 addons:
   ssh_known_hosts: 125.212.227.42
 before_install:
-- openssl aes-256-cbc -K $encrypted_0ab9dbbafe5f_key -iv $encrypted_0ab9dbbafe5f_iv
+- openssl aes-256-cbc -K $encrypted_38ebcd8c19a4_key -iv $encrypted_38ebcd8c19a4_iv
   -in deploy_rsa.enc -out deploy_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 deploy_rsa
