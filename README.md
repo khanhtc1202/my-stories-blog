@@ -29,7 +29,7 @@ sudo chmod 755 /root && mkdir -m 755 -p /root/.npm/_logs
 
 ## Run project
 
-Run like a normally nodejs project :)
+Run like a normally nodejs project :) that mean you must run `npm install` on the first time you run this project.
 
 ## Start new post
 
