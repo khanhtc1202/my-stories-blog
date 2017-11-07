@@ -35,10 +35,10 @@ Run like a normally nodejs project :) that mean you must run `npm install` on th
 
 *Note:* you must on `develop` branch when you start writing a new post.
 
-*Step:*
+*Steps:*
 
 1. Generate new .md file with command:  `hexo new post {your-post-name}`
 your post will located on `./source/_post/{your-post-name}.md`
 2. Write down your post :)
 3. Submit your post and deploy it to my server with command: `./deploy.sh`
-4. Submit your post .md file to our git repo (optional). (You should do that :) if not, when I backup post's data on server, your post will be deleted. I will check your pull request and merge it later.)
+4. Submit your post .md file to our git repo (optional). (You should do that :) if not, when I backup post's data on server, your post will be deleted. `develop` branch was protected so you must checkout to new branch and create pull request to `develop` branch. I will check your pull request and merge it later.)
