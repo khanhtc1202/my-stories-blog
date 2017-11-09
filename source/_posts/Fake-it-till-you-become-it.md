@@ -1,7 +1,7 @@
 ---
 title: Fake it till you become it
 date: 2017-11-09 21:08:55
-tags: Learning
+tags: learning
 thumbnail: https://www.saddleback.edu/uploads/studentdevelopment/amyc.png
 ---
 
