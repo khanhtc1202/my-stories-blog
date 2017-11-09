@@ -27,7 +27,7 @@ Chạy được rồi thì thử ngồi suy nghĩ thêm về logic của nó, t�
 Kiểu như validate form có phải số không thì có thể làm thêm validate số chẵn, nhỏ hơn 100 chẳng hạn.
 >3. Học được 1 vài khái niệm cần thiết rồi thì thử bắt tay vào làm sản phẩm thật của mình xem. Có thể cách hiện tại hơi thủ công và không giống best practice; nhưng mà cứ làm đại đi - chạy được rồi tính sau. 
 >4. Chaỵ được, chưa đến deadline thì ngồi đọc xem thiên hạ có cách gì hay hơn không.
->5. thảnh thơi cho đến khi phải quay lại bước 1.
+>5. Thảnh thơi cho đến khi phải quay lại bước 1.
 
 Đó là cách mình dùng để học lập trình; mấy môn khác cũng na ná vậy. Cũng là quá trình bắt chước rồi làm theo - như là "fake it till you become it" thôi. Làm giai đoạn đầu này thì các vấn đề cũng khá đơn giản, chịu khó search là sẽ ra; khi nào cao siêu hơn không hỏi được máy nữa thì chuyển sang hỏi người.
 
