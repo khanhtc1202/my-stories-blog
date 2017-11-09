@@ -12,6 +12,7 @@ Có 1 đợt mình xem khá nhiều những clip của TED; nội dung thì cái
 Hôm nay ngồi lục lại mới thấy lạ lạ, sao nội dung nó không giống như mình nhớ nhỉ :3 Lại phải ngồi xem lại 1 xíu mới nhớ ra nội dung thế nào. Các bạn có thời gian nên xem thử các clip của TED, khá nhiều cái hay ho có thể áp dụng vào cuộc sống. Vừa xem vừa tập nghe tiếng Anh luôn, mà dốt quá không muốn tập thì có sẵn cả sub Việt luôn :) 
 
 >Bạn nào định hỏi là kiếm sub Việt ở đâu thì mình nghĩ nên tắt máy đi ngủ cho khỏe :)
+
 <!-- more -->
 
 Mấy ngày hôm nay cứ phải lẩm nhẩm câu khẩu quyết này để có thêm động lực đi làm. Số là mình không dùng Java nhiều lắm, có học ở trường rồi nhưng mà không dùng mấy. Trước khi đi làm cũng biết là phải làm Java rồi cơ mà cứ ỷ y nghĩ là có tận 3 tháng training cơ mà, sao phải vội làm gì... Đời cũng không như mơ mãi, OJT của mình là làm 1 tiếp tục phát triển 1 sản phảm nho nhỏ dùng nội bộ của team. Mấy hôm đầu ngồi làm specification có "vẽ" quá đà. Trong 1 tháng rưỡi phải thêm chức năng cho 1 application Springboot + 1 app android đơn giản.
