@@ -26,7 +26,7 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: css/images/favicon.png # path to favicon
     social_links:
-        github: /
+        github: https://github.com/khanhtc1202/my-stories-blog
         twitter: /
         facebook: https://www.facebook.com/my12stories/
         dribbble: /
