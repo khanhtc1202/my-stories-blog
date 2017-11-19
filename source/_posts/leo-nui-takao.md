@@ -2,7 +2,7 @@
 title: Leo núi Takao
 date: 2017-11-19 11:52:02
 tags: travel
-thumbnail: https://imgur.com/a/0ld3w
+thumbnail: https://i.imgur.com/XnI3wEw.jpg
 ---
 
 Hôm 3/11 vừa rồi nhân ngày văn hóa (文化の日) mình có đi leo núi Takao cùng vài người bạn. 
