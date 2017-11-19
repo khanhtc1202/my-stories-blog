@@ -11,7 +11,7 @@ Hôm 3/11 vừa rồi nhân ngày văn hóa (文化の日) mình có đi leo nú
 * Nên tham khảo trước các course ở [đây](http://www.takaotozan.co.jp/course/). Course 1 đi khá đơn giản, đường đẹp và mệt cỡ 1 nửa so với leo Yên Tử :))
 * Ăn xúc xích lúc gần lên đỉnh rất ngon; đừng tham nhiều mustard. (Mustard và Wasabi khác nhau nhưng vị khá giống nhau)
 * Mình đi vào đợt nghỉ lễ (nghỉ thứ 6 + 7 + chủ nhật) nên khá đông; mà lá lại chưa đỏ lắm. Nên cân nhắc đi thời gian khác chắc sẽ đỡ hơn.
-
+<!-- more -->
 Và các bạn có thể xem clip tại phía dưới :)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cSkAtMyjP1M" frameborder="0" allowfullscreen></iframe>
