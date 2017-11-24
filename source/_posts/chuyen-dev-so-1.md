@@ -1,5 +1,5 @@
 ---
-title: Chuyện dev số 1: pair deploying
+title: Chuyện dev số 1 - pair deploying
 date: 2017-11-24 22:27:48
 tags: devstories
 thumbnail: https://spin.atomicobject.com/wp-content/uploads/Pairing.jpg
