@@ -1,7 +1,7 @@
 ---
 title: Chuyện đi bơi
 date: 2017-12-03 17:36:05
-tags: learning relax
+tags: relax
 thumbnail: http://www.mhs.co.jp/site/uploads/2011/11/w144_setagayakuritusougouundouzyou_2.jpg
 ---
 
