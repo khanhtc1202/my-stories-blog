@@ -92,11 +92,15 @@ Cơ mà quái, sao đóng port rồi mà chạy renew vẫn thành công nhỉ :
 
 Có gì đấy sai sai.
 
-Đến lúc này mới nhận ra là certbot không cần kết nối với server của nó vẫn chạy gia hạn được. Mình đoán là nó chỉ cần chứng thực lại và sửa ngày hết hạn trong certificate đã có sẵn thôi; không cần phải giao tiếp với server nữa. Thế nên cái chuyện đóng, mở port kia chả còn gì quan trọng. Vấn đề được giải quyết bằng 1 lệnh crontab đơn giản.
+Đến lúc này mới nhận ra là certbot không cần kết nối với server của nó vẫn chạy gia hạn được. ~~Mình đoán là nó chỉ cần chứng thực lại và sửa ngày hết hạn trong certificate đã có sẵn thôi; không cần phải giao tiếp với server nữa. Thế nên cái chuyện đóng, mở port kia chả còn gì quan trọng. Vấn đề được giải quyết bằng 1 lệnh crontab đơn giản.~~ 
+
+*Thông tin đính chính ở phía dưới*
 
 Vẽ ra lòng vòng 1 hồi, cũng phải mất mấy ngày mà cuối cùng lại chết vì thiếu 1 bước... Đành tự nhủ lòng là thôi cũng biết Azure CLI nó tròn méo thế nào ;(
 
 Báo với anh Su, và rất may là mình cũng hay thảo luận với anh ý trong lúc làm. Thế nên anh ý cũng không mắng gì cả :3 Cơ mà kiểu ăn hại mấy ngày nên hơi cắn rứt ;(
+
+>Update sau 1 tuần tìm hiểu: thật ra là vẫn cần mở cổng. Quá trình này nó gọi là domain challenge (hay domain authorization); cái này có cache 30 ngày nên lúc mình thử renew lại không cần mở port vẫn chạy được. Chi tiết có thể xem thêm trong [FAQ](https://letsencrypt.org/docs/faq/).
 
 *Mấy ngày trước mình có đọc đâu đó là style của Mỹ là vừa làm vừa rút kinh nghiệm thoải mái. Còn style của Nhật là sẽ lên kế hoạch kỹ càng trước khi làm, thế nên nếu anh Su là người Nhật thì rất có thể đã bị mắng tơi tả rồi. Btw, đoạn này không nhớ rõ lắm, phải kiếm sách đọc lại đã.*
 
