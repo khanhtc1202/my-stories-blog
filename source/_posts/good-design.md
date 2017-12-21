@@ -34,8 +34,6 @@ Giữ vững niềm tin đó thì bài này sẽ dành riêng để đăng ảnh
 
 ![Cái này thiết kế không ổn lắm vì vẫn phải dùng chữ để chỉ dẫn. Tuy nhiên vẫn khá hơn khẩu trang của Việt Nam không có HDSD](http://i.imgur.com/XEywHfi.jpg)
 
-![Ống hút kéo dài được, giấu vừa xinh phía sau cái nhãn](http://i.imgur.com/Xo3ycKi.jpg)
-
 ![Mới lấy được 1 quyển lịch ở công ty](http://i.imgur.com/vX2wpwOg.jpg)
 
 ![Bóc tầm đầu tiên ra sẽ thấy tháng 2, 3. Bóc tiếp tháng 1 ra sẽ thấy tháng 4, tháng 2 sẽ lộ ra tháng 5, tháng 3 sẽ ra tháng 6](http://i.imgur.com/Fz4gzihg.jpg)
