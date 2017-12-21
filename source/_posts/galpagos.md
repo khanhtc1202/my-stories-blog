@@ -1,7 +1,7 @@
 ---
 title: Galápagos
 date: 2017-11-04 04:46:53
-tags: galápagos
+tags: learning
 thumbnail: https://s.aolcdn.com/hss/storage/midas/8f2d525d80ea3be6b7fc0684a8a7135f/204166443/flip.jpeg
 ---
 Mấy hôm trước trong lúc làm việc có search ra từ này, thấy khá thú vị nên tạm thời ghi lại mấy dòng cho khỏi quên :)
