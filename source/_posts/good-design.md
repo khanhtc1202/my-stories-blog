@@ -7,7 +7,7 @@ thumbnail: https://cdn.shopify.com/s/files/1/0125/8122/products/holstee_less_but
 
 ## Less, but better
 
-H.C. Dieter Rams là 1 nhà thiết kế công nghiệp nổi tiếng. Trong đó ông có 10 triết lý về "Good design"; 1 số nơi có dịch là thiết kế chuẩn, thiết kế tốt. Do chưa hiểu nghĩa của từ này lắm nên mình sẽ giữ nguyên từ "Good design".
+H.C. Dieter Rams là 1 nhà thiết kế công nghiệp nổi tiếng. Ông có 10 triết lý về "Good design"; 1 số nơi có dịch là thiết kế chuẩn, thiết kế tốt. Do chưa hiểu nghĩa của từ này lắm nên mình sẽ giữ nguyên từ "Good design".
 
 <!-- more -->
 
@@ -37,5 +37,9 @@ Giữ vững niềm tin đó thì bài này sẽ dành riêng để đăng ảnh
 ![Mới lấy được 1 quyển lịch ở công ty](http://i.imgur.com/vX2wpwOg.jpg)
 
 ![Bóc tầm đầu tiên ra sẽ thấy tháng 2, 3. Bóc tiếp tháng 1 ra sẽ thấy tháng 4, tháng 2 sẽ lộ ra tháng 5, tháng 3 sẽ ra tháng 6](http://i.imgur.com/Fz4gzihg.jpg)
+
+![Trường hợp này liệu có thể xếp vào thiết kế sản phẩm tận tâm với người sử dụng được không nhỉ :-?](http://i.imgur.com/Y30E2ifg.jpg)
+
+![Đồ của Apple khá hay ho. Lực không mạnh lắm; đủ giữ cho bút khỏi chạy mất](https://media.giphy.com/media/l49JTYrbShLPxfzck/giphy.gif)
 
 **~Còn tiếp~**
