@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# parse params
+while [[ -z "$1" ]]
+do
+    echo "Missing post's name..."
+    exit 1
+done
+
+# define var
+TEMP="---\ntitle:\ndate: $(date +"%Y-%m-%d %T")\ntags:\nthumbnail:\n---\n"
+SRC_DIR="./source/_posts/"
+MD_PATH=$SRC_DIR$1".md"
+
+echo -e $TEMP > $MD_PATH
