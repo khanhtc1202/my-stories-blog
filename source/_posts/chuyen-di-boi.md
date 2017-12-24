@@ -2,7 +2,7 @@
 title: Chuyện đi bơi
 date: 2017-12-03 17:36:05
 tags: relax
-thumbnail: http://www.mhs.co.jp/site/uploads/2011/11/w144_setagayakuritusougouundouzyou_2.jpg
+thumbnail: https://i.imgur.com/vtzeywZ.jpg
 ---
 
 Mình bắt đầu biết bơi từ hồi cấp 3; mấy ngày đầu còn sợ nước thì có 1 cậu bạn dậy, sau thì chủ yếu tự học qua Youtube. Nghe có vẻ dài nhưng mà thật ra khả năng bơi của mình cũng chỉ tạm dừng ở mức trung bình. Biết bơi ếch, trườn sấp và gần đây đang tập thêm bơi bướm. Hồi mùa hè ở nhà ngày nào mình cũng đi bơi, lúc mới sang không được bơi thấy buồn khủng khiếp. May quá tìm được 1 bể bơi 4 mùa gần nhà mà giá cũng rẻ; thế là có động lực vận động thường xuyên cho đỡ lão hóa rồi.
@@ -11,17 +11,17 @@ Mình bắt đầu biết bơi từ hồi cấp 3; mấy ngày đầu còn sợ 
 
 Như ở Nhật thì mỗi 区 (gần giống thành phố) đều có 1 số trung tâm thể thao; ở chỗ mình thì rất rộng và có cơ sở vật chất cho nhiều môn thế thao. Các bạn muốn chơi môn gì có thể lên google search chắc sẽ có đầy đủ.
 
-![Bên cạnh bể bơi là vô số sân tennis](http://i.imgur.com/YanrqF9r.jpg)
+![Bên cạnh bể bơi là vô số sân tennis](https://i.imgur.com/YanrqF9r.jpg)
 
 Bể này thì giá vé tính theo giờ, mình thường chọn suất bơi 1 tiếng giá 240 yên; suất 2 tiếng là 480 yên - tuy nhiên đang mùa đông nên mua vé 2 tiếng sẽ được bơi bao lâu tùy thích.
 
-![Mua vé bằng máy, có thể nhận tiền 10 yên ~ 1000 yên](http://i.imgur.com/IuIinTYg.jpg)
+![Mua vé bằng máy, có thể nhận tiền 10 yên ~ 1000 yên](https://i.imgur.com/IuIinTYg.jpg)
 
-![Vé bể bơi](http://i.imgur.com/4KIptjd.jpg)
+![Vé bể bơi](https://i.imgur.com/4KIptjd.jpg)
 
-![Máy soát vé, lúc ra nếu quá thời gian mua vé lúc đầu sẽ phải trả thêm tiền](http://i.imgur.com/tLNUQ9c.jpg)
+![Máy soát vé, lúc ra nếu quá thời gian mua vé lúc đầu sẽ phải trả thêm tiền](https://i.imgur.com/tLNUQ9c.jpg)
 
-![Nhét vé vào tủ đồ mới khóa được tủ](http://i.imgur.com/jVI6WE0g.jpg)
+![Nhét vé vào tủ đồ mới khóa được tủ](https://i.imgur.com/jVI6WE0g.jpg)
 
 Bể này khá rộng, hình như là có đạt chuẩn Olympic (dài 50m, rộng 25m). Như bình thường thì sẽ chia thành mấy làn như thế này:
 
@@ -36,7 +36,7 @@ Nghe đơn giản như vậy thôi nhưng mà mình cũng lơ ngơ cả buổi �
 
 >Bình thường mình thường học theo kiểu quan sát, có nghĩa là đứng lại nhìn người ta 1 lúc rồi bắt chước theo. Mà nếu nhỡ không có ai để bắt chước thì ra hỏi nhân viên/người xung quanh =))
 
-![Tai nghe chống nước, vừa bơi vừa nghe nhạc phê cực](http://i.imgur.com/IMCT0N5.jpg)
+![Tai nghe chống nước, vừa bơi vừa nghe nhạc phê cực](https://i.imgur.com/IMCT0N5.jpg)
 
 Bình thường đi bơi mình hay dùng máy nghe nhạc, nước vừa đỡ vào tai mà lại thư giãn luôn. Ấy thế mà ở đây lại không được dùng :| Không được đeo cả vòng lẫn máy nghe nhạc luôn. Đến tận buổi thứ 2 lúc mấy bạn cứu hộ ra nhắc mới biết, mà rõ ràng không thấy có ghi thông báo hay lưu ý gì trên website cả :3
 
