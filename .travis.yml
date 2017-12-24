@@ -12,9 +12,7 @@ before_install:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: npm install && \
-            hexo generate && \
-            scp -r $TRAVIS_BUILD_DIR/public/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
+    script: npm install && hexo generate && scp -r $TRAVIS_BUILD_DIR/public/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
     on:
       branch: develop
   - provider: script
