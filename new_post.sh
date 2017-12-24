@@ -13,3 +13,4 @@ SRC_DIR="./source/_posts/"
 MD_PATH=$SRC_DIR$1".md"
 
 echo -e $TEMP > $MD_PATH
+echo "Your new post source file located on $MD_PATH"
