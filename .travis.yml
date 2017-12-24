@@ -9,10 +9,12 @@ before_install:
 - eval "$(ssh-agent -s)"
 - chmod 600 deploy_rsa
 - ssh-add deploy_rsa
+- hostname
 deploy:
   - provider: script
     skip_cleanup: true
-    script: npm install && \
+    script: hostname && \
+            npm install && \
             hexo generate && \
             scp -r $TRAVIS_BUILD_DIR/public/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
     on:
