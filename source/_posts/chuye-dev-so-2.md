@@ -27,7 +27,7 @@ Anh Su cũng là người ngoại quốc, có 1 thời gian làm việc dài dà
 
 1 số tool nhỏ của team có dùng VPS của Azure, tất nhiên đã block port để chỉ có ip từ mạng công ty mới truy nhập được. Lúc mình mới bắt đầu làm thì thấy lúc truy cập vô mấy trang đó đều có https, nhưng mà https sẽ bị thế này:
 
-![Https đểu](http://imh01-inmotionhosting1.netdna-ssl.com/support/images/stories/website/errors/ssl/chrome-your-connection-is-not-private.png)
+![Https đểu](https://imh01-inmotionhosting1.netdna-ssl.com/support/images/stories/website/errors/ssl/chrome-your-connection-is-not-private.png)
 
 Mình có hỏi thì anh Su bảo là do mấy cái này dùng self-signed ceritificate nên sẽ bị như thế. Mấy cái này dùng nội bộ nên không muốn bỏ tiền, mà xin approve certificate từ công ty cũng lâu lắm; thế nên dùng cái này cho nhanh. Mình đang làm 1 tool của team cũng chưa có https và được anh Su cho cái link cách tạo self-signed certificate luôn.
 
