@@ -10,8 +10,8 @@ before_install:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: apt-get install -y nodejs npm --no-install-recommends && \
-            npm install -g hexo && \
+    script: sudo apt-get install -y nodejs npm --no-install-recommends && \
+            sudo npm install -g hexo && \
             npm install && \
             hexo generate && \
             scp -r $TRAVIS_BUILD_DIR/public/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
