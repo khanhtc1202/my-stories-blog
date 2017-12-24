@@ -8,8 +8,16 @@ before_install:
 - chmod 600 deploy_rsa
 - ssh-add deploy_rsa
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: scp -r $TRAVIS_BUILD_DIR/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
-  on:
-    branch: master
+  - provider: script
+    skip_cleanup: true
+    script: npm install -g hexo && \
+            npm install && \
+            hexo generate && \
+            scp -r $TRAVIS_BUILD_DIR/public/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
+    on:
+      branch: develop
+  - provider: script
+    skip_cleanup: true
+    script: scp -r $TRAVIS_BUILD_DIR/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
+    on:
+      branch: master
