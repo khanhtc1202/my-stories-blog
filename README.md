@@ -15,12 +15,12 @@ Site's location: https://mystories.vn
 
 **Steps:**
 
-If you don't have `hexo-cli` in your local pc, don't worry! Do like below.
+If you don't have `hexo-cli` on your local pc, don't worry! Do like below.
 
 1. Generate new .md file with command: `./new_post.sh {your-post-name}`
 your post will be located on `./source/_post/{your-post-name}.md`
 2. Write down your post :)
-3. Checkout a new branch and push into our git repo. After that, create pull request to `develop` branch. After my approvation, your post will automatically deploy to my server. Thanks for your contribution :).
+3. Checkout a new branch and push into our git repo. After that, create pull request to `develop` branch. After my approvation, your post will automatically deployed to my server. Thanks for your contribution :).
 
 If you installed `hexo-cli` package. (Install guide go [here](#install-hexo-cli))
 
@@ -65,4 +65,4 @@ Start hexo server
 hexo server -p 3000
 ```
 
-Go and check out blog at `http://localhost:3000/`
+Local blog will be available at `http://localhost:3000/`
