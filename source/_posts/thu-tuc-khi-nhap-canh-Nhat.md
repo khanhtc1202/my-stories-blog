@@ -1,11 +1,13 @@
 ---
-title: thu-tuc-khi-nhap-canh-Nhat
+title: Thủ tục cần làm khi nhập cảnh Nhật Bản
 date: 2018-01-06 11:26:03
 tags: travel
-thumbnail: Thủ tục cần thiết khi nhập cảnh Nhật Bản
+thumbnail: https://i.imgur.com/hmjrYPh.jpg
 ---
 
 Bài này mình sẽ note lại mấy điểm cần lưu ý khi sang Nhật Bản làm việc; nội dung dựa trên kinh nghiệm của mình nên có thể sẽ sai khác 1 chút với các bạn sang Nhật cho những mục đích khác.
+
+<!-- more -->
 
 # Lần đầu sang Nhật theo visa của công ty
 Trong thời gian làm thủ tục thì công ty sẽ gửi cho COE (certificate of eligibility). Kẹp ghim COE vào hộ chiếu rồi mang theo tờ đơn lên đại sứ quán làm thủ tục cấp visa *(mình thấy nhiều nơi ghi là xin visa; mình không thích từ "xin" này cũng như từ "xin" trong "xin việc" vậy).*
