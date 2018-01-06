@@ -1,7 +1,7 @@
 ---
 title: thu-tuc-khi-nhap-canh-Nhat
 date: 2018-01-06 11:26:03
-tags: learning
+tags: travel
 thumbnail: Thủ tục cần thiết khi nhập cảnh Nhật Bản
 ---
 
@@ -26,7 +26,7 @@ Nếu bạn từ Nhật về Việt Nam chơi và sẽ tiếp tục quay lại N
 
 ![Tờ khai tái nhập cảnh](https://i.imgur.com/ABYMJgo.png)
 
-Khi từ Nhật về Việt Nam nhớ mang theo thẻ ngoại kiều (在留カード) để xuất trình khi cần. Hải quan Việt Nam, quầy checkin máy bay,... cũng cần kiểm tra thẻ này.
+Khi từ Nhật về Việt Nam nhớ mang theo thẻ ngoại kiều (在留カード) để xuất trình khi cần. Hải quan Việt Nam, quầy checkin máy bay,... cũng sẽ kiểm tra thẻ này.
 
 *Các thủ tục trên được hướng dẫn khá rõ ràng trên mạng; tuy nhiên mình cũng mất thời gian để tìm và tổng hợp lại mới hiểu hết. Xin note lại đây cho đỡ quên và các bạn cũng dễ tìm hơn.*
 
