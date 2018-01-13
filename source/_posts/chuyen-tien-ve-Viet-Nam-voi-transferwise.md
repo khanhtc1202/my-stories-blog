@@ -22,7 +22,7 @@ Tỉ giá này theo mình thấy khá tốt, tìm trong google với cụm "1 jp
 
 ![Xác thực thông tin cá nhân](https://i.imgur.com/q9NnWRr.png?1)
 
-![Thư gửi đến để xác nhận địa chỉ nhà](https://i.imgur.com/jrTWL3E.jpg)
+![Thư gửi đến để xác nhận địa chỉ nhà](https://i.imgur.com/nzOiv2t.jpg)
 
  Trong thư xác nhận sẽ có 1 mã code, nhập vào web của TransferWise để xác nhận địa chỉ để hoàn thành quá trình đăng ký và sau đó tiền được chuyển đi. Thế nhưng lúc mình nhận được thư, chưa cần nhập mã xác thực lên web thì đã có thông báo bắt đầu chuyển tiền rồi. Mình đoán lý do là chỉ cần bưu điện báo chuyển thư thành công là quá trình xác nhận hoàn tất rồi. 
 
@@ -36,7 +36,7 @@ Do lần đầu cần làm thêm thủ tục xác nhận địa chỉ nên hơi 
 
 Sau đó thì có thể xuất ra file pdf của giao dịch này, cuối năm nộp cùng với hồ sơ điều chỉnh thuế là cũng giảm được 1 khoản rồi :) Thường mình thấy HR của công ty sẽ lo việc này giúp mình luôn nên cũng không cần phải suy nghĩ quá nhiều.
 
-![Thông tin giao dịch](https://i.imgur.com/UOfKoPB.png?1)
+![Thông tin giao dịch](https://i.imgur.com/oxUqzMO.png)
 
 Bố mình vẫn bảo là làm ở Nhật nhưng mà mang tiền ấy về Việt Nam mà tiêu, công nhận là đúng thật. Ở Việt Nam tiêu tiền mà quy đổi sang tiền Nhật thấy thoải mái vì giá khá rẻ. Ví dụ như mình mua 1 cái sandwich + 1 lon coffee đã mất tầm 500 yên ~ 100k, với số tiền này cũng khá đủ cho 2 người ăn sáng ở Hà Nội rồi (tất nhiên là với mức trung bình thôi, còn với loại sang chảnh thì chẳng biết bao nhiêu cho đủ). Sống ở Nhật và bớt ăn chơi đi 1 tí thì cũng có thêm 1 khoản để bố mẹ sống thoải mái hơn rồi :)
 
