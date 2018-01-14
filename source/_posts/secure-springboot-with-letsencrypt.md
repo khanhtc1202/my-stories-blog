@@ -15,6 +15,8 @@ But to integrate them has some difficulties as below:
 2. Spring Boot needs to restart to adopt new certification. Which quite painful.
 3. Let's Encrypt program offer key in PEM files, while Spring Boot supports for PKCS12 type. It is neccesary to convert certificate and private key to PKCS12.
 
+<!-- more -->
+
 # Require
 
 In this tutorial, we will use the following material:
