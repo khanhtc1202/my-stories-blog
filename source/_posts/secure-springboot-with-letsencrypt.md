@@ -41,19 +41,27 @@ For easy adopting Let's Encrypt with Spring Boot, NginX is used as a SSL Proxy s
 
 Open the terminal, add the PPA by running:
 
-```sudo add-apt-repository ppa:webupd8team/java```
+```
+sudo add-apt-repository ppa:webupd8team/java
+```
 
 Install Java 8 (you can change the package name to oracle-java9-installer for Java 9)
 
-```sudo apt update; sudo apt install oracle-java8-installer```
+```
+sudo apt update; sudo apt install oracle-java8-installer
+```
 
 You now can check Java version after installing the package by running:
 
-```javac -version```
+```
+javac -version
+```
 
 And now for automatically set Java enviroment variables:
 
-```sudo apt install oracle-java8-set-default```
+```
+sudo apt install oracle-java8-set-default
+```
 
 # Step 2: running a simple Spring Boot application
 
