@@ -189,6 +189,19 @@ And now it's done. Our website is secured by Let's Encrypt certificate
 
 ![Well done, a A grade certificate. Rated by SSL Labs](https://i.imgur.com/SYiWUwa.png)
 
+# Step 5: Setting Let's Encrypt auto renewal
+
+But there is no silver bullet; there is a trade-off between certificates duration and security (you can read more about it [here](https://letsencrypt.org/2015/11/09/why-90-days.html)). Its duration is only 90 days, compare to normal paid certificatis which valid for some years. But it can be solved by set a crontab to auto renew it.
+
+```
+sudo crontab -e
+```
+It will open the crontab of su user, insert this line below
+```
+30 3 * * * certbot renew --post-hook "service nginx reload"
+```
+It will run everyday at 3:30 AM; you can trust it because certbot will only run if the certificate is valid less than 30 days.
+
 # Conclusion
 
 In this tutorial, we installed a Let's Encrypt SSL/TLS certificate for securing our Spring Boot application by using NginX as a SSL proxy. If you have any questions, please look at the links below first.
