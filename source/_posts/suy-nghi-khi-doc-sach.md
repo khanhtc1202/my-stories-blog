@@ -20,8 +20,7 @@ Phần không hiểu ở đây là đoạn ở giữa phần dấu gạch "ngh�
 
 12 nguyên lý được dịch từ tiếng anh tại [đây](http://agilemanifesto.org/principles.html). Nguyên lý số 10 là:
 
->
-Simplicity--the art of maximizing the amount of work not done--is essential.
+>Simplicity--the art of maximizing the amount of work not done--is essential.
 
 Ồ vậy là "the amount of work not done" được các tác giả dịch là "lượng công việc chưa xong". Theo ý kiến chủ quan của mình thì đây là 1 điểm dịch không ổn; người đọc không hề hiểu được nội dung của câu nói, và thậm chí còn dẫn đến hiểu sai nữa. 
 
