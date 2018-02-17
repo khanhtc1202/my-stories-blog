@@ -127,6 +127,6 @@ Viber送金お願いします。現金しか出来ない方は、個別にお願
 ## Kết
 Theo mình thấy thì văn hoá ăn nhậu ở trời Đông cũng không khác trời ta là mấy; được cái là không ép nhau uống bao giờ, 1 mình uống trà cũng không ai ý kiến gì :)) Bên cạnh đó có vẻ không đi cũng không ảnh hưởng đến công việc nhiều lắm, chuyện nhậu với công việc tách bạch khá rõ ràng.
 
-Đi nhậu cũng là 1 trong những dịp tốt để trò chuyện và hiểu nhau hơn, rất nên tham dự khi có cơ hội.
+Đi nhậu cũng là 1 trong những dịp tốt để trò chuyện và hiểu nhau hơn, rất nên tham dự khi có cơ hội. Bên cạnh đó nhân viên mới như mình cũng có cơ hội để nhớ tên mọi người trong team luôn.
 
 P/S: Như mình lúc đi nhậu cũng tranh thủ kêu với sếp là dạo này anh mentor toàn giao làm mấy cái khó quá cháu không có làm kịp :v
