@@ -37,7 +37,7 @@ Lưu ý:
 6. Trình tự 1 bữa tiệc chia tay/chào đón nhân viên có thể tham khảo với từ khoá 送別会流れ,
 歓迎会流れ như ở [đây](https://hitosara.com/season/kansougeikai/kanji_soubetsukai/). Trước đó nên hỏi sếp xem ai sẽ là người phát biểu, ai sẽ là người tặng quà,... Lưu ý ở cuối bữa tiệc thường sẽ kết thúc bằng 手締め, nên chuẩn bị hoặc nhờ ai đó thực hiện giúp.
 
-<iframe width="1440" height="554" src="https://www.youtube.com/embed/_cqHI8EWgJ8?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_cqHI8EWgJ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ***
 ## Văn mẫu
