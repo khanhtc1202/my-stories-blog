@@ -11,11 +11,11 @@ Qua đến trời Đông chắc sếp cũng thấy được năng khiếu ăn nh
 
 <!-- more -->
 
-Kinh nghiệm nhỏ nhặt nên xin được gạch đầu dòng cho anh em dễ xem.
+Xin được gạch đầu dòng mấy mục cho dễ theo dõi.
 
 1. Một số từ khoá nên biết: 飲み会、宴会、忘年会、新年会、送別会、歓迎会、居酒屋、飲み放題、コース、。。。
 
-2. Như ở team mình hay dùng [Rakuten Infoseek](https://schedule.infoseek.co.jp/) để thống kê lịch rảnh của mọi người. 
+2. Như ở team mình hay dùng [Rakuten Infoseek](https://schedule.infoseek.co.jp/) để mọi người chọn lịch.
 
 ![Công cụ giúp thông kê khả năng tham dự](https://i.imgur.com/sMFBX3v.png)
 
@@ -28,11 +28,11 @@ Lưu ý:
 - Chú ý cách bố trí bàn, tránh việc cả team ngồi xa nhau.
 - Nên đặt trước コース và đồ uống thoải mái (飲み放題). Mục đích là số tiền không bị chênh so với dự tính.
 - Nên đặt sớm vào những đợt như đầu/cuối năm.
-- Hỏi rõ hạn chót được thay đổi/huỷ là khi nào. Thường khi báo huỷ muộn quá sẽ chỉ huỷ được khoản đồ uống (飲み放題) thôi; số lượng đồ ăn vẫn y như vậy.
+- Hỏi rõ hạn chót được thay đổi/huỷ là khi nào. Thường khi báo huỷ muộn quá sẽ chỉ huỷ được khoản đồ uống (飲み放題) thôi.
 ```
-4. Kinh phí: như ở team mình thì thường chia đều; team bạn mình thì thường sếp sẽ trả nhiều hơn; cái này nên hỏi đồng nghiệp xem thế nào. Khoản tiền thường sẽ được thông báo trước cho mọi người, có thể thu trước hoặc sau khi ăn (thế nên mới dặt コース và 飲み放題 đó). Có thể chuyển khoản hoặc qua Viber transfer (送金) cho tiện; tránh rơi vào trường hợp khi chia ra tiền lẻ quá, không dám tăng hay bớt đi như mình (vì nếu tăng hay bớt đều khó giải thích do không bằng với số trong hoá đơn). Nên chuẩn bị sẵn tiền lẻ trong trường hợp thu tiền mặt.
+4. Kinh phí: như ở team mình thì thường chia đều; team bạn mình thì thường sếp sẽ trả nhiều hơn; cái này nên hỏi đồng nghiệp xem thế nào. Khoản tiền thường sẽ được thông báo trước cho mọi người, có thể thu trước hoặc sau khi ăn (thế nên mới chọn コース và 飲み放題 đó). Có thể chuyển khoản hoặc qua Viber transfer (送金) cho tiện; tránh rơi vào trường hợp khi chia ra tiền lẻ quá, không dám tăng hay bớt đi như mình (vì nếu tăng hay bớt đều khó giải thích do không bằng với số trong hoá đơn). Nên chuẩn bị sẵn tiền lẻ trong trường hợp thu tiền mặt.
 
-5. Nếu là tiệc chia tay nên mua thêm hoa, quà,... Việc chọn hoa có thể ra cừa hàng hoa nói là tặng cho người nghỉ việc (退職), độ tuổi, giới tính,... và nhờ họ chọn hộ (お任せ) luôn; tránh tặng hoa có ý nghĩa sai lệch.
+5. Nên mua thêm hoa, quà,... khi tổ chức tiệc chia tay. Việc chọn hoa có thể ra cừa hàng hoa nói là tặng cho người nghỉ việc (退職), độ tuổi, giới tính,... và nhờ họ chọn hộ (お任せ) luôn; tránh tặng hoa có ý nghĩa sai lệch.
 
 6. Trình tự 1 bữa tiệc chia tay/chào đón nhân viên có thể tham khảo với từ khoá 送別会流れ,
 歓迎会流れ như ở [đây](https://hitosara.com/season/kansougeikai/kanji_soubetsukai/). Trước đó nên hỏi sếp xem ai sẽ là người phát biểu, ai sẽ là người tặng quà,... Lưu ý ở cuối bữa tiệc thường sẽ kết thúc bằng 手締め, nên chuẩn bị hoặc nhờ ai đó thực hiện giúp.
@@ -125,10 +125,8 @@ Viber送金お願いします。現金しか出来ない方は、個別にお願
 ```
 
 ## Kết
-Theo mình thấy thì văn hoá ăn nhậu ở trời Đông cũng không khác trời ta là mấy; được cái là không ép nhau uống bao giờ, có thể 1 mình uống trà mà không ai ý kiến gì :)) Bên cạnh đó có vẻ không đi cũng không ảnh hưởng đến công việc nhiều lắm, chuyện nhậu với công việc tách bạch khá rõ ràng.
+Theo mình thấy thì văn hoá ăn nhậu ở trời Đông cũng không khác trời ta là mấy; được cái là không ép nhau uống bao giờ, 1 mình uống trà cũng không ai ý kiến gì :)) Bên cạnh đó có vẻ không đi cũng không ảnh hưởng đến công việc nhiều lắm, chuyện nhậu với công việc tách bạch khá rõ ràng.
 
-Tuy nhiên đi nhậu cũng là 1 trong những dịp tốt để trò chuyện và hiểu nhau hơn, rất nên tham dự khi có cơ hội.
-
-Văn mẫu và nội dung từng loại tiệc các bạn có thể tham khảo trên google, nhiều vô biên. Nếu lần đầu tổ chức có thể tham khảo với sếp/đồng nghiệp trước cụ thể từng nội dung cho đỡ bị động.
+Đi nhậu cũng là 1 trong những dịp tốt để trò chuyện và hiểu nhau hơn, rất nên tham dự khi có cơ hội.
 
 P/S: Như mình lúc đi nhậu cũng tranh thủ kêu với sếp là dạo này anh mentor toàn giao làm mấy cái khó quá cháu không có làm kịp :v
