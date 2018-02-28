@@ -4,19 +4,14 @@ addons:
 before_install:
 - sudo apt-get update
 - sudo apt-get install -y nodejs npm --no-install-recommends
-- which node
-- which nodejs
-- node --version
-- nodejs --version
-- ls -lash /usr/bin/nodejs
-- echo $PATH
-# - sudo ln -s /home/travis/.nvm/versions/node/v8.9.1/bin/node /home/travis/bin/nodejs
-# - sudo npm install -g hexo
-# - openssl aes-256-cbc -K $encrypted_38ebcd8c19a4_key -iv $encrypted_38ebcd8c19a4_iv
-#   -in deploy_rsa.enc -out deploy_rsa -d
-# - eval "$(ssh-agent -s)"
-# - chmod 600 deploy_rsa
-# - ssh-add deploy_rsa
+- sudo rm -rf /usr/bin/nodejs
+- sudo ln -s /home/travis/.nvm/versions/node/v8.9.1/bin/node /usr/bin/nodejs
+- sudo npm install -g hexo
+- openssl aes-256-cbc -K $encrypted_38ebcd8c19a4_key -iv $encrypted_38ebcd8c19a4_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 deploy_rsa
+- ssh-add deploy_rsa
 deploy:
   - provider: script
     skip_cleanup: true
