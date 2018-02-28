@@ -2,10 +2,9 @@ language: generic
 addons:
   ssh_known_hosts: 125.212.227.42
 before_install:
-- echo $PATH
 - sudo apt-get update
 - sudo apt-get install -y nodejs npm --no-install-recommends
-- sudo ln -s /home/travis/.nvm/versions/node/v8.9.1/bin/node /usr/bin/nodejs
+- sudo ln -s /home/travis/.nvm/versions/node/v8.9.1/bin/node /home/travis/bin/nodejs
 - sudo npm install -g hexo
 - openssl aes-256-cbc -K $encrypted_38ebcd8c19a4_key -iv $encrypted_38ebcd8c19a4_iv
   -in deploy_rsa.enc -out deploy_rsa -d
