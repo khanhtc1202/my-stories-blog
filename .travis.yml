@@ -8,7 +8,7 @@ before_install:
 - which nodejs
 - node --version
 - nodejs --version
-- ll /usr/bin/nodejs
+- ls -lash /usr/bin/nodejs
 - echo $PATH
 # - sudo ln -s /home/travis/.nvm/versions/node/v8.9.1/bin/node /home/travis/bin/nodejs
 # - sudo npm install -g hexo
