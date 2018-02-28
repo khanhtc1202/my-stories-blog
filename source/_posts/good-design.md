@@ -42,4 +42,8 @@ Giữ vững niềm tin đó thì bài này sẽ dành riêng để đăng ảnh
 
 ![Đồ của Apple khá hay ho. Lực không mạnh lắm; đủ giữ cho bút khỏi chạy mất](https://media.giphy.com/media/l49JTYrbShLPxfzck/giphy.gif)
 
+![Bàn thay đổi chiều cao giá gần 30 củ khoai. Nút tăng chiều cao nhô ra; và nút hạ chiều cao thụt vào](https://i.imgur.com/jh23IOv.jpg)
+
+![Hộp thịt giăm bông, các thanh niên xa mẹ có thể dùng luôn mà không dùng thêm bát](https://i.imgur.com/C2G5Uwu.jpg)
+
 **~Còn tiếp~**
