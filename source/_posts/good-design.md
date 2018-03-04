@@ -46,4 +46,8 @@ Giữ vững niềm tin đó thì bài này sẽ dành riêng để đăng ảnh
 
 ![Hộp thịt giăm bông, các thanh niên xa mẹ có thể dùng luôn mà không dùng thêm bát](https://i.imgur.com/C2G5Uwu.jpg)
 
+![Gương ở cửa thang máy giúp quan sát xem còn ai chuẩn bị vào không](https://i.imgur.com/HDzcNBF.jpg)
+
+![Bạn đã bao giờ thử kéo 1 cánh cửa lẽ ra phải đẩy? Thiết kế này giúp người dùng không bao giờ nhầm :) Tìm thêm với từ khóa "Norman Doors"](https://i.imgur.com/2kda4ZC.jpg)
+
 **~Còn tiếp~**
