@@ -1,7 +1,7 @@
 ---
 title: Ngày mai rồi sẽ đi về đâu?
 date: 2018-03-25 05:40:53
-tags: learning
+tags: relax
 thumbnail: https://i.imgur.com/uSX5lWx.jpg
 ---
 
@@ -22,10 +22,10 @@ Thôi thì cho xong, để còn ra được trường.
 
 Và giờ đi làm được nửa năm thì dần dần mọi thứ mới sáng tỏ hơn, nhưng vẫn loay hoay chưa biết tương lai sẽ ra sao nữa? 
 
-Nhưng mà thôi dù sao vẫn cần phải cố gắng thôi nhỉ :)
+Nhưng mà thôi dù sao vẫn cần phải cố gắng thôi nhỉ. Đặt cả trái tim mình hướng về mục tiêu ấy, nếu không bỏ cuộc thì sẽ có lúc đạt được thôi.
 
 Đời còn dài nên nên thôi học hỏi dần dần vậy; cố học để sau này đỡ phải có cảm giác bất lực như thế này.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PcZXAoqgXpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-P/S: trong những điều cần học thì kỹ năng đặt mục tiêu, quản lý tài chính,... là không thể thiếu. Hãy xem video này như 1 món quà dành tặng cho những con người vẫn còn đang chưa tìm ra lối đi :)
+P/S: trong những điều cần học thì kỹ năng đặt mục tiêu, quản lý tài chính,... là không thể thiếu.  Video trên sẽ giúp bạn tìm ra 1 lối đi khi còn đang mông lung giữa cuộc đời vô định này.
