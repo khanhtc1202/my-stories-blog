@@ -50,4 +50,9 @@ Giữ vững niềm tin đó thì bài này sẽ dành riêng để đăng ảnh
 
 ![Bạn đã bao giờ thử kéo 1 cánh cửa lẽ ra phải đẩy? Thiết kế này giúp người dùng không bao giờ nhầm :) Tìm thêm với từ khóa "Norman Doors"](https://i.imgur.com/2kda4ZC.jpg)
 
+![Khay bàn ăn trên máy bay; ngoài cái kẹp đầu tiên ra còn có 1 cái móc nhỏ như lưỡi câu ở trong. Quả là 1 trong những cỗ máy vĩ đại của loài người](https://i.imgur.com/zhQ4Xd9.jpg)
+
+![Gương chiếu hậu trong thang máy; người sử dụng có thể quan sát 2 phía trước khi đóng cửa](https://i.imgur.com/9d9dxZC.jpg)
+
+
 **~Còn tiếp~**
