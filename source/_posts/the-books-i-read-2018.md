@@ -63,4 +63,4 @@ Trước khi đọc cuốn sách này mình đã đọc review trước, có 1 n
 
 Tèn tèn, vậy là mình đã bị 1 trong 2 quy tắc gieo ý tưởng chi phối. Quy tắc đó như thế này "Mọi ý tưởng hay kết luận, một khi đã xâm nhập vào tâm trí, sẽ được mặc định là đúng cho tới khi xuất hiện ý tưởng đối nghịch". Do ý tưởng mặc định của mình về cuốn sách đã là ngắn - chữ to - phí tiền rồi nên cái suy nghĩ đó vẫn theo mình khá lâu; cho đến lúc ngồi nghĩ nghiêm túc lại thì mới thấy không đồng tình với đánh giá đó. Đối với mình thì hoàn toàn ổn, chẳng thấy phí tiền 1 chút nào. 
 
-Còn rất nhiều điều hay và lạ được tác giả nêu ra trong cuốn sách. Tất nhiên phần đa là những học thuyết nổi tiếng, được đề cập ở nhiều nơi rồi. Mình đánh giá khá cao cuốn sách, có thể coi như là bước đầu tiên để tìm hiểu về tâm lý, kinh tế học,... chẳng hạn,
+Còn rất nhiều điều hay và lạ được tác giả nêu ra trong cuốn sách. Tất nhiên phần đa là những học thuyết nổi tiếng, được đề cập ở nhiều nơi rồi. Mình đánh giá khá cao cuốn sách, các bạn ngoại đạo có thể đọc thử và coi như là bước đầu tiên để tìm hiểu về tâm lý, kinh tế học,... chẳng hạn.
