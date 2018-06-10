@@ -15,6 +15,7 @@ Và mãi vẫn chưa đọc, đến tận mấy hôm sau vẫn nghĩ là chưa �
 # Mục lục
 
 1. [Người tị nạn](#the-refugees)
+2. [Hiệu ứng chim mồi](#hieu-ung-chim-moi)
 
 ***
 
@@ -39,3 +40,27 @@ Thế nhưng khi đọc bản tóm lược của 1 người khác trên mạng m
 1 chuyện gây ấn tượng khá lớn với mình nữa là truyện "Tổ quốc" - truyện xuất hiện cuối cùng trong cuốn sách. 2 người con gái của ông Lý; con bà cả - bà hai; cùng tên là Phương, cô em ở Việt Nam, cô chị ở Mỹ. Trong 1 chuyến về thăm quê của Vivien (tên "Tây" của cô chị), Phương bị ấn tượng mạnh với hình tượng người phụ nữ thành đạt, phóng khoáng, hào phóng đưa cả gia đình đến những nơi đắt đỏ nhất Sài Gòn để tận hưởng cuộc sống. Cô mơ ước được sang Mỹ và có 1 cuộc sống như vậy. Thế nhưng trước ngày trở về cô chị mới tiết lộ rằng mình không phải là bác sỹ như mẹ ruột cô vẫn thường nói với mọi người; cuộc sống ở Mỹ chẳng hề thoải mái như Phương tưởng tượng. Và những món quà hào phóng, nhà hàng, chuyến du lịch,... là từ khoản trợ cấp nghỉ việc kèm khoản nợ từ 4 thẻ tín dụng mà cô chị đang mang. Thất vọng, Phương đốt cháy hết những bức ảnh cả gia đình đã chụp trong chuyến thăm quê của người chị Việt Kiều cùng cha khác mẹ.
 
 Có 1 nỗi sợ hãi mơ hồ, ám ảnh đọng lại đâu đó sau khi đọc xong cuốn sách này. Những cảnh đời bỏ xứ mà đi, cái "cảm giác xa lạ, luôn sống hai đời sống" vẫn còn đọng lại rất rõ ràng trong mình. Đủ hay để mình quyết định sẽ tìm đọc thêm cuốn "The Sympathizer"; và có lẽ lần này phải đọc bằng nguyên bản :)
+
+
+***
+
+
+### <a name="hieu-ung-chim-moi">Hiệu ứng chim mồi 1 & 2</a>
+
+- Tác giả: Hạo Nhiên - Quốc Khánh
+- Thể loại: phi hư cấu
+- Khuyên đọc: 7/10
+
+> 1 trong những cuốn sách tiếng Việt được viết tử tế.
+
+Cắt nghĩa chữ tử tế ở đây là sách có mục lục, chỉ mục, tài liệu tham khảo rõ ràng; rất tiện khi người đọc khi cần tra cứu, trích dẫn,... Và chỉ cần 1 điểm nhỏ như vậy thôi là đủ ghi điểm và khiến mình đánh giá "có tâm" hơn rồi.     
+      
+Mình tình cờ biết đến cuốn sách thông qua những bài viết ngắn về kinh tế, bán hàng,... ở Fanpage [Hiệu ứng chim mồi](https://www.facebook.com/hieuungchimmoi/) (các bạn có thể tìm đọc tại website [ecoblader.com](http://www.ecoblader.com/)). Tuy nhiên nếu nói là tình cờ thì Ngày xưa mình cắt hẳn là đã bỏ qua công sức marketing, chạy quảng cáo, bán hàng... của ekip. Đứng ở góc nhìn của tác giả thì mình thấy chẳng có vấn đề gì cả; độc giả (ở đây là mình) vẫn mua sách, review tốt,... vậy là đạt được mục tiêu lớn nhất rồi. Đâu cần phải bắt độc giả phải hiểu về những nỗi khổ trong ngành làm chi? Thế nhưng đứng từ góc nhìn của người đọc thì lại là 1 thiếu sót lớn vô cùng. Thiếu sót về tầm nhìn, không hiểu tại sao họ lại tạo được động lực để mình chi tiền mua sách, hiểu được lý do nào mà mình lại hành động như vậy. Đối với mình cảm giác như là bị "thôi miên" vậy, và tất nhiên mình rất ghét việc đó, cớ gì phải chịu việc người khác hiểu rõ bản thân mình hơn là chính mình?
+
+Trước đây mình vẫn hay nghe mọi người khi nói về 1 người bán hàng đắt khách là "có duyên bán hàng", "duyên" ở đây nghe đôi phần như 1 khả năng trời phú, tuỳ người mới có được. Dần dần mới nhận ra chẳng phải đâu, họ có 1 cái phẩm chất gì đó mà số đông không nhận ra được thôi. Có thể đó là năng khiếu ăn nói, thấu hiểu thị trường, hay là việc đặt giá tiền sản phẩm là 9k9 thay vì 10k chẳng hạn... Bán hàng quả là 1 nghệ thuật phức tạp cần phải chú tâm vào 1 lô lốc những tiểu tiết. Ngày xưa mình cứ nghĩ là kinh tế dễ mà; sao khó bằng vi phân, đạo hàm,... được. Dần mới nhận ra mỗi nghề đều có cái hay và khó riêng của nó; mọi thành công đều đáng được trân trọng. 
+
+Trước khi đọc cuốn sách này mình đã đọc review trước, có 1 người đánh giá cuốn sách cũng có phần thú vị; thế nhưng nội dung thì hơi ngắn, chữ to và chẳng đáng mức giá 80.000VNĐ 1 chút nào. Với suy nghĩ ban đầu như thế; trong quá trình mình thấy có vẻ hơi hơi đúng, tuy rằng sách có hay, mới lạ, có dẫn chứng nhiều câu chuyện kinh doanh ở Việt Nam đó; thế nhưng cảm giác ngắn ngắn, thiếu thiếu, không khác với những bài viết mình đọc free trên website của tác giả là mấy; hình như có hơi "phí tiền" thì phải.
+
+Tèn tèn, vậy là mình đã bị 1 trong 2 quy tắc gieo ý tưởng chi phối. Quy tắc đó như thế này "Mọi ý tưởng hay kết luận, một khi đã xâm nhập vào tâm trí, sẽ được mặc định là đúng cho tới khi xuất hiện ý tưởng đối nghịch". Do ý tưởng mặc định của mình về cuốn sách đã là ngắn - chữ to - phí tiền rồi nên cái suy nghĩ đó vẫn theo mình khá lâu; cho đến lúc ngồi nghĩ nghiêm túc lại thì mới thấy không đồng tình với đánh giá đó. Đối với mình thì hoàn toàn ổn, chẳng thấy phí tiền 1 chút nào. 
+
+Còn rất nhiều điều hay và lạ được tác giả nêu ra trong cuốn sách. Tất nhiên phần đa là những học thuyết nổi tiếng, được đề cập ở nhiều nơi rồi. Mình đánh giá khá cao cuốn sách, có thể coi như là bước đầu tiên để tìm hiểu về tâm lý, kinh tế học,... chẳng hạn,
