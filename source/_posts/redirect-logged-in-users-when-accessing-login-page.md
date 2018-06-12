@@ -1,5 +1,5 @@
 ---
-title: Redirect logged-in users when accessing login page
+title: Redirect logged-in users when accessing register page with Spring Security
 date: 2018-06-12 23:36:36
 tags: technical
 thumbnail: https://i.imgur.com/De2PZ5B.png
@@ -40,7 +40,7 @@ A naive solution can be overriding the configure method in WebSecurityConfigurer
   }
 ```
 
-It will return the content of homepage (at /) when user try to register when already logged-in. But the problem is the url is still at /register; and the document of the SpringSecurity is too hard to figure out a way. 
+It will return the content of homepage (at /) if user try to register when already logged-in (In my opinion they ought to be logout first). But the problem is the url is still at /register; and the document of the SpringSecurity is too hard to figure out a way. 
 
 *So i try a different way, by handling it in the Controller*
 
