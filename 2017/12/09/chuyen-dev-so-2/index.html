@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Chuyện dev số 2 - SSL | My Stories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Khi truy cập vào mấy trang có nội dung nguy hiểm thì nhiều khả năng sẽ thấy 1 trang đỏ quạch thế này xuất hiện.  Nếu vì 1 nội dung nào đó vẫn kiên quyết muốn truy cập thì chỉ cần ấn “Detail” rồi chọn">
+<meta name="keywords" content="devstories">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chuyện dev số 2 - SSL">
+<meta property="og:url" content="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/index.html">
+<meta property="og:site_name" content="My Stories">
+<meta property="og:description" content="Khi truy cập vào mấy trang có nội dung nguy hiểm thì nhiều khả năng sẽ thấy 1 trang đỏ quạch thế này xuất hiện.  Nếu vì 1 nội dung nào đó vẫn kiên quyết muốn truy cập thì chỉ cần ấn “Detail” rồi chọn">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://www.pensacolawebdesigns.com/wp-content/uploads/2017/08/ssl.png">
+<meta property="og:updated_time" content="2018-06-11T13:55:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chuyện dev số 2 - SSL">
+<meta name="twitter:description" content="Khi truy cập vào mấy trang có nội dung nguy hiểm thì nhiều khả năng sẽ thấy 1 trang đỏ quạch thế này xuất hiện.  Nếu vì 1 nội dung nào đó vẫn kiên quyết muốn truy cập thì chỉ cần ấn “Detail” rồi chọn">
+<meta name="twitter:image" content="https://www.pensacolawebdesigns.com/wp-content/uploads/2017/08/ssl.png">
+<meta property="fb:app_id" content="142641123032947">
+    
+
+    
+        <link rel="alternate" href="/" title="My Stories" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/css/images/logo-center.png" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">My Stories</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/logo-center.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/logo-center.png" />
+            <h2 id="name">My Stories Blog</h2>
+            <h3 id="title">Just wandering around</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
+            <a id="follow" target="_blank" href="https://www.facebook.com/my12stories/">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                16
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                6
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/khanhtc1202/my-stories-blog" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.facebook.com/my12stories/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-chuyen-dev-so-2" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Chuyện dev số 2 - SSL
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/09/chuyen-dev-so-2/">
+            <time datetime="2017-12-09T01:48:31.000Z" itemprop="datePublished">2017-12-09</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/devstories/">devstories</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>Khi truy cập vào mấy trang có nội dung nguy hiểm thì nhiều khả năng sẽ thấy 1 trang đỏ quạch thế này xuất hiện.</p>
+<p><img src="https://media.gcflearnfree.org/content/55e076c07dd48174331f528f_01_17_2014/privacy_malware_page.png" alt="Thông báo đẫm máu"></p>
+<p>Nếu vì 1 nội dung nào đó vẫn kiên quyết muốn truy cập thì chỉ cần ấn “Detail” rồi chọn chọn lung tung 1 hồi cũng sẽ vô được. Tất nhiên khi đã truy cập vào những trang thế này thì có khá nhiều rủi ro tiềm ẩn có thể sẽ gặp phải rồi.</p>
+<p><em>Ngày xưa mình cũng hay cố vào mấy trang kiểu vậy lắm, giờ thì thôi tắt luôn :3</em></p>
+<p>Nguyên nhân chính do SSL certificate. Khi có SSL certificate sẽ dùng được https - giúp dữ liệu truyền/nhận được bảo mật, và thông qua certificate có thể xác thực được là mình đang vô đúng trang web của cá nhân/tổ chức đó luôn.</p>
+<a id="more"></a>
+<p>Gần đây mình có làm việc xung quanh vấn đề này, có vài chuyện nhỏ vui vui mình viết thành mấy mục cho dễ đọc.</p>
+<h2 id="Dung-tin-qua-nhieu-vao-mentor"><a href="#Dung-tin-qua-nhieu-vao-mentor" class="headerlink" title="Đừng tin quá nhiều vào mentor"></a>Đừng tin quá nhiều vào mentor</h2><p>Mình có 1 anh mentor, xin được phép gọi thân thương là anh Su :3</p>
+<p>Anh Su cũng là người ngoại quốc, có 1 thời gian làm việc dài dài bên Huê Kỳ. Anh học tiếng Nhật qua anime và nghe nói giỏi hơn mình (ấy là anh mới sang Nhật được 7 tháng thôi đó). Chỉ có điều do tự học nên anh không đọc được Kanji mấy.</p>
+<p>1 số tool nhỏ của team có dùng VPS của Azure, tất nhiên đã block port để chỉ có ip từ mạng công ty mới truy nhập được. Lúc mình mới bắt đầu làm thì thấy lúc truy cập vô mấy trang đó đều có https, nhưng mà https sẽ bị thế này:</p>
+<p><img src="https://imh01-inmotionhosting1.netdna-ssl.com/support/images/stories/website/errors/ssl/chrome-your-connection-is-not-private.png" alt="Https đểu"></p>
+<p>Mình có hỏi thì anh Su bảo là do mấy cái này dùng self-signed ceritificate nên sẽ bị như thế. Mấy cái này dùng nội bộ nên không muốn bỏ tiền, mà xin approve certificate từ công ty cũng lâu lắm; thế nên dùng cái này cho nhanh. Mình đang làm 1 tool của team cũng chưa có https và được anh Su cho cái link cách tạo self-signed certificate luôn.</p>
+<p>Lúc đầu mình cũng chỉ biết thế, mấy hôm sau mới nhớ ra là giờ có bọn <a href="https://letsencrypt.org/" target="_blank" rel="noopener">Let’s Encrypt</a> cấp ssl free mà. Thế là lên công ty bảo anh Su:</p>
+<p><strong>B:</strong> sao mấy cái site này không dùng Let’s Encrypt anh ơi. Em thấy nó free mà.</p>
+<p><strong>Anh Su:</strong> tao thử rồi, nhưng mà không được. Tao search thì tại mình dùng tên miền free của Azure dạng *.cloudapp.azure.com nên không dùng được đâu.</p>
+<p>Tự thấy có gì sai sai, không liên quan lắm. Chả lẽ Azure có certificate cho tất cả subdomain của nó rồi nên không cài được??? Mà cái Wildcard SSL Certificates hình như siêu đắt luôn. Cơ mà lúc đấy cũng chưa nghĩ ra, vài ngày sau mới nói với anh Su.</p>
+<p><strong>B:</strong> anh ơi cho em dùng thử Let’s Encrypt trên cái site em đang làm nhé.</p>
+<p><strong>Anh Su:</strong> ừ cứ làm đi, có được thì bảo tao cách làm nhé.</p>
+<p><em>15 phút sau</em></p>
+<p><strong>B:</strong> hơ hơ chạy được rồi này anh ơi. Https xịn A+ grade luôn :))</p>
+<p>Và sau đó mình chỉ lại anh Su cách dùng Let’s Encrypt rồi cùng ngồi cài lại lên mấy cái site còn lại của team.</p>
+<p>Hết chuyện đầu tiên. </p>
+<p><em>Cái site nho nhỏ mình đang làm có mở port với thế giới, thế nên bị  <a href="https://safebrowsing.google.com/" target="_blank" rel="noopener">Google safe browsing</a> liệt vô dạng nguy hiểm vì có trang đăng nhập mà không có https. Mấy browser khác như firefox, safari,… cũng dùng data này của Google luôn, thế nên site bị màn hình đẫm máu ở mọi nơi. Đoạn này chỉ cần cài https rồi theo hướng dẫn của Google sau là ổn.</em></p>
+<h2 id="Tim-hieu-ky-truoc-khi-bat-tay-vao-lam"><a href="#Tim-hieu-ky-truoc-khi-bat-tay-vao-lam" class="headerlink" title="Tìm hiểu kỹ trước khi bắt tay vào làm"></a>Tìm hiểu kỹ trước khi bắt tay vào làm</h2><p>Với Let’s Encrypt mình có dùng certbot để tạo certificate. Certbot này cũng khá xịn, tự động config lại với mấy webserver thông dụng luôn.</p>
+<p><img src="https://certbot.eff.org/images/certbot-OG.png" alt="Người hùng cổng 443"></p>
+<p>Khi chạy certbot thì cần mở cổng 80 hoặc 443, đại thể để nó xác thực với Let’s Encrypt về quyền sở hữu tên miền này, và sau nó sẽ cấp cho SSL certificate.</p>
+<p>Do là hàng free nên certificate này có 90 ngày là hết hạn, phải chạy lại certbot để nó gia hạn cho 90 ngày nữa. Cái này có thể dùng crontab là xử lý được; theo như tutorials trên mạng thì cứ crontab chạy hàng ngày, khi nào mà certificate còn dưới 30 ngày thì nó sẽ gia hạn cho.</p>
+<p>Đến đây thì có 1 vấn đề là mấy tool kia toàn hàng nội bộ và được block port với thế giới thì làm thế nào mà nó gia hạn được đây :s</p>
+<p>Thế là mình lại ngồi bàn với anh Su tiếp. Anh ý bảo xem thử Azure CLI coi, có thể làm được. Mà nó có SDK cho Java luôn đó.</p>
+<p>Vậy là mình tưởng tượng ra quy trình có mấy bước thế này:</p>
+<ol>
+<li>Hẹn lịch chạy renew. Mấy cái này cần bảo mật nên mở càng ít càng tốt, cỡ 20 ngày chạy 1 lần chắc ổn…</li>
+<li>Mở port 443</li>
+<li>Chạy certbot để gia hạn</li>
+<li>Đóng port 443</li>
+</ol>
+<p>Bước số 2 + 4 thì Azure CLI và SDK cho Java đều làm tốt. Cái số 3 thì Azure CLI có run-command để chạy lệnh trực tiếp trong VPS luôn. Mỗi tội nó được đánh dấu Preview, và trong Java SDK thì chưa có cái này =&gt; Trong java gọi shell command để chạy Azure CLI là ổn.</p>
+<p>Mỗi tội đời không như mơ, mỗi lần gọi run-command chỉ chạy được 1 command và phải chờ nó xong thì mới gọi lệnh khác được. Mình nghịch lung tung bằng ls, cp,… 1 hồi thì nó đơ luôn; không sao chạy qua run-command của Azure CLI được nữa. Đúng là hàng preview có khác :s</p>
+<p>Cũng chưa phải vấn đề lớn lắm, bước 3 không dùng Azure CLI nữa. Java có nhiều thư viện có thể ssh vào VPS được luôn, anh Su bảo mình dùng <a href="https://github.com/hierynomus/sshj" target="_blank" rel="noopener">sshj</a>. Cái này thì chả có document gì luôn, được cái có thể hỏi anh Su cách dùng nên cũng không vấn đề gì lắm.</p>
+<p>Tèn tèn, công cụ cũng đã tạm đủ. Bắt tay vào dev.</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>Cơ mà quái, sao đóng port rồi mà chạy renew vẫn thành công nhỉ :s</p>
+<p>Có gì đấy sai sai.</p>
+<p>Đến lúc này mới nhận ra là certbot không cần kết nối với server của nó vẫn chạy gia hạn được. <del>Mình đoán là nó chỉ cần chứng thực lại và sửa ngày hết hạn trong certificate đã có sẵn thôi; không cần phải giao tiếp với server nữa. Thế nên cái chuyện đóng, mở port kia chả còn gì quan trọng. Vấn đề được giải quyết bằng 1 lệnh crontab đơn giản.</del> </p>
+<p><em>Thông tin đính chính ở phía dưới</em></p>
+<p>Vẽ ra lòng vòng 1 hồi, cũng phải mất mấy ngày mà cuối cùng lại chết vì thiếu 1 bước… Đành tự nhủ lòng là thôi cũng biết Azure CLI nó tròn méo thế nào ;(</p>
+<p>Báo với anh Su, và rất may là mình cũng hay thảo luận với anh ý trong lúc làm. Thế nên anh ý cũng không mắng gì cả :3 Cơ mà kiểu ăn hại mấy ngày nên hơi cắn rứt ;(</p>
+<blockquote>
+<p>Update sau 1 tuần tìm hiểu: thật ra là vẫn cần mở cổng. Quá trình này nó gọi là domain challenge (hay domain authorization); cái này có cache 30 ngày nên lúc mình thử renew lại không cần mở port vẫn chạy được. Chi tiết có thể xem thêm trong <a href="https://letsencrypt.org/docs/faq/" target="_blank" rel="noopener">FAQ</a>.</p>
+</blockquote>
+<p><em>Mấy ngày trước mình có đọc đâu đó là style của Mỹ là vừa làm vừa rút kinh nghiệm thoải mái. Còn style của Nhật là sẽ lên kế hoạch kỹ càng trước khi làm, thế nên nếu anh Su là người Nhật thì rất có thể đã bị mắng tơi tả rồi. Btw, đoạn này không nhớ rõ lắm, phải kiếm sách đọc lại đã.</em></p>
+<p>Thật ra mấy cái chuyện cài server, ssl, mua domain,… ngày trước do không có điều kiện tiếp xúc nên mình thấy cao siêu lắm. Giờ có thể mua được domain, cài ssl rồi mới thấy nó cực kỳ đơn giản. Các bạn có thể nghịch thử cho biết; như Azure Cloud thì free 200$ trong vòng 1 tháng cho thành viên mới đăng ký - điều kiện là phải nhập thông tin thẻ thanh toán quốc tế.</p>
+<p align="center"><b>The end.</b></p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/" data-id="cjibgzlfg0009k2aq0kt7sarr" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/">0</span>&nbsp;Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017/12/21/good-design/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    Good design
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2017/12/03/chuyen-di-boi/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Chuyện đi bơi</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+        <section id="comments">
+    <div class="fb-comments" data-width="100%" data-href="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/" data-num-posts="5"></div>
+
+</section>
+    
+
+</section>
+            
+                
+<aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">recent</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/De2PZ5B.png)" alt="Redirect logged-in users when accessing login page" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="title">Redirect logged-in users when accessing login page</a></p>
+                            <p class="item-date"><time datetime="2018-06-12T14:36:36.000Z" itemprop="datePublished">2018-06-12</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/05/20/the-books-i-read-2018/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/z4ZbKIq.jpg)" alt="Sách mình đã đọc trong năm 2018" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/05/20/the-books-i-read-2018/" class="title">Sách mình đã đọc trong năm 2018</a></p>
+                            <p class="item-date"><time datetime="2018-05-20T10:30:48.000Z" itemprop="datePublished">2018-05-20</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/03/25/future/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/uSX5lWx.jpg)" alt="Ngày mai rồi sẽ đi về đâu?" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/03/25/future/" class="title">Ngày mai rồi sẽ đi về đâu?</a></p>
+                            <p class="item-date"><time datetime="2018-03-24T20:40:53.000Z" itemprop="datePublished">2018-03-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/17/to-chuc-nomikai/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/3SuUvHr.jpg)" alt="Kinh nghiệm tổ chức ăn nhậu tại Nhật" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/17/to-chuc-nomikai/" class="title">Kinh nghiệm tổ chức ăn nhậu tại Nhật</a></p>
+                            <p class="item-date"><time datetime="2018-02-17T04:15:51.000Z" itemprop="datePublished">2018-02-17</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/84z7aKb.jpg)" alt="Vài suy nghĩ khi đọc sách về kỹ thuật" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="title">Vài suy nghĩ khi đọc sách về kỹ thuật</a></p>
+                            <p class="item-date"><time datetime="2018-01-28T03:46:58.000Z" itemprop="datePublished">2018-01-28</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/devstories/">devstories</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/experience/">experience</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learning/">learning</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/relax/">relax</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technical/">technical</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/travel/">travel</a><span class="tag-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/devstories/" style="font-size: 10px;">devstories</a> <a href="/tags/experience/" style="font-size: 10px;">experience</a> <a href="/tags/learning/" style="font-size: 20px;">learning</a> <a href="/tags/relax/" style="font-size: 10px;">relax</a> <a href="/tags/technical/" style="font-size: 10px;">technical</a> <a href="/tags/travel/" style="font-size: 10px;">travel</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.facebook.com/xubaxabu">Writer&#39;s fb</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2018 Bach Nguyen<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=142641123032947";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

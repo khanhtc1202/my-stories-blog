@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Secure Spring Boot application with Let&#39;s Encrypt | My Stories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="IntroductionSpring boot and Let’s Encrypt is both widely used in the industry. Spring Boot gives power to make a Spring-powered application easily; while Let’s Encrypt offers free SSL/TLS certificates">
+<meta name="keywords" content="technical">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Secure Spring Boot application with Let&#39;s Encrypt">
+<meta property="og:url" content="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/index.html">
+<meta property="og:site_name" content="My Stories">
+<meta property="og:description" content="IntroductionSpring boot and Let’s Encrypt is both widely used in the industry. Spring Boot gives power to make a Spring-powered application easily; while Let’s Encrypt offers free SSL/TLS certificates">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.imgur.com/s5nuHij.png">
+<meta property="og:updated_time" content="2018-06-11T13:55:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Secure Spring Boot application with Let&#39;s Encrypt">
+<meta name="twitter:description" content="IntroductionSpring boot and Let’s Encrypt is both widely used in the industry. Spring Boot gives power to make a Spring-powered application easily; while Let’s Encrypt offers free SSL/TLS certificates">
+<meta name="twitter:image" content="https://i.imgur.com/s5nuHij.png">
+<meta property="fb:app_id" content="142641123032947">
+    
+
+    
+        <link rel="alternate" href="/" title="My Stories" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/css/images/logo-center.png" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">My Stories</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/logo-center.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/logo-center.png" />
+            <h2 id="name">My Stories Blog</h2>
+            <h3 id="title">Just wandering around</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
+            <a id="follow" target="_blank" href="https://www.facebook.com/my12stories/">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                16
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                6
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/khanhtc1202/my-stories-blog" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.facebook.com/my12stories/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-secure-springboot-with-letsencrypt" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Secure Spring Boot application with Let&#39;s Encrypt
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/24/secure-springboot-with-letsencrypt/">
+            <time datetime="2017-12-24T14:36:36.000Z" itemprop="datePublished">2017-12-24</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/technical/">technical</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>Spring boot and Let’s Encrypt is both widely used in the industry. Spring Boot gives power to make a Spring-powered application easily; while Let’s Encrypt offers free SSL/TLS certificates for enabling secure HTTPS connections between client and server (the most easily recoginized is that the browser will show a green padlock beside the URL).</p>
+<p>But to integrate them has some difficulties as below:</p>
+<ol>
+<li>Certificates offered by Let’s Encrypt are valid for only 90 days; renewing process needs to be processed gradually.</li>
+<li>Spring Boot needs to restart to adopt new certification. Which quite painful.</li>
+<li>Let’s Encrypt program offer key in PEM files, while Spring Boot supports for PKCS12 type. It is neccesary to convert certificate and private key to PKCS12.</li>
+</ol>
+<a id="more"></a>
+<h1 id="Require"><a href="#Require" class="headerlink" title="Require"></a>Require</h1><p>In this tutorial, we will use the following material:</p>
+<ul>
+<li>One server running Ubuntu 16.04</li>
+<li>A fully registered domain name</li>
+</ul>
+<p>In my case, I use Google Azure - they offer all I need.</p>
+<h1 id="Design"><a href="#Design" class="headerlink" title="Design"></a>Design</h1><p>For easy adopting Let’s Encrypt with Spring Boot, NginX is used as a SSL Proxy server. </p>
+<ul>
+<li>Spring Boot is running on port 8080 and not accessible from internet.</li>
+<li>Request to port 80 is redirected to port 443 by NginX.</li>
+<li>NginX receives all request from port 443 and redirect to port 8080.</li>
+<li>Let’s Encrypt certificate is servered by NginX, NginX will be restarted after certification renewal is succeed.</li>
+</ul>
+<p><img src="https://i.imgur.com/DerwAZl.png" alt="NginX proxy"></p>
+<h1 id="Step-1-Install-Java-skip-this-part-if-you-have-Java-installed"><a href="#Step-1-Install-Java-skip-this-part-if-you-have-Java-installed" class="headerlink" title="Step 1: Install Java (skip this part if you have Java installed)"></a>Step 1: Install Java (skip this part if you have Java installed)</h1><p>Open the terminal, add the PPA by running:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:webupd8team/java</span><br></pre></td></tr></table></figure>
+<p>Install Java 8 (you can change the package name to oracle-java9-installer for Java 9)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update; sudo apt install oracle-java8-installer</span><br></pre></td></tr></table></figure>
+<p>You now can check Java version after installing the package by running:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac -version</span><br></pre></td></tr></table></figure>
+<p>And now for automatically set Java enviroment variables:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install oracle-java8-set-default</span><br></pre></td></tr></table></figure>
+<h1 id="Step-2-running-a-simple-Spring-Boot-application"><a href="#Step-2-running-a-simple-Spring-Boot-application" class="headerlink" title="Step 2: running a simple Spring Boot application"></a>Step 2: running a simple Spring Boot application</h1><p>We will clone a simple program, which running on port 8080 <a href="https://github.com/bachnxhedspi/simple-spring-boot-app" target="_blank" rel="noopener">here</a>.</p>
+<p>Remote connect to your server and running:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/bachnxhedspi/simple-spring-boot-app</span><br><span class="line">cd simple-spring-boot-app</span><br><span class="line">java -jar gs-spring-boot-0.1.0.jar &amp;</span><br></pre></td></tr></table></figure></p>
+<p>The Spring Boot is running successful if you see this: </p>
+<p><img src="https://i.imgur.com/TPXdyti.png" alt="Spring Boot running successful"></p>
+<p>You can test it again by running:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl localhost:8080</span><br></pre></td></tr></table></figure></p>
+<p>It should return “Greetings from Spring Boot!”.</p>
+<h1 id="Step-3-install-NginX"><a href="#Step-3-install-NginX" class="headerlink" title="Step 3: install NginX"></a>Step 3: install NginX</h1><p>NginX installation tutorial can be found <a href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04" target="_blank" rel="noopener">here</a>. Or you just need to run the following command:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install nginx</span><br></pre></td></tr></table></figure>
+<p>Now allow access to port 80 and port 443 in the Azure Portal by opening Network Security Group of your Virtual Machine.</p>
+<p><img src="https://i.imgur.com/E40rE3f.jpg" alt="Create a new rule"></p>
+<p><img src="https://i.imgur.com/OQvnVBi.jpg" alt="Rule for allowing access to port 80 and 443"></p>
+<p><img src="https://i.imgur.com/B2hLEaY.png" alt="Access to the domain... NginX will show up"></p>
+<p>We will redirect all request to our website to port 8080. Open /etc/nginx/nginx.conf and insert to server part.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">  server &#123;</span><br><span class="line">      ....</span><br><span class="line"></span><br><span class="line">      # Change to your domain</span><br><span class="line">      server_name springbootdemo.centralus.cloudapp.azure.com;</span><br><span class="line">      </span><br><span class="line">      ....</span><br><span class="line"></span><br><span class="line">      # Redirect all request to port 8080</span><br><span class="line">      location / &#123;</span><br><span class="line">proxy_pass http://127.0.0.1:8080;</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      ...</span><br></pre></td></tr></table></figure>
+<p>And now restart nginx by runnning</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service nginx restart</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/UG9wSJn.png" alt="Redirect successful"></p>
+<h1 id="Step-4-Acquire-and-adopt-Let’s-Encrypt-by-using-Certbot"><a href="#Step-4-Acquire-and-adopt-Let’s-Encrypt-by-using-Certbot" class="headerlink" title="Step 4: Acquire and adopt Let’s Encrypt by using Certbot"></a>Step 4: Acquire and adopt Let’s Encrypt by using Certbot</h1><p><a href="https://certbot.eff.org/" target="_blank" rel="noopener">Certbot</a> is an easy-to-use automatic client that fetches and deploys Let’s Encrypt SSL/TLS certificates for our webserver. </p>
+<p>Install Certbot<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:certbot/certbot</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python-certbot-nginx</span><br></pre></td></tr></table></figure></p>
+<p>Installing certificate to NginX by running:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo certbot --nginx</span><br></pre></td></tr></table></figure>
+<p>As usual, we can running domain challenging by the above command with tls-sni-01. But currently Let’s Encrypt has currently disabled the TLS-SNI-01 challenge due to <a href="https://community.letsencrypt.org/t/2018-01-11-update-regarding-acme-tls-sni-and-shared-hosting-infrastructure/50188" target="_blank" rel="noopener">a security report</a>. So we will implement this command instead.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo certbot --authenticator standalone --installer nginx</span><br></pre></td></tr></table></figure>
+<p>Remember to select the domain (by just press enter) and select for redirect through HTTPS (by enter 2) when being asked.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">$ sudo certbot --authenticator standalone --installer nginx</span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">Which names would you like to activate HTTPS for?</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">1: springbootdemo.centralus.cloudapp.azure.com</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">Select the appropriate numbers separated by commas and/or spaces, or leave input</span><br><span class="line">blank to select all options shown (Enter &apos;c&apos; to cancel):</span><br><span class="line">Obtaining a new certificate</span><br><span class="line">Performing the following challenges:</span><br><span class="line">http-01 challenge for springbootdemo.centralus.cloudapp.azure.com</span><br><span class="line">Waiting for verification...</span><br><span class="line">Cleaning up challenges</span><br><span class="line">Deployed Certificate to VirtualHost /etc/nginx/nginx.conf for set([&apos;springbootdemo.centralus.cloudapp.azure.com&apos;])</span><br><span class="line">nginx: [error] invalid PID number &quot;&quot; in &quot;/run/nginx.pid&quot;</span><br><span class="line"></span><br><span class="line">Please choose whether or not to redirect HTTP traffic to HTTPS, removing HTTP access.</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">1: No redirect - Make no further changes to the webserver configuration.</span><br><span class="line">2: Redirect - Make all requests redirect to secure HTTPS access. Choose this for</span><br><span class="line">new sites, or if you&apos;re confident your site works on HTTPS. You can undo this</span><br><span class="line">change by editing your web server&apos;s configuration.</span><br><span class="line">-------------------------------------------------------------------------------</span><br><span class="line">Select the appropriate number [1-2] then [enter] (press &apos;c&apos; to cancel): 2</span><br><span class="line">Redirecting all traffic on port 80 to ssl in /etc/nginx/nginx.conf</span><br></pre></td></tr></table></figure>
+<p>You can check /etc/nginx/nginx.conf, it was modified by Certbot for using Let’s Encrypt certificate.</p>
+<p>And now it’s done. Our website is secured by Let’s Encrypt certificate</p>
+<p><img src="https://i.imgur.com/SYiWUwa.png" alt="Well done, a A grade certificate. Rated by SSL Labs"></p>
+<h1 id="Step-5-Setting-Let’s-Encrypt-auto-renewal"><a href="#Step-5-Setting-Let’s-Encrypt-auto-renewal" class="headerlink" title="Step 5: Setting Let’s Encrypt auto renewal"></a>Step 5: Setting Let’s Encrypt auto renewal</h1><p>But there is no silver bullet; there is a trade-off between certificates duration and security (you can read more about it <a href="https://letsencrypt.org/2015/11/09/why-90-days.html" target="_blank" rel="noopener">here</a>). Its duration is only 90 days, compare to normal paid certificatis which valid for some years. But it can be solved by set a crontab to auto renew it.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo crontab -e</span><br></pre></td></tr></table></figure>
+<p>It will open the crontab of su user, insert this line below<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">30 3 * * * certbot renew --post-hook &quot;service nginx reload&quot;</span><br></pre></td></tr></table></figure></p>
+<p>It will run everyday at 3:30 AM; you can trust it because certbot will only run if the certificate is valid less than 30 days.</p>
+<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>In this tutorial, we installed a Let’s Encrypt SSL/TLS certificate for securing our Spring Boot application by using NginX as a SSL proxy. If you have any questions, please look at the links below first.</p>
+<p>Notice: for some distros (such as CentOS), <a href="https://en.wikipedia.org/wiki/Security-Enhanced_Linux" target="_blank" rel="noopener">SELinux</a> can cause permission denied while connecting upstream. Solution can be found <a href="https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx" target="_blank" rel="noopener">here</a>.</p>
+<h1 id="Reference-material"><a href="#Reference-material" class="headerlink" title="Reference material"></a>Reference material</h1><p><a href="http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/" target="_blank" rel="noopener">http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/</a></p>
+<p><a href="https://spr.com/part-1-getting-started-again-build-a-web-app-with-spring-boot/" target="_blank" rel="noopener">https://spr.com/part-1-getting-started-again-build-a-web-app-with-spring-boot/</a></p>
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04" target="_blank" rel="noopener">https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04</a></p>
+<p><a href="https://certbot.eff.org/docs/" target="_blank" rel="noopener">https://certbot.eff.org/docs/</a></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/" data-id="cjibgzlfo000ik2aqciwefwvk" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/">0</span>&nbsp;Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    Thủ tục cần làm khi nhập cảnh Nhật Bản
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2017/12/21/good-design/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Good design</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+        <section id="comments">
+    <div class="fb-comments" data-width="100%" data-href="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/" data-num-posts="5"></div>
+
+</section>
+    
+
+</section>
+            
+                
+<aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">recent</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/De2PZ5B.png)" alt="Redirect logged-in users when accessing login page" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="title">Redirect logged-in users when accessing login page</a></p>
+                            <p class="item-date"><time datetime="2018-06-12T14:36:36.000Z" itemprop="datePublished">2018-06-12</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/05/20/the-books-i-read-2018/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/z4ZbKIq.jpg)" alt="Sách mình đã đọc trong năm 2018" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/05/20/the-books-i-read-2018/" class="title">Sách mình đã đọc trong năm 2018</a></p>
+                            <p class="item-date"><time datetime="2018-05-20T10:30:48.000Z" itemprop="datePublished">2018-05-20</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/03/25/future/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/uSX5lWx.jpg)" alt="Ngày mai rồi sẽ đi về đâu?" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/03/25/future/" class="title">Ngày mai rồi sẽ đi về đâu?</a></p>
+                            <p class="item-date"><time datetime="2018-03-24T20:40:53.000Z" itemprop="datePublished">2018-03-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/17/to-chuc-nomikai/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/3SuUvHr.jpg)" alt="Kinh nghiệm tổ chức ăn nhậu tại Nhật" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/17/to-chuc-nomikai/" class="title">Kinh nghiệm tổ chức ăn nhậu tại Nhật</a></p>
+                            <p class="item-date"><time datetime="2018-02-17T04:15:51.000Z" itemprop="datePublished">2018-02-17</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/84z7aKb.jpg)" alt="Vài suy nghĩ khi đọc sách về kỹ thuật" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="title">Vài suy nghĩ khi đọc sách về kỹ thuật</a></p>
+                            <p class="item-date"><time datetime="2018-01-28T03:46:58.000Z" itemprop="datePublished">2018-01-28</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/devstories/">devstories</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/experience/">experience</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learning/">learning</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/relax/">relax</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technical/">technical</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/travel/">travel</a><span class="tag-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/devstories/" style="font-size: 10px;">devstories</a> <a href="/tags/experience/" style="font-size: 10px;">experience</a> <a href="/tags/learning/" style="font-size: 20px;">learning</a> <a href="/tags/relax/" style="font-size: 10px;">relax</a> <a href="/tags/technical/" style="font-size: 10px;">technical</a> <a href="/tags/travel/" style="font-size: 10px;">travel</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.facebook.com/xubaxabu">Writer&#39;s fb</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2018 Bach Nguyen<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=142641123032947";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

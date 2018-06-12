@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Chuyện dev số 1 - pair deploying | My Stories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="1 ngày 24 tiếng thì mình ở công ty tầm 10 tiếng; tính ra chiếm khá nhiều thời gian của 1 ngày. Chưa kể tối về thỉnh thoảng đọc sách, code thêm,… Có 1 đợt tâm trạng của mình phụ thuộc vào code có chạy">
+<meta name="keywords" content="devstories">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chuyện dev số 1 - pair deploying">
+<meta property="og:url" content="https://bach.mystories.vn/2017/11/24/chuyen-dev-so-1/index.html">
+<meta property="og:site_name" content="My Stories">
+<meta property="og:description" content="1 ngày 24 tiếng thì mình ở công ty tầm 10 tiếng; tính ra chiếm khá nhiều thời gian của 1 ngày. Chưa kể tối về thỉnh thoảng đọc sách, code thêm,… Có 1 đợt tâm trạng của mình phụ thuộc vào code có chạy">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://spin.atomicobject.com/wp-content/uploads/Pairing.jpg">
+<meta property="og:updated_time" content="2018-06-11T13:55:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chuyện dev số 1 - pair deploying">
+<meta name="twitter:description" content="1 ngày 24 tiếng thì mình ở công ty tầm 10 tiếng; tính ra chiếm khá nhiều thời gian của 1 ngày. Chưa kể tối về thỉnh thoảng đọc sách, code thêm,… Có 1 đợt tâm trạng của mình phụ thuộc vào code có chạy">
+<meta name="twitter:image" content="https://spin.atomicobject.com/wp-content/uploads/Pairing.jpg">
+<meta property="fb:app_id" content="142641123032947">
+    
+
+    
+        <link rel="alternate" href="/" title="My Stories" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/css/images/logo-center.png" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">My Stories</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/logo-center.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/logo-center.png" />
+            <h2 id="name">My Stories Blog</h2>
+            <h3 id="title">Just wandering around</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
+            <a id="follow" target="_blank" href="https://www.facebook.com/my12stories/">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                16
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                6
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/khanhtc1202/my-stories-blog" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.facebook.com/my12stories/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-chuyen-dev-so-1" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Chuyện dev số 1 - pair deploying
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/11/24/chuyen-dev-so-1/">
+            <time datetime="2017-11-24T13:27:48.000Z" itemprop="datePublished">2017-11-24</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/devstories/">devstories</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>1 ngày 24 tiếng thì mình ở công ty tầm 10 tiếng; tính ra chiếm khá nhiều thời gian của 1 ngày. Chưa kể tối về thỉnh thoảng đọc sách, code thêm,… Có 1 đợt tâm trạng của mình phụ thuộc vào code có chạy không; công việc ảnh hưởng khá nhiều đến cuộc sống - âu cũng là miếng cơm manh áo mà :) </p>
+<p>Thế nên mình sẽ viết 1 series kể về chuyện nghề, nếu có giỏi hơn tí nữa thì viết về chuyện ngành luôn :)</p>
+<a id="more"></a>
+<blockquote>
+<p>Đôi ba dòng giới thiệu series đã hết; xin được vào nội dung!!!</p>
+</blockquote>
+<p><img src="https://spin.atomicobject.com/wp-content/uploads/Pairing.jpg" alt="Pair programming"></p>
+<p>Nhìn ảnh này chắc bạn nào làm IT sẽ biết được gọi là Pair programming - 1 người code, 1 người ngồi xem và review; thỉnh thoảng đổi qua lại vị trí cho đỡ buồn.</p>
+<p>Liên quan đến cái này là hôm nay anh Tài (người Nhật - tên được Việt hóa cho dễ nhớ); ngồi đối diện mình tự nhiên đứng dậy nói cái gì đấy. Nội dung của cuộc nói chuyện ban đầu như sau.</p>
+<p><strong>A Tài:</strong> #)(<em>)23$)@#($8)@#($</em>) </p>
+<p><strong>B:</strong> Nói tiếng Anh đi anh</p>
+<p><strong>A Tài:</strong> )()2 3$)ca ew a @D@D!S3@4@ <strong>sang đây t nhờ tí</strong> ($8)@#($ </p>
+<p><em>Đoán mò nội dung và cũng không nhớ nổi anh Tài nói tiếng Anh hay tiếng Nhật nữa</em></p>
+<p>Nhân vật phụ vội rút sạc và ôm laptop sang dù không hiểu gì. Đoạn này mình cứ ngờ ngợ; vì đang làm OJT có liên quan đếch gì đến việc khác đâu, chả biết anh ý gọi sang làm gì. Sang đến nơi thì đã thấy anh bày sẵn ghế, chỉ việc ngồi nhìn.</p>
+<p>Anh Tài mở ra 1 đoạn document hướng dẫn deploy, copy từng lệnh rồi gõ enter. Thỉnh thoảng mình cũng hỏi mấy câu cho tỏ vẻ hiểu biết :3</p>
+<p><strong>A Tài:</strong> t sẽ clone code từ git về rồi biên dịch bla bla</p>
+<p><strong>B:</strong> À, lệnh này là clone về rồi check hash xem file có nguyên vẹn đúng không?</p>
+<p><strong>B nghĩ thầm</strong> ơ, hay là sếp nào bảo anh ý show cho mình xem để nhanh hiểu hệ thống nhỉ :3</p>
+<p><em>Đoạn này không hiểu phép thần thánh nào làm a Tài nói dễ nghe hẳn, chắc do mutual understanding.</em> </p>
+<p>Cuối cùng anh Tài mở 1 phần mềm lên, hẹn giờ cho đoạn code đấy tự chạy hàng tuần; cẩn thận mở lịch lên check xem hẹn giờ có chuẩn không, vào năm 2018 thì nó chạy vào những ngày nào. Đến lúc này thì B cũng đã phát hiện ra là anh mới deploy 1 phần xuất báo cáo.</p>
+<p>Xong việc, chuẩn bị xách đít về thì anh Tài mới chốt 1 câu</p>
+<p><strong>Anh Tài:</strong> do deploy chức năng lên bản production nên phải có 2 người cùng làm.</p>
+<p>Đúng kiểu phút chót chợt hiểu ra toàn bộ vấn đề. Tư duy kiểu này hay thật, những việc đơn giản nhất như copy từng dòng lệnh kia lại rất dễ bị sai. Điển hình như lúc đọc sách dạy code là mình toàn copy rồi ấn chạy; nhiều khi bị lỗi, tìm chỗ sai còn mất công hơn gấp mấy lần làm từ tốn. </p>
+<p>Lúc về chỗ rồi ngồi nghĩ lung tung mình lại nghĩ đến chuyện mấy bác lái tàu, mỗi lần nhìn đèn tín hiệu hay theo dõi gì thì đều chỉ tay theo để chắc chắn không bỏ sót bước nào.</p>
+<p><img src="https://i.ytimg.com/vi/9LmdUz3rOQU/maxresdefault.jpg" alt="Đọc số kiểu lái tàu"></p>
+<p>1 bài học sâu sắc tuy biết lâu rồi những chưa sửa nổi là phải giỏi tiếng hơn nữa…</p>
+<p>P/S: cơ mà giỏi hơn tí nữa thì làm sao có cảm giác cả thế giới bùng sáng vào phút chót như thế kia được :v</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://bach.mystories.vn/2017/11/24/chuyen-dev-so-1/" data-id="cjibgzlep0002k2aq6g5r369l" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://bach.mystories.vn/2017/11/24/chuyen-dev-so-1/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/11/24/chuyen-dev-so-1/">0</span>&nbsp;Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017/12/03/chuyen-di-boi/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    Chuyện đi bơi
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2017/11/19/leo-nui-takao/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Leo núi Takao</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+        <section id="comments">
+    <div class="fb-comments" data-width="100%" data-href="https://bach.mystories.vn/2017/11/24/chuyen-dev-so-1/" data-num-posts="5"></div>
+
+</section>
+    
+
+</section>
+            
+                
+<aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">recent</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/De2PZ5B.png)" alt="Redirect logged-in users when accessing login page" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="title">Redirect logged-in users when accessing login page</a></p>
+                            <p class="item-date"><time datetime="2018-06-12T14:36:36.000Z" itemprop="datePublished">2018-06-12</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/05/20/the-books-i-read-2018/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/z4ZbKIq.jpg)" alt="Sách mình đã đọc trong năm 2018" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/05/20/the-books-i-read-2018/" class="title">Sách mình đã đọc trong năm 2018</a></p>
+                            <p class="item-date"><time datetime="2018-05-20T10:30:48.000Z" itemprop="datePublished">2018-05-20</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/03/25/future/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/uSX5lWx.jpg)" alt="Ngày mai rồi sẽ đi về đâu?" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/03/25/future/" class="title">Ngày mai rồi sẽ đi về đâu?</a></p>
+                            <p class="item-date"><time datetime="2018-03-24T20:40:53.000Z" itemprop="datePublished">2018-03-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/17/to-chuc-nomikai/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/3SuUvHr.jpg)" alt="Kinh nghiệm tổ chức ăn nhậu tại Nhật" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/17/to-chuc-nomikai/" class="title">Kinh nghiệm tổ chức ăn nhậu tại Nhật</a></p>
+                            <p class="item-date"><time datetime="2018-02-17T04:15:51.000Z" itemprop="datePublished">2018-02-17</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/84z7aKb.jpg)" alt="Vài suy nghĩ khi đọc sách về kỹ thuật" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="title">Vài suy nghĩ khi đọc sách về kỹ thuật</a></p>
+                            <p class="item-date"><time datetime="2018-01-28T03:46:58.000Z" itemprop="datePublished">2018-01-28</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/devstories/">devstories</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/experience/">experience</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learning/">learning</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/relax/">relax</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technical/">technical</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/travel/">travel</a><span class="tag-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/devstories/" style="font-size: 10px;">devstories</a> <a href="/tags/experience/" style="font-size: 10px;">experience</a> <a href="/tags/learning/" style="font-size: 20px;">learning</a> <a href="/tags/relax/" style="font-size: 10px;">relax</a> <a href="/tags/technical/" style="font-size: 10px;">technical</a> <a href="/tags/travel/" style="font-size: 10px;">travel</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.facebook.com/xubaxabu">Writer&#39;s fb</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2018 Bach Nguyen<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=142641123032947";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
