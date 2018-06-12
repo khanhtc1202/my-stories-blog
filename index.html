@@ -254,7 +254,7 @@
 <p>After searching but not finding any solutions; I propose a method of using Principal and Authentication class of Spring Security.</p>
 <h1 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h1><p>A naive solution can be overriding the configure method in WebSecurityConfigurerAdapter class like this</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">@Override</span><br><span class="line">  protected void configure(HttpSecurity http) throws Exception &#123;</span><br><span class="line">      http</span><br><span class="line">          .authorizeRequests()</span><br><span class="line">            // Something here :3</span><br><span class="line">              .antMatchers(&quot;/register&quot;).anonymous()</span><br><span class="line">              .antMatchers(&quot;/admin&quot;).hasRole(&quot;ADMIN&quot;)</span><br><span class="line">              .and()</span><br><span class="line">          .formLogin()</span><br><span class="line">              .loginPage(&quot;/login&quot;)</span><br><span class="line">              .usernameParameter(&quot;email&quot;)</span><br><span class="line">              .passwordParameter(&quot;password&quot;)</span><br><span class="line">              .defaultSuccessUrl(&quot;/user/profile&quot;)</span><br><span class="line">              .failureUrl(&quot;/login?error&quot;)</span><br><span class="line">              .and()</span><br><span class="line">          .exceptionHandling()</span><br><span class="line">              .accessDeniedPage(&quot;/&quot;);</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-<p>It will return the content of homepage (at /) if user try to register when already logged-in (In my opinion they ought to be logout first). But the problem is the url is still at /register; and the document of the SpringSecurity is too hard to figure out a way. </p>
+<p>It will return the content of homepage (at /) if user try to register when already logged-in. But the problem is the url is still at /register. I tried to looking the correct solution by searching, reading document of the SpringSecurity; but I found no answers. </p>
 <p><em>So i try a different way, by handling it in the Controller</em></p>
 <p>With @Controller annotated bean, the principal option can be defined directly as a method argument and it will be resolved by the framework. If user not yet logged in, its value will be null.</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Controller</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainController</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">      <span class="meta">@GetMapping</span>(<span class="string">"/register"</span>)</span><br><span class="line">      <span class="function"><span class="keyword">public</span> String <span class="title">register</span><span class="params">(Model model,Principal principal)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(principal!=<span class="keyword">null</span>)&#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="string">"redirect:/"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">          UserRegistrationDTO userRegistrationDTO = <span class="keyword">new</span> UserRegistrationDTO();</span><br><span class="line">          model.addAttribute(userRegistrationDTO);</span><br><span class="line">    </span><br><span class="line">          <span class="keyword">return</span> <span class="string">"userregistration"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -272,7 +272,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" data-id="cjibib4kc000ervaqpiyxhm9a" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" data-id="cjibidwpg000kuaaqfyenkd09" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -402,7 +402,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/" data-id="cjibib4kl000trvaqjzm8glj5" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/" data-id="cjibidwpk000tuaaqm3bbti3m" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -531,7 +531,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/03/25/future/" data-id="cjibib4k80008rvaqsdwh95p1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/03/25/future/" data-id="cjibidwpa000cuaaq6meqpvyv" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -660,7 +660,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/" data-id="cjibib4km000vrvaqkg3oy5cx" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/" data-id="cjibidwpm000yuaaq4ed99bcb" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -793,7 +793,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/" data-id="cjibib4kh000mrvaqxloe1awx" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/" data-id="cjibidwpj000quaaq36onzeq1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -921,7 +921,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/" data-id="cjibib4k70005rvaqzei5hyy2" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/" data-id="cjibidwp70008uaaq4kq35vev" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1049,7 +1049,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/" data-id="cjibib4kk000rrvaqdox2motp" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/" data-id="cjibidwpl000vuaaq90k3ijkc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1183,7 +1183,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/" data-id="cjibib4ki000orvaqjc428q18" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/" data-id="cjibidwph000muaaqvasg51t4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1311,7 +1311,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2017/12/21/good-design/" data-id="cjibib4k90009rvaq3lesrcry" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2017/12/21/good-design/" data-id="cjibidwpe000fuaaqjloofrm4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1443,7 +1443,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/" data-id="cjibib4k60004rvaqzxvzn8cw" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/" data-id="cjibidwp40005uaaqk7zg9ixo" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
