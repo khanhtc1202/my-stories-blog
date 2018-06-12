@@ -40,7 +40,7 @@ A naive solution can be overriding the configure method in WebSecurityConfigurer
   }
 ```
 
-It will return the content of homepage (at /) if user try to register when already logged-in (In my opinion they ought to be logout first). But the problem is the url is still at /register; and the document of the SpringSecurity is too hard to figure out a way. 
+It will return the content of homepage (at /) if user try to register when already logged-in. But the problem is the url is still at /register. I tried to looking the correct solution by searching, reading document of the SpringSecurity; but I found no answers. 
 
 *So i try a different way, by handling it in the Controller*
 
