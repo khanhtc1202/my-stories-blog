@@ -2,7 +2,7 @@
 title: Redirect logged-in users when accessing login page
 date: 2018-06-12 23:36:36
 tags: technical
-thumbnail: https://i.imgur.com/s5nuHij.png
+thumbnail: https://i.imgur.com/De2PZ5B.png
 ---
 
 # Introduction 
