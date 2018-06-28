@@ -7,14 +7,17 @@ thumbnail: https://i.imgur.com/De2PZ5B.png
 
 # Introduction 
 
-**TLDR** _How to redirect logged-in users when they access some specific pages such as: login, register,... with Spring Security._
+**TLDR**
+
+_How to redirect logged-in users when they access some specific pages such as: login, register,... with Spring Security._
 
 Any website implements authentication need to solve a common problem, it is redirecting user when they access based on authentication (or authorization). For example: user will be redirect to login page when the user is not yet logged in; or user will be redirected to deny page when the user don't have enough permission.
 
-Most of tutorial for implementing login/logout mechanism with Spring Boot in github guides using HttpSecurity class for route protection. But they do not account of not allowing user accessing login/register page when they already logged in; in my opinion it should be redirect to home page when they access /login page.  
+Most of tutorial for implementing login/logout mechanism with Spring Boot in github guides using HttpSecurity class for route protection. But they do not account of not allowing user accessing login/register page when they already logged in; in my opinion it should be redirect to home page when they access `/login` page.  
 
 After searching but not finding any solutions; I propose a method of using Principal and Authentication class of Spring Security.
  
+<!-- more -->
 # Content
 
 A naive solution can be overriding the configure method in WebSecurityConfigurerAdapter class like this
@@ -40,7 +43,7 @@ A naive solution can be overriding the configure method in WebSecurityConfigurer
   }
 ```
 
-It will return the content of homepage (at /) when user try to register when already logged-in. But the problem is the url is still at /register; and the document of the SpringSecurity is too hard to figure out a way. 
+It will return the content of homepage (at `/`) when user try to register when already logged-in. But the problem is the url is still at `/register`; and the document of the SpringSecurity is too hard to figure out a way. 
 
 *So i try a different way, by handling it in the Controller*
 
@@ -87,7 +90,7 @@ public class MainController {
 }
 ```
 
-You can also get more information of currently logged in user by using method Authentication.getAuthorities() or Authentication.getDetails()
+You can also get more information of currently logged in user by using method `Authentication.getAuthorities()` or `Authentication.getDetails()`
 
 That's all, please give a comment if you know a better solution.
 
