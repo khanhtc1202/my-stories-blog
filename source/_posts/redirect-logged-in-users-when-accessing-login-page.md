@@ -22,7 +22,7 @@ After searching but not finding any solutions; I propose a method of using Princ
 
 A naive solution can be overriding the configure method in WebSecurityConfigurerAdapter class like this
 
-```
+```java
 @Override
   protected void configure(HttpSecurity http) throws Exception {
       http
