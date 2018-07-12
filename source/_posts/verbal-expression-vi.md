@@ -34,9 +34,12 @@ VerEx()
 .anythingBut(' ')
 .endOfLine();
 ```
+
 Nhìn qua là các bạn có thể đoán được công dụng của đoạn code này rồi; 
 đầu tiên là 1 dòng mới, yêu cầu có `http`, có thể có `s` hoặc không (`http` hay `https` đều được),
 cần thêm `://`, sau đó bất kỳ ký tự nào miên không phải khoảng trống. Vậy là ta đã có thể match được 1 đoạn url rồi.
+Regex tương ứng với đoạn code trên là `/^(?:http)(?:s)?(?:\:\/\/)(?:[^ ]*)$/`, regex được sinh ra tuy có 
+khác với đoạn regex trên nhưng công dụng hoàn toàn như nhau.
 
 VerbalExpressions đã giải quyết được vấn đề lớn nhất của regex là khó đọc, khó nhớ. Như là thay vì phải viết 
 query SQL thì bạn dùng ORM vậy. Cú pháp đơn giản, dễ dùng và quen thuộc với lập trình viên. 
