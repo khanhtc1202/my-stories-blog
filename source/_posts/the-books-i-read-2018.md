@@ -53,9 +53,17 @@ Có 1 nỗi sợ hãi mơ hồ, ám ảnh đọng lại đâu đó sau khi đọ
 
 > 1 trong những cuốn sách tiếng Việt được viết tử tế.
 
-Cắt nghĩa chữ tử tế ở đây là sách có mục lục, chỉ mục, tài liệu tham khảo rõ ràng; rất tiện khi người đọc khi cần tra cứu, trích dẫn,... Và chỉ cần 1 điểm nhỏ như vậy thôi là đủ ghi điểm và khiến mình đánh giá "có tâm" hơn rồi.     
+Cắt nghĩa chữ tử tế ở đây là sách có mục lục, chỉ mục, tài liệu tham khảo rõ ràng; rất tiện khi người đọc khi cần tra cứu, trích dẫn,...
+ Và chỉ cần 1 điểm nhỏ như vậy thôi là đủ ghi điểm và khiến mình đánh giá "có tâm" hơn rồi. 
+
+"Hiệu ứng chim mồi" là cuốn sách về những ứng dụng thực tiễn của tâm lý học; được đúc kết từ những kinh nghiệm của tác giả và nhiều nhân vật nổi tiếng khác. Tác giả giải thích nhiều "chiến thuật" trong kinh doanh bằng các khái niệm đơn giản, dễ hiểu. 
       
-Mình tình cờ biết đến cuốn sách thông qua những bài viết ngắn về kinh tế, bán hàng,... ở Fanpage [Hiệu ứng chim mồi](https://www.facebook.com/hieuungchimmoi/) (các bạn có thể tìm đọc tại website [ecoblader.com](http://www.ecoblader.com/)). Tuy nhiên nếu nói là tình cờ thì là đã bỏ qua công sức marketing, chạy quảng cáo, bán hàng... của ekip. Đứng ở góc nhìn của tác giả thì mình thấy chẳng có vấn đề gì cả; độc giả (ở đây là mình) vẫn mua sách, review tốt,... vậy là đạt được mục tiêu lớn nhất rồi. Đâu cần phải bắt độc giả phải hiểu về những nỗi khổ trong ngành làm chi? Thế nhưng đứng từ góc nhìn của người đọc thì lại là 1 thiếu sót lớn vô cùng. Thiếu sót về tầm nhìn, không hiểu tại sao họ lại tạo được động lực để mình chi tiền mua sách, hiểu được lý do nào mà mình lại hành động như vậy. Đối với mình cảm giác như là bị "thôi miên" vậy, và tất nhiên mình rất ghét việc đó, cớ gì phải chịu việc người khác hiểu rõ bản thân mình hơn là chính mình?
+Mình tình cờ biết đến cuốn sách thông qua những bài viết ngắn về kinh tế, bán hàng,... ở Fanpage [Hiệu ứng chim mồi](https://www.facebook.com/hieuungchimmoi/) (các bạn có thể tìm đọc tại website [ecoblader.com](http://www.ecoblader.com/)). 
+Tuy nhiên nếu nói là tình cờ thì là đã bỏ qua công sức marketing, chạy quảng cáo, bán hàng... của ekip. 
+Đứng ở góc nhìn của tác giả thì mình thấy chẳng có vấn đề gì cả; độc giả (ở đây là mình) vẫn mua sách, review tốt,... vậy là đạt được mục tiêu lớn nhất rồi. 
+Đâu cần phải bắt độc giả phải hiểu về những nỗi khổ trong ngành làm chi? Thế nhưng đứng từ góc nhìn của người đọc thì lại là 1 thiếu sót lớn vô cùng. 
+Thiếu sót về tầm nhìn, không hiểu tại sao họ lại tạo được động lực để mình chi tiền mua sách, hiểu được lý do nào mà mình lại hành động như vậy.
+Đối với mình cảm giác như là bị "thôi miên" vậy, và tất nhiên mình rất ghét việc đó, cớ gì phải chịu việc người khác hiểu rõ bản thân mình hơn là chính mình?
 
 Trước đây mình vẫn hay nghe mọi người khi nói về 1 người bán hàng đắt khách là "có duyên bán hàng", "duyên" ở đây nghe đôi phần như 1 khả năng trời phú, tuỳ người mới có được. Dần dần mới nhận ra chẳng phải đâu, họ có 1 cái phẩm chất gì đó mà số đông không nhận ra được thôi. Có thể đó là năng khiếu ăn nói, thấu hiểu thị trường, hay là việc đặt giá tiền sản phẩm là 9k9 thay vì 10k chẳng hạn... Bán hàng quả là 1 nghệ thuật phức tạp cần phải chú tâm vào 1 lô lốc những tiểu tiết. Ngày xưa mình cứ nghĩ là kinh tế dễ mà; sao khó bằng vi phân, đạo hàm,... được. Dần mới nhận ra mỗi nghề đều có cái hay và khó riêng của nó; mọi thành công đều đáng được trân trọng. 
 
