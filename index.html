@@ -80,7 +80,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -99,9 +99,9 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Articles',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
+            CATEGORIES: 'Catégories',
             TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
@@ -133,7 +133,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
     </div>
 
                 </td>
@@ -153,16 +153,16 @@
             <h2 id="name">My Stories Blog</h2>
             <h3 id="title">Just wandering around</h3>
             <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
-            <a id="follow" target="_blank" href="https://www.facebook.com/my12stories/">FOLLOW</a>
+            <a id="follow" target="_blank" href="https://www.facebook.com/my12stories/">SUIVRE</a>
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                16
-                <span>posts</span>
+                17
+                <span>Articles</span>
             </div>
             <div class="article-info-block">
                 6
-                <span>tags</span>
+                <span>Tags</span>
             </div>
         </div>
         
@@ -210,7 +210,7 @@
 
             
             <section id="main">
-    <article id="post-redirect-logged-in-users-when-accessing-login-page" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-message-manners" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -218,7 +218,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/">Redirect logged-in users when accessing register page with Spring Security</a>
+            <a class="article-title" href="/2018/07/15/message-manners/">Gửi 1 tin nhắn kèm với lời yêu cầu kết bạn</a>
         </h1>
     
 
@@ -227,8 +227,8 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/">
-            <time datetime="2018-06-12T14:36:36.000Z" itemprop="datePublished">2018-06-12</time>
+        <a href="/2018/07/15/message-manners/">
+            <time datetime="2018-07-15T13:35:57.000Z" itemprop="datePublished">2018-07-15</time>
         </a>
     </div>
 
@@ -237,7 +237,7 @@
                         
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/technical/">technical</a>
+        <a class="tag-link" href="/tags/relax/">relax</a>
     </div>
 
                     </div>
@@ -247,22 +247,10 @@
         
         <div class="article-entry" itemprop="articleBody">
         
-            
-            <h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p><strong>TLDR</strong> <em>How to redirect logged-in users when they access some specific pages such as: login, register,… with Spring Security.</em></p>
-<p>Any website implements authentication need to solve a common problem, it is redirecting user when they access based on authentication (or authorization). For example: user will be redirect to login page when the user is not yet logged in; or user will be redirected to deny page when the user don’t have enough permission.</p>
-<p>Most of tutorial for implementing login/logout mechanism with Spring Boot in github guides using HttpSecurity class for route protection. But they do not account of not allowing user accessing login/register page when they already logged in; in my opinion it should be redirect to home page when they access /login page.  </p>
-<p>After searching but not finding any solutions; I propose a method of using Principal and Authentication class of Spring Security.</p>
-<h1 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h1><p>A naive solution can be overriding the configure method in WebSecurityConfigurerAdapter class like this</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">@Override</span><br><span class="line">  protected void configure(HttpSecurity http) throws Exception &#123;</span><br><span class="line">      http</span><br><span class="line">          .authorizeRequests()</span><br><span class="line">            // Something here :3</span><br><span class="line">              .antMatchers(&quot;/register&quot;).anonymous()</span><br><span class="line">              .antMatchers(&quot;/admin&quot;).hasRole(&quot;ADMIN&quot;)</span><br><span class="line">              .and()</span><br><span class="line">          .formLogin()</span><br><span class="line">              .loginPage(&quot;/login&quot;)</span><br><span class="line">              .usernameParameter(&quot;email&quot;)</span><br><span class="line">              .passwordParameter(&quot;password&quot;)</span><br><span class="line">              .defaultSuccessUrl(&quot;/user/profile&quot;)</span><br><span class="line">              .failureUrl(&quot;/login?error&quot;)</span><br><span class="line">              .and()</span><br><span class="line">          .exceptionHandling()</span><br><span class="line">              .accessDeniedPage(&quot;/&quot;);</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-<p>It will return the content of homepage (at /) if user try to register when already logged-in. But the problem is the url is still at /register. I tried to looking the correct solution by searching, reading document of the SpringSecurity; but I found no answers. </p>
-<p><em>So i try a different way, by handling it in the Controller</em></p>
-<p>With @Controller annotated bean, the principal option can be defined directly as a method argument and it will be resolved by the framework. If user not yet logged in, its value will be null.</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Controller</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainController</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">      <span class="meta">@GetMapping</span>(<span class="string">"/register"</span>)</span><br><span class="line">      <span class="function"><span class="keyword">public</span> String <span class="title">register</span><span class="params">(Model model,Principal principal)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(principal!=<span class="keyword">null</span>)&#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="string">"redirect:/"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">          UserRegistrationDTO userRegistrationDTO = <span class="keyword">new</span> UserRegistrationDTO();</span><br><span class="line">          model.addAttribute(userRegistrationDTO);</span><br><span class="line">    </span><br><span class="line">          <span class="keyword">return</span> <span class="string">"userregistration"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>An another approach is using the Authentication class, just define in the method argument and the framework will auto injection it for you.<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Controller</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainController</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">      <span class="meta">@GetMapping</span>(<span class="string">"/register"</span>)</span><br><span class="line">      <span class="function"><span class="keyword">public</span> String <span class="title">register</span><span class="params">(Model model, Authentication authentication)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(authentication!=<span class="keyword">null</span>)&#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="string">"redirect:/"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">          UserRegistrationDTO userRegistrationDTO = <span class="keyword">new</span> UserRegistrationDTO();</span><br><span class="line">          model.addAttribute(userRegistrationDTO);</span><br><span class="line">    </span><br><span class="line">          <span class="keyword">return</span> <span class="string">"userregistration"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>You can also get more information of currently logged in user by using method Authentication.getAuthorities() or Authentication.getDetails()</p>
-<p>That’s all, please give a comment if you know a better solution.</p>
-<h1 id="Reference-material"><a href="#Reference-material" class="headerlink" title="Reference material"></a>Reference material</h1><p><a href="http://www.baeldung.com/get-user-in-spring-security" target="_blank" rel="noopener">http://www.baeldung.com/get-user-in-spring-security</a></p>
-
+            <p><p>Gần đây mình có đi chơi nhiều hơn, tham gia nhiều hoạt động xã hội,… Gặp thêm bạn mới, tâm sự, lắng nghe nhiều hơn khiến<br>cuộc sống thú vị; và cũng từ đó nhận ra nhiều thiếu sót cần thay đổi.</p></p>
+            <p class="article-more-link">
+                <a href="/2018/07/15/message-manners/#more">Read More</a>
+            </p>
         
         </div>
         <footer class="article-footer">
@@ -272,7 +260,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" data-id="cjibidwpg000kuaaqfyenkd09" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/07/15/message-manners/" data-id="cjjn1x4uw000fe2aqdlylovv8" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -340,7 +328,139 @@
 
             
     
-        <a href="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2018/07/15/message-manners/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/07/15/message-manners/">0</span>&nbsp;Commentaires</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-redirect-logged-in-users-when-accessing-login-page" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/">Redirect logged-in users when accessing login page</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/">
+            <time datetime="2018-06-12T14:36:36.000Z" itemprop="datePublished">2018-06-12</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/technical/">technical</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p><strong>TLDR</strong></p>
+<p><em>How to redirect logged-in users when they access some specific pages such as: login, register,… with Spring Security.</em></p>
+<p>Any website implements authentication need to solve a common problem, it is redirecting user when they access based on authentication (or authorization). For example: user will be redirect to login page when the user is not yet logged in; or user will be redirected to deny page when the user don’t have enough permission.</p>
+<p>Most of tutorial for implementing login/logout mechanism with Spring Boot in github guides using HttpSecurity class for route protection. But they do not account of not allowing user accessing login/register page when they already logged in; in my opinion it should be redirect to home page when they access <code>/login</code> page.  </p>
+<p>After searching but not finding any solutions; I propose a method of using Principal and Authentication class of Spring Security.</p></p>
+            <p class="article-more-link">
+                <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" data-id="cjjn1x4uy000ke2aqb3v9jbnw" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/06/12/redirect-logged-in-users-when-accessing-login-page/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -402,7 +522,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/" data-id="cjibidwpk000tuaaqm3bbti3m" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/" data-id="cjjn1x4vz0017e2aquhsgx3ar" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -470,7 +590,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/05/20/the-books-i-read-2018/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -531,7 +651,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/03/25/future/" data-id="cjibidwpa000cuaaq6meqpvyv" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/03/25/future/" data-id="cjjn1x4ul0008e2aq0h4l23ho" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -599,7 +719,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2018/03/25/future/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/03/25/future/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2018/03/25/future/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/03/25/future/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -660,7 +780,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/" data-id="cjibidwpm000yuaaq4ed99bcb" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/" data-id="cjjn1x4v7000we2aqkjz11hx4" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -728,7 +848,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/02/17/to-chuc-nomikai/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -793,7 +913,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/" data-id="cjibidwpj000quaaq36onzeq1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/" data-id="cjjn1x4v4000re2aqnej3bpqk" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -861,7 +981,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/01/28/suy-nghi-khi-doc-sach/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -921,7 +1041,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/" data-id="cjibidwp70008uaaq4kq35vev" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/" data-id="cjjn1x4ui0007e2aqd2cugmsg" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -989,7 +1109,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/01/13/chuyen-tien-ve-Viet-Nam-voi-transferwise/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -1049,7 +1169,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/" data-id="cjibidwpl000vuaaq90k3ijkc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/" data-id="cjjn1x4v6000ue2aqu38g3pp2" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1117,7 +1237,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2018/01/06/thu-tuc-khi-nhap-canh-Nhat/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -1183,7 +1303,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/" data-id="cjibidwph000muaaqvasg51t4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/" data-id="cjjn1x4v0000me2aqtajhtgne" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1251,7 +1371,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/12/24/secure-springboot-with-letsencrypt/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -1311,7 +1431,7 @@
 
 </div>
 
-    <a data-url="https://bach.mystories.vn/2017/12/21/good-design/" data-id="cjibidwpe000fuaaqjloofrm4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bach.mystories.vn/2017/12/21/good-design/" data-id="cjjn1x4uu000ce2aq99emhtpq" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1379,139 +1499,7 @@
 
             
     
-        <a href="https://bach.mystories.vn/2017/12/21/good-design/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/12/21/good-design/">0</span>&nbsp;Comments</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
-    <article id="post-chuyen-dev-so-2" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/09/chuyen-dev-so-2/">Chuyện dev số 2 - SSL</a>
-        </h1>
-    
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/12/09/chuyen-dev-so-2/">
-            <time datetime="2017-12-09T01:48:31.000Z" itemprop="datePublished">2017-12-09</time>
-        </a>
-    </div>
-
-
-                        
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/devstories/">devstories</a>
-    </div>
-
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            <p><p>Khi truy cập vào mấy trang có nội dung nguy hiểm thì nhiều khả năng sẽ thấy 1 trang đỏ quạch thế này xuất hiện.</p>
-<p><img src="https://media.gcflearnfree.org/content/55e076c07dd48174331f528f_01_17_2014/privacy_malware_page.png" alt="Thông báo đẫm máu"></p>
-<p>Nếu vì 1 nội dung nào đó vẫn kiên quyết muốn truy cập thì chỉ cần ấn “Detail” rồi chọn chọn lung tung 1 hồi cũng sẽ vô được. Tất nhiên khi đã truy cập vào những trang thế này thì có khá nhiều rủi ro tiềm ẩn có thể sẽ gặp phải rồi.</p>
-<p><em>Ngày xưa mình cũng hay cố vào mấy trang kiểu vậy lắm, giờ thì thôi tắt luôn :3</em></p>
-<p>Nguyên nhân chính do SSL certificate. Khi có SSL certificate sẽ dùng được https - giúp dữ liệu truyền/nhận được bảo mật, và thông qua certificate có thể xác thực được là mình đang vô đúng trang web của cá nhân/tổ chức đó luôn.</p></p>
-            <p class="article-more-link">
-                <a href="/2017/12/09/chuyen-dev-so-2/#more">Read More</a>
-            </p>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/" data-id="cjibidwp40005uaaqk7zg9ixo" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/12/09/chuyen-dev-so-2/">0</span>&nbsp;Comments</a>
+        <a href="https://bach.mystories.vn/2017/12/21/good-design/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2017/12/21/good-design/">0</span>&nbsp;Commentaires</a>
     
 
         </footer>
@@ -1522,7 +1510,7 @@
 
 
     <nav id="page-nav">
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Suiv &raquo;</a>
     </nav>
 </section>
             
@@ -1531,17 +1519,17 @@
    
         
     <div class="widget-wrap">
-        <h3 class="widget-title">recent</h3>
+        <h3 class="widget-title">Récents</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="thumbnail">
+                            <a href="/2018/07/15/message-manners/" class="thumbnail">
     
     
-        <span style="background-image:url(https://i.imgur.com/De2PZ5B.png)" alt="Redirect logged-in users when accessing register page with Spring Security" class="thumbnail-image"></span>
+        <span style="background-image:url(https://i.imgur.com/JQdHZwX.png)" alt="Gửi 1 tin nhắn kèm với lời yêu cầu kết bạn" class="thumbnail-image"></span>
     
 </a>
 
@@ -1549,7 +1537,26 @@
                         
                         <div class="item-inner">
                             <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="title">Redirect logged-in users when accessing register page with Spring Security</a></p>
+                            <p class="item-title"><a href="/2018/07/15/message-manners/" class="title">Gửi 1 tin nhắn kèm với lời yêu cầu kết bạn</a></p>
+                            <p class="item-date"><time datetime="2018-07-15T13:35:57.000Z" itemprop="datePublished">2018-07-15</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/De2PZ5B.png)" alt="Redirect logged-in users when accessing login page" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/06/12/redirect-logged-in-users-when-accessing-login-page/" class="title">Redirect logged-in users when accessing login page</a></p>
                             <p class="item-date"><time datetime="2018-06-12T14:36:36.000Z" itemprop="datePublished">2018-06-12</time></p>
                         </div>
                     </li>
@@ -1611,25 +1618,6 @@
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://i.imgur.com/84z7aKb.jpg)" alt="Vài suy nghĩ khi đọc sách về kỹ thuật" class="thumbnail-image"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/01/28/suy-nghi-khi-doc-sach/" class="title">Vài suy nghĩ khi đọc sách về kỹ thuật</a></p>
-                            <p class="item-date"><time datetime="2018-01-28T03:46:58.000Z" itemprop="datePublished">2018-01-28</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -1639,34 +1627,34 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">archives</h3>
+        <h3 class="widget-title">Archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">tags</h3>
+        <h3 class="widget-title">Tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/devstories/">devstories</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/experience/">experience</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learning/">learning</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/relax/">relax</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technical/">technical</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/travel/">travel</a><span class="tag-list-count">2</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/devstories/">devstories</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/experience/">experience</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learning/">learning</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/relax/">relax</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technical/">technical</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/travel/">travel</a><span class="tag-list-count">2</span></li></ul>
         </div>
     </div>
 
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">tag cloud</h3>
+        <h3 class="widget-title">Nuage de tags</h3>
         <div class="widget tagcloud">
-            <a href="/tags/devstories/" style="font-size: 10px;">devstories</a> <a href="/tags/experience/" style="font-size: 10px;">experience</a> <a href="/tags/learning/" style="font-size: 20px;">learning</a> <a href="/tags/relax/" style="font-size: 10px;">relax</a> <a href="/tags/technical/" style="font-size: 10px;">technical</a> <a href="/tags/travel/" style="font-size: 10px;">travel</a>
+            <a href="/tags/devstories/" style="font-size: 10px;">devstories</a> <a href="/tags/experience/" style="font-size: 10px;">experience</a> <a href="/tags/learning/" style="font-size: 20px;">learning</a> <a href="/tags/relax/" style="font-size: 15px;">relax</a> <a href="/tags/technical/" style="font-size: 10px;">technical</a> <a href="/tags/travel/" style="font-size: 10px;">travel</a>
         </div>
     </div>
 
     
         
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
+        <h3 class="widget-title">Liens</h3>
         <div class="widget">
             <ul>
                 
