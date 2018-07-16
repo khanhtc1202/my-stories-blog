@@ -15,7 +15,8 @@ Và mãi vẫn chưa đọc, đến tận mấy hôm sau vẫn nghĩ là chưa �
 # Mục lục
 
 1. [Người tị nạn](#the-refugees)
-2. [Hiệu ứng chim mồi](#hieu-ung-chim-moi)
+2. [Hiệu ứng chim mồi 1 & 2](#hieu-ung-chim-moi)
+3. [Ở lại thành phố hay về quê](#o-lai-thanh-pho-hay-ve-que)
 
 ***
 
@@ -53,9 +54,16 @@ Có 1 nỗi sợ hãi mơ hồ, ám ảnh đọng lại đâu đó sau khi đọ
 
 > 1 trong những cuốn sách tiếng Việt được viết tử tế.
 
-Cắt nghĩa chữ tử tế ở đây là sách có mục lục, chỉ mục, tài liệu tham khảo rõ ràng; rất tiện khi người đọc khi cần tra cứu, trích dẫn,... Và chỉ cần 1 điểm nhỏ như vậy thôi là đủ ghi điểm và khiến mình đánh giá "có tâm" hơn rồi.     
+Cắt nghĩa chữ tử tế ở đây là sách có mục lục, chỉ mục, tài liệu tham khảo rõ ràng; rất tiện khi người đọc khi cần tra cứu, trích dẫn,... Và chỉ cần 1 điểm nhỏ như vậy thôi là đủ ghi điểm và khiến mình đánh giá "có tâm" hơn rồi. 
+
+"Hiệu ứng chim mồi" là cuốn sách về những ứng dụng thực tiễn của tâm lý học; được đúc kết từ những kinh nghiệm của tác giả và nhiều nhân vật nổi tiếng khác. Tác giả giải thích nhiều "chiến thuật" trong kinh doanh bằng các khái niệm đơn giản, dễ hiểu. 
       
-Mình tình cờ biết đến cuốn sách thông qua những bài viết ngắn về kinh tế, bán hàng,... ở Fanpage [Hiệu ứng chim mồi](https://www.facebook.com/hieuungchimmoi/) (các bạn có thể tìm đọc tại website [ecoblader.com](http://www.ecoblader.com/)). Tuy nhiên nếu nói là tình cờ thì là đã bỏ qua công sức marketing, chạy quảng cáo, bán hàng... của ekip. Đứng ở góc nhìn của tác giả thì mình thấy chẳng có vấn đề gì cả; độc giả (ở đây là mình) vẫn mua sách, review tốt,... vậy là đạt được mục tiêu lớn nhất rồi. Đâu cần phải bắt độc giả phải hiểu về những nỗi khổ trong ngành làm chi? Thế nhưng đứng từ góc nhìn của người đọc thì lại là 1 thiếu sót lớn vô cùng. Thiếu sót về tầm nhìn, không hiểu tại sao họ lại tạo được động lực để mình chi tiền mua sách, hiểu được lý do nào mà mình lại hành động như vậy. Đối với mình cảm giác như là bị "thôi miên" vậy, và tất nhiên mình rất ghét việc đó, cớ gì phải chịu việc người khác hiểu rõ bản thân mình hơn là chính mình?
+Mình tình cờ biết đến cuốn sách thông qua những bài viết ngắn về kinh tế, bán hàng,... ở Fanpage [Hiệu ứng chim mồi](https://www.facebook.com/hieuungchimmoi/) (các bạn có thể tìm đọc tại website [ecoblader.com](http://www.ecoblader.com/)). 
+Tuy nhiên nếu nói là tình cờ thì là đã bỏ qua công sức marketing, chạy quảng cáo, bán hàng... của ekip. 
+Đứng ở góc nhìn của tác giả thì mình thấy chẳng có vấn đề gì cả; độc giả (ở đây là mình) vẫn mua sách, review tốt,... vậy là đạt được mục tiêu lớn nhất rồi. 
+Đâu cần phải bắt độc giả phải hiểu về những nỗi khổ trong ngành làm chi? Thế nhưng đứng từ góc nhìn của người đọc thì lại là 1 thiếu sót lớn vô cùng. 
+Thiếu sót về tầm nhìn, không hiểu tại sao họ lại tạo được động lực để mình chi tiền mua sách, hiểu được lý do nào mà mình lại hành động như vậy.
+Đối với mình cảm giác như là bị "thôi miên" vậy, và tất nhiên mình rất ghét việc đó, cớ gì phải chịu việc người khác hiểu rõ bản thân mình hơn là chính mình?
 
 Trước đây mình vẫn hay nghe mọi người khi nói về 1 người bán hàng đắt khách là "có duyên bán hàng", "duyên" ở đây nghe đôi phần như 1 khả năng trời phú, tuỳ người mới có được. Dần dần mới nhận ra chẳng phải đâu, họ có 1 cái phẩm chất gì đó mà số đông không nhận ra được thôi. Có thể đó là năng khiếu ăn nói, thấu hiểu thị trường, hay là việc đặt giá tiền sản phẩm là 9k9 thay vì 10k chẳng hạn... Bán hàng quả là 1 nghệ thuật phức tạp cần phải chú tâm vào 1 lô lốc những tiểu tiết. Ngày xưa mình cứ nghĩ là kinh tế dễ mà; sao khó bằng vi phân, đạo hàm,... được. Dần mới nhận ra mỗi nghề đều có cái hay và khó riêng của nó; mọi thành công đều đáng được trân trọng. 
 
@@ -64,3 +72,35 @@ Trước khi đọc cuốn sách này mình đã đọc review trước, có 1 n
 Tèn tèn, vậy là diễn biến tâm lý đúng như 1 trong 2 quy tắc gieo ý tưởng chi phối có viết trong cuốn sách. Quy tắc đó như thế này "Mọi ý tưởng hay kết luận, một khi đã xâm nhập vào tâm trí, sẽ được mặc định là đúng cho tới khi xuất hiện ý tưởng đối nghịch". Do ý tưởng mặc định của mình về cuốn sách đã là ngắn - chữ to - phí tiền rồi nên cái suy nghĩ đó vẫn theo mình khá lâu; cho đến lúc ngồi nghĩ nghiêm túc lại thì mới thấy không đồng tình với đánh giá đó. Đối với mình thì hoàn toàn ổn, chẳng thấy phí tiền 1 chút nào. 
 
 Còn rất nhiều điều hay và lạ được tác giả nêu ra trong cuốn sách. Tất nhiên phần đa là những học thuyết nổi tiếng, được đề cập ở nhiều nơi rồi. Mình đánh giá khá cao cuốn sách, các bạn ngoại đạo có thể đọc thử và coi như là bước đầu tiên để tìm hiểu về tâm lý, kinh tế học,... chẳng hạn.
+
+
+### <a name="o-lai-thanh-pho-hay-ve-que">Ở lại thành phố hay về quê</a>
+
+- Tác giả: Mèo Maverick
+- Thể loại: ???
+- Khuyên đọc: 7/10 (các bạn trẻ thiếu động lực làm việc, sinh viên rất nên đọc)
+
+Đời sống của 1 người đi làm khác rất nhiều đời sống của sinh viên; từ ghế nhà trường sang môi trường văn phòng quả là 1 sự thay đổi lớn. Cũng do thời sinh viên mình vẫn được bố mẹ chu cấp khá đầy đủ, nỗi lo cơm áo gạo tiền không lớn; dù có đi thực tập/làm thêm thì cũng chỉ là kiếm thêm tiền, kinh nghiệm thôi. Giờ đến lúc đi làm toàn thời gian rồi, có nhiều thời gian suy nghĩ nhiều hơn mới thấy có những chuyện mà phải trải qua hoàn toàn mình mới thực sự hiểu được vấn đề.
+
+"Ở lại thành phố hay về quê" là cuốn sách giúp định hướng những suy nghĩ của người trẻ về đời sống, cơm áo gạo tiền, con đường sự nghiệp... Có thể những bạn trẻ đều sẽ nhận ra điều đó sau 1 vài năm làm việc thôi, thế nhưng nếu biết sớm và chuẩn bị tinh thần trước là sẽ tiết kiệm được vài năm tuổi trẻ rồi.
+
+Cuốn sách chia thành 3 chương, mỗi chương gồm nhiều luận điểm và các luận cứ, dẫn chứng củng cố cho luận cứ đó. Cũng có 1 vài suy nghĩ khá hay, xin được trích dẫn lại 1 phần nho nhỏ:
+
+**1. Bạn có tư cách gì mà nghi ngờ thành công của người ta?**
+Ở trường học đánh giá người học qua điểm số; ra đời thì đánh giá qua nhiều khía cạnh: tiền bạc, địa vị,... Thế nên nếu có ai đó ngày xưa có học dốt hơn bạn mà giờ bạn lại thấy thành công hơn thì cũng chẳng có lý do gì mà phải thắc mắc cả. Quan hệ xã hội, kỹ năng giao tiếp... là những yếu tố quan trọng để đạt đến thành công.
+
+**2. Có người giúp bạn là may mắn, không ai giúp bạn là điều bình thường.**
+Có người nâng đỡ, dọn đường sẵn để phát triển,... là những điều may mắn lắm chúng ta mới có được. Thế nhưng nếu sinh ra trong hoàn cảnh khó khăn thì là 1 điều hết sức hiển nhiên, chẳng phải ai cũng vậy sao? Nếu không có được điều kiện đó thì thôi tốt nhất là tự thân vận động, học tập, làm việc,... Nhất định sẽ có 1 lúc có quý nhân phù trợ xuất hiện (trừ khi kỹ năng bạn kém quá, bị nhiều người ghét thì chịu rồi). Gần đây mình có được nghe 1 chị CEO nói "Hãy kết nối, bạn sẽ được nối" và thấy rất đúng. Mở rộng lòng mình hơn, nhất định quý nhân sẽ xuất hiện.
+
+**3. Đừng chờ đợi, tình yêu đang đợi bạn trên đường.**
+Trong cuốn sách còn có 1 câu chuyện về những con người sẵn sàng bỏ công danh, tiền tài để chạy theo người mình yêu, thế nhưng chẳng dám hi sinh những thứ như thế cho sự nghiệp cả đời của mình. Lòng người thì dễ thay đổi, chạy theo người thì ta vẫn sẽ mãi là người bị động thôi.
+
+**4. Nghỉ việc đi du lịch, đầu tiên hãy cúi đầu nhìn ví tiền.**
+Mọi người thường đăng ảnh du lịch, checkin khoe với mọi người được đi du lịch chỗ này, chỗ kia; thấy ai đó sẵn sàng bỏ việc đi du lịch quả là đáng ngưỡng mộ. Thiết nghĩ nên bình tâm lại, tự nhìn điều kiện của mình/của người là ở đâu mà người ta dám bỏ việc. Biết đâu người ta có bố mẹ dọn chỗ sẵn, hay có tài năng siêu phàm nộp CV là bao nhiêu nơi mời về làm. Nếu chưa đạt được tầm như vậy thì tốt nhất cứ chăm chỉ rèn luyện tại vị trí của mình thì hơn.
+
+**5. Nếu môi trường không tự thay đổi, tôi sẽ tự đi.**
+
+**6. Chuẩn bị nắm bắt cơ hội.**
+Có những mục tiêu cần sự rèn luyện, chuẩn bị trong 1 thời gian dài mới thành công. Bình tĩnh chờ thời, tập trung giới hạn vào mục tiêu nào đó rồi sẽ có lúc bạn đạt được.
+
+Ngoài ra còn nhiều câu chuyện khác mà mình thấy áp dụng được trong cuộc sống của mình. Có 1 điểm không ưng ở cuốn sách là cách viết thấy hơi ngắn ngắn, cụt cụt; y như mình viết blog vậy.
