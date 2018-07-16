@@ -13,7 +13,7 @@ Tối hôm đó nhiều khả năng Facebook sẽ gợi ý mình kết bạn v�
 
 Vì mình thường sẽ thấy vui khi nhận những tin nhắn như vậy. Mình hiếm khi accept bạn bè với những người lạ, do không có nhu cầu chia sẻ những thông tin của mình quá nhiều. Thế nhưng nếu có thêm 1 tin nhắn nho nhỏ giới thiệu mình lại thấy thoải mái hơn, sẵn sàng nói chuyện, kết bạn với những người xa lạ rồi.
 
-Nhân thể gần đây mình có nhận được 1 request kết bạn từ 1 người mình chưa gặp bao giờ; thế nhưng có nghe về anh/chị này đôi lần thì thấy có vẻ là 1 người thú vị nên mình có accept và nhắn tin lại "Em đã gặp anh/chị bao giờ chưa ạ?". Đáp lại là 1 chữ seen đầy đáng yêu :)Đôi phần thất vọng, kể ra cũng chẳng to tát gì, có thể là người đó bị miss mất thông báo thôi nhưng mà điều này làm mình cảm thấy có đôi phần không được tôn trọng.
+Nhân thể gần đây mình có nhận được 1 request kết bạn từ 1 người mình chưa gặp bao giờ; thế nhưng có nghe về anh/chị này đôi lần thì thấy có vẻ là 1 người thú vị nên mình có accept và nhắn tin lại "Em đã gặp anh/chị bao giờ chưa ạ?". Đáp lại là 1 chữ seen đầy đáng yêu :) Đôi phần thất vọng, kể ra cũng chẳng to tát gì, có thể là người đó bị miss mất thông báo thôi nhưng mà điều này làm mình cảm thấy có đôi phần không được tôn trọng.
 
 Bye bye, có lẽ chúng ta sẽ không bao giờ gặp nhau :D
 
