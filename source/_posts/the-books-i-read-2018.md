@@ -80,7 +80,7 @@ Còn rất nhiều điều hay và lạ được tác giả nêu ra trong cuốn
 - Thể loại: ???
 - Khuyên đọc: 7/10 (các bạn trẻ thiếu động lực làm việc, sinh viên rất nên đọc)
 
-Đời sống của 1 người đi làm khác rất nhiều đời sống của sinh viên; từ ghế nhà trường sang môi trường văn phòng quả là 1 sự thay đổi lớn. Cũng do thời sinh viên mình vẫn được bố mẹ chu cấp khá đầy đủ, gánh lo cơm áo gạo tiền không lớn; dù có đi thực tập/làm thêm thì cũng chỉ là kiếm thêm tiền, kinh nghiệm thôi. Giờ đến lúc đi làm toàn thời gian rồi, có nhiều thời gian suy nghĩ nhiều hơn mới thấy có những chuyện mà phải trải qua hoàn toàn mình mới thực sự hiểu được vấn đề.
+Đời sống của 1 người đi làm khác rất nhiều đời sống của sinh viên; từ ghế nhà trường sang môi trường văn phòng quả là 1 sự thay đổi lớn. Cũng do thời sinh viên mình vẫn được bố mẹ chu cấp khá đầy đủ, nỗi lo cơm áo gạo tiền không lớn; dù có đi thực tập/làm thêm thì cũng chỉ là kiếm thêm tiền, kinh nghiệm thôi. Giờ đến lúc đi làm toàn thời gian rồi, có nhiều thời gian suy nghĩ nhiều hơn mới thấy có những chuyện mà phải trải qua hoàn toàn mình mới thực sự hiểu được vấn đề.
 
 "Ở lại thành phố hay về quê" là cuốn sách giúp định hướng những suy nghĩ của người trẻ về đời sống, cơm áo gạo tiền, con đường sự nghiệp... Có thể những bạn trẻ đều sẽ nhận ra điều đó sau 1 vài năm làm việc thôi, thế nhưng nếu biết sớm và chuẩn bị tinh thần trước là sẽ tiết kiệm được vài năm tuổi trẻ rồi.
 
