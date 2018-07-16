@@ -86,21 +86,21 @@ Còn rất nhiều điều hay và lạ được tác giả nêu ra trong cuốn
 
 Cuốn sách chia thành 3 chương, mỗi chương gồm nhiều luận điểm và các luận cứ, dẫn chứng củng cố cho luận cứ đó. Cũng có 1 vài suy nghĩ khá hay, xin được trích dẫn lại 1 phần nho nhỏ:
 
-1. Bạn có tư cách gì mà nghi ngờ thành công của người ta?
+**1. Bạn có tư cách gì mà nghi ngờ thành công của người ta?**
 Ở trường học đánh giá người học qua điểm số; ra đời thì đánh giá qua nhiều khía cạnh: tiền bạc, địa vị,... Thế nên nếu có ai đó ngày xưa có học dốt hơn bạn mà giờ bạn lại thấy thành công hơn thì cũng chẳng có lý do gì mà phải thắc mắc cả. Quan hệ xã hội, kỹ năng giao tiếp... là những yếu tố quan trọng để đạt đến thành công.
 
-2. Có người giúp bạn là may mắn, không ai giúp bạn là điều bình thường.
+**2. Có người giúp bạn là may mắn, không ai giúp bạn là điều bình thường.**
 Có người nâng đỡ, dọn đường sẵn để phát triển,... là những điều may mắn lắm chúng ta mới có được. Thế nhưng nếu sinh ra trong hoàn cảnh khó khăn thì là 1 điều hết sức hiển nhiên, chẳng phải ai cũng vậy sao? Nếu không có được điều kiện đó thì thôi tốt nhất là tự thân vận động, học tập, làm việc,... Nhất định sẽ có 1 lúc có quý nhân phù trợ xuất hiện (trừ khi kỹ năng bạn kém quá, bị nhiều người ghét thì chịu rồi). Gần đây mình có được nghe 1 chị CEO nói "Hãy kết nối, bạn sẽ được nối" và thấy rất đúng. Mở rộng lòng mình hơn, nhất định quý nhân sẽ xuất hiện.
 
-3. Đừng chờ đợi, tình yêu đang đợi bạn trên đường.
+**3. Đừng chờ đợi, tình yêu đang đợi bạn trên đường.**
 Trong cuốn sách còn có 1 câu chuyện về những con người sẵn sàng bỏ công danh, tiền tài để chạy theo người mình yêu, thế nhưng chẳng dám hi sinh những thứ như thế cho sự nghiệp cả đời của mình. Lòng người thì dễ thay đổi, chạy theo người thì ta vẫn sẽ mãi là người bị động thôi.
 
-4. Nghỉ việc đi du lịch, đầu tiên hãy cúi đầu nhìn ví tiền.
+**4. Nghỉ việc đi du lịch, đầu tiên hãy cúi đầu nhìn ví tiền.**
 Mọi người thường đăng ảnh du lịch, checkin khoe với mọi người được đi du lịch chỗ này, chỗ kia; thấy ai đó sẵn sàng bỏ việc đi du lịch quả là đáng ngưỡng mộ. Thiết nghĩ nên bình tâm lại, tự nhìn điều kiện của mình/của người là ở đâu mà người ta dám bỏ việc. Biết đâu người ta có bố mẹ dọn chỗ sẵn, hay có tài năng siêu phàm nộp CV là bao nhiêu nơi mời về làm. Nếu chưa đạt được tầm như vậy thì tốt nhất cứ chăm chỉ rèn luyện tại vị trí của mình thì hơn.
 
-5. Nếu môi trường không tự thay đổi, tôi sẽ tự đi.
+**5. Nếu môi trường không tự thay đổi, tôi sẽ tự đi.**
 
-6. Chuẩn bị nắm bắt cơ hội.
+**6. Chuẩn bị nắm bắt cơ hội.**
 Có những mục tiêu cần sự rèn luyện, chuẩn bị trong 1 thời gian dài mới thành công. Bình tĩnh chờ thời, tập trung giới hạn vào mục tiêu nào đó rồi sẽ có lúc bạn đạt được.
 
 Ngoài ra còn nhiều câu chuyện khác mà mình thấy áp dụng được trong cuộc sống của mình. Có 1 điểm không ưng ở cuốn sách là cách viết thấy hơi ngắn ngắn, cụt cụt; y như mình viết blog vậy.
