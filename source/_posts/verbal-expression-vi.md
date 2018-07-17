@@ -73,15 +73,16 @@ int checkMatchStubPattern(char* string) {
 
 Tất nhiên, không ai có thể thể nói cách làm của bạn không đúng - miễn là bạn có thể giải quyết vấn đề của bạn :)) Tuy nhiên trong thực tế những pattern trên string khá đa dạng và cần nhiều xử lý đặc biệt. Bạn sẽ phải code nhiều hơn, điều này tương đương với nguy cơ bug nhiều hơn, khó maintain hơn,... Và người ta đã tạo ra `Regular Expression - Regex` để giải quyết vấn đề đó. Đây quả thật là một phát minh lớn, thay đổi hoàn toàn cách mà chúng ta tương tác với string. Dẫn chứng đơn giản nhất thể hiện sự tuyệt vời của nó là hầu như mọi ngôn ngữ hiện tại đều support sử dụng regex trong xử lý string.
 
+Regex quả là 1 cách hiệu quả để giải quyết vấn đề liên quan đến string , thế nhưng regex lại đi kèm đến một vấn đề khác là nó thực sự khó tiếp cận (có lẽ do bản thân các pattern trên string khá phức tạp, bạn có thể nhận ra phần nào dựa vào ví dụ dưới đây).
+
 ![Đoạn regex để kiểm tra 1 chuỗi có phải là url hay không](https://i.imgur.com/nMveuD7.png)
 
-Regex quả là 1 cách hiệu quả để giải quyết vấn đề liên quan đến string , thế nhưng regex lại đi kèm đến một vấn đề khác là nó thực sự khó tiếp cận (có lẽ do bản thân các pattern trên string khá phức tạp, bạn có thể nhận ra phần nào dựa vào ví dụ ở phía trên).
+Cú pháp rối mắt; khó đọc và khó hiểu là lý do lớn cản trở đến việc sử dụng regex. Chưa kể đến việc số lần cần sử dụng regex trong công việc là tương đối ít; chi phí RoI (return-on-investment) là quá lớn. Đến 80% những chuỗi regex thường hay sử dụng đều có thể tìm thấy dễ dàng trên mạng (mật khẩu, url, ip,...). Liệu bạn có sẵn sàng bỏ ra 1 vài tuần để học 1 thứ mà bạn biết là sẽ cực kỳ ít sử dụng và nhiều khả năng có thể tìm thấy câu trả lời ở trên internet không? Duy trì tư duy đó dẫn đến đa số việc các lập trình viên có xu hướng đi copy các đoạn regex sẵn có để sử dụng trong dự án của mình; ngay cả khi chuỗi đó không tồn tại trên mạng thì cũng cố gắng tìm 1 chuỗi gần đúng với yêu cầu nhất và sửa lại cho phù hợp với nhu cầu của mình. Thậm chí có trường hợp mất đến vài tiếng đến cả ngày trời tìm ra được 1 đoạn regex gần giống và sửa lại thay vì mất 1 tiếng tập trung nghiên cứu và tự viết đoạn regex phù hợp với yêu cầu của mình.
 
-![image](https://i.imgur.com/j3G9xyP.png)
+![In every angel a demon hides...](https://i.imgur.com/j3G9xyP.png)
 
-Cú pháp rối mắt; khó đọc và khó hiểu là lý do lớn cản trở đến việc sử dụng regex. Chưa kể đến việc số lần cần sử dụng regex trong công việc là tương đối ít; chi phí RoI (return-on-investment) là quá lớn. Đến 80% những chuỗi regex thường hay sử dụng đều có thể tìm thấy dễ dàng trên mạng (mật khẩu, url, ip,...). Liệu bạn có sẵn sàng bỏ ra 1 vài tuần để học 1 thứ mà bạn biết là sẽ cực kỳ ít sử dụng và nhiều khả năng có thể tìm thấy câu trả lời ở trên internet không? Duy trì tư duy đó dẫn đến đa số việc các lập trình viên có xu hướng đi copy các đoạn regex sẵn có để sử dụng trong dự án của mình; ngay cả khi chuỗi đó không tồn tại trên mạng thì cũng cố gắng tìm 1 chuỗi gần đúng với yêu cầu nhất và sửa lại cho phù hợp với nhu cầu của mình.
 
-Để giải quyết vấn đề đó thì có 1 cách khác hiệu quả hơn là [`Verbal Expressions`](http://verbalexpressions.github.io/); đây là 1 thư viện giúp việc xây dựng những đoạn regex phức tạp dễ dàng hơn. Thư viện hỗ trợ hầu hết các ngôn ngữ phổ biến (Java, C,...), thậm chí với JSVerbalExpressions có đến hơn 10k stars trên Github. 
+Để giải quyết vấn đề đó thì có 1 cách khác hiệu quả hơn là [`Verbal Expressions`](http://verbalexpressions.github.io/); đây là 1 thư viện giúp việc xây dựng những đoạn regex phức tạp. Thư viện mã nguồn mở hỗ trợ hầu hết các ngôn ngữ phổ biến (Java, C, JS...); được cộng đồng đánh giá rất cao (JSVerbalExpressions có trên 10k stars). 
 
 ``` javascript
 VerEx()
@@ -93,14 +94,14 @@ VerEx()
 .endOfLine();
 ``` 
 
-Nhìn qua cũng có thể đoán được công dụng của đoạn code này rồi; đầu tiên là 1 dòng mới, yêu cầu có `http`, có thể có `s` hoặc không (`http` hay `https` đều được), cần thêm `://`, sau đó bất kỳ ký tự nào miên không phải khoảng trống. Vậy là ta đã có thể match được 1 đoạn url rồi. Regex tương ứng với đoạn code trên là `/^(?:http)(?:s)?(?:\:\/\/)(?:[^ ]*)$/`, regex được sinh ra tuy có khác với đoạn regex trên nhưng công dụng hoàn toàn như nhau.
+Nhìn qua cũng có thể đoán được công dụng của đoạn code trên; đầu tiên là 1 dòng mới, yêu cầu có `http`, có thể có `s` hoặc không (`http` hay `https` đều được), cần thêm `://`, sau đó bất kỳ ký tự nào miễn không phải khoảng trống. Vậy là ta đã có thể match được 1 đoạn url rồi. Regex tương ứng với đoạn code trên là `/^(?:http)(?:s)?(?:\:\/\/)(?:[^ ]*)$/`, regex được sinh ra tuy có khác với đoạn regex trên nhưng công dụng hoàn toàn như nhau.
 
-VerbalExpressions đã giải quyết được vấn đề lớn nhất của regex là khó đọc, khó nhớ. Độ tiện lợi cũng như chuyển từ viết query SQL sang dùng ORM vậy. Cú pháp đơn giản, dễ dùng và quen thuộc với lập trình viên; có thể học và sử dụng sau 1 thời gian ngắn.
+VerbalExpressions đã giải quyết được vấn đề lớn nhất của regex là khó đọc, khó nhớ. Độ tiện lợi cũng như chuyển từ viết query SQL sang dùng ORM vậy. Bên cạnh đó cú pháp đơn giản, dễ dùng và rất quen thuộc với lập trình viên; bạn có thể viết được 1 đoạn code sinh ra regex cần thiết chỉ sau ít phút làm quen với Verbal Expressions.
 
-Tuy nhiên VerbalExpressions có 1 nhược điểm là cần phải import thư viện vào mới sử dụng được; đối với 1 số dự án thì có thể việc import thêm thư viện mà chỉ sử dụng ở 1 nơi là khá mất công. Chưa kể đối với những dự án mà khách hàng kiểm tra dependency sát sao thì có thể sẽ không được dùng. Trong trường hợp đó các bạn có thể sử dụng VerbalExpressions để sinh ra regex, sau đó sử dụng thư viện regex mặc định của ngôn ngữ là vấn đề sẽ được giải quyết.
+Tuy nhiên VerbalExpressions có 1 nhược điểm là cần phải import thư viện vào mới sử dụng được; việc này có thể khá mất công nếu chỉ dùng thư viện 1 lần. Chưa kể đối với những dự án mà khách hàng kiểm tra dependency sát sao thì có thể sẽ không được dùng. Trong trường hợp đó các bạn có thể sử dụng [verbalregex](https://verbalregex.com/) để code và sinh ra regex, sau đó sử dụng thư viện regex mặc định của ngôn ngữ là vấn đề sẽ được giải quyết.
 
-[Công cụ online hỗ trợ xây dựng xây dựng regex](https://i.imgur.com/w0uMzYE.png)
+![Công cụ online hỗ trợ xây dựng xây dựng regex](https://i.imgur.com/w0uMzYE.png)
 
-Các bạn có thể sử dụng công cụ trên tại [verbalregex.com](https://verbalregex.com/).
+Các bạn có thể sử dụng tool trên tại [verbalregex.com](https://verbalregex.com/).
 
-VerbalExpressions ũng giống như ORM vậy, đôi khi các bạn vẫn cần phải viết câu lệnh query để xử lý những câu lệnh phức tạp. VerbalExpressions có thể coi là 1 cách viết regex đơn giản và dễ dùng, có thể viết được phần lớn những đoạn regex bất thường mà chúng ta cần phải xây dựng.
+VerbalExpressions không thể thay thế cho regex, cũng giống như ORM không thể thay cho những câu query được; chúng ta vẫn cần phải sử dụng regex (hay viết query) cho những trường hợp phức tạp. Tuy nhiên VerbalExpressions vẫn là 1 cách sử dụng regex gián tiếp hiệu quả và dễ dùng, có thể xây dựng phần lớn những đoạn regex "lạ" mà chúng ta bất ngờ gặp phải.
