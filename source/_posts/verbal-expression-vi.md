@@ -104,4 +104,4 @@ Tuy nhiên VerbalExpressions có 1 nhược điểm là cần phải import thư
 
 Các bạn có thể sử dụng tool trên tại [verbalregex.com](https://verbalregex.com/).
 
-VerbalExpressions không thể thay thế cho regex, cũng giống như ORM không thể thay cho những câu query được; chúng ta vẫn cần phải sử dụng regex (hay viết query) cho những trường hợp phức tạp. Tuy nhiên VerbalExpressions vẫn là 1 cách sử dụng regex gián tiếp hiệu quả và dễ dùng, có thể xây dựng phần lớn những đoạn regex "lạ" mà chúng ta bất ngờ gặp phải.
+VerbalExpressions không thể thay thế cho regex, cũng giống như ORM không thể thay cho những câu query được; chúng ta vẫn cần phải sử dụng regex (hay viết query) cho những trường hợp phức tạp. Tuy nhiên VerbalExpressions vẫn là 1 cách sử dụng regex gián tiếp hiệu quả và dễ dùng, giúp dễ dàng xây dựng những đoạn regex "lạ" mà chúng ta cần sử dụng.
