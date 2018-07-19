@@ -5,9 +5,9 @@ tags: technical
 thumbnail: https://i.imgur.com/nMveuD7.png
 ---
 
-Một trong những đối tượng chính của programming là `string`, khi tiếp cận với bất cứ ngôn ngữ nào mới, cái đầu tiên mà bạn sẽ tìm kiếm, có lẽ sẽ theo thứ tự dạng như: variable, assignment, operation (number/string), ... Rõ ràng xử lý chuỗi là việc không thể thiếu trong công cuộc kiếm cơm của dev chúng ta :))
+Một trong những đối tượng chính của programming là `string`. Khi tiếp cận với bất cứ ngôn ngữ nào mới, thứ tự học của bạn có lẽ sẽ theo trình tự như sau: variable, assignment, string, operators... Rõ ràng xử lý chuỗi là việc không thể thiếu trong công cuộc kiếm cơm của dev chúng ta :)
 
-Những tác vụ xử lý chuỗi thường gặp như: check match, replace,... Hầu như đa phần trong số các tác vụ đó có 1 vấn đề chung cần giải quyết là phải tìm cách xác định được 1 pattern nào đó của string, xem thành phần nào trong string mà bạn cần tương tác. Khi mới bắt tay học lập trình, nhiều khả năng bạn đã từng viết 1 vài đoạn code kiểu như:
+Những tác vụ xử lý chuỗi thường gặp như: check match, replace,... Trong số các tác vụ đó có 1 vấn đề chung cần giải quyết là phải tìm cách xác định được 1 pattern nào đó của string, xem thành phần nào trong string mà bạn cần tương tác. Nhiều khả năng bạn đã giải quyết vấn đề đó khi mới học lập trình như thế này:
 
 ```C
 int checkMatchStubPattern(char* string) {
@@ -19,7 +19,7 @@ int checkMatchStubPattern(char* string) {
 }
 ```
 
-Tất nhiên, không ai có thể thể nói cách làm của bạn không đúng - miễn là bạn có thể giải quyết vấn đề của bạn :)) Tuy nhiên trong thực tế những pattern trên string khá đa dạng và cần nhiều xử lý đặc biệt (VD: thay các địa chỉ email trong văn bản bằng ***). Bạn sẽ phải code nhiều hơn, điều này tương đương với nguy cơ bug nhiều hơn, khó maintain hơn,... Và người ta đã tạo ra `Regular Expression - Regex` để giải quyết vấn đề đó. Đây quả thật là một phát minh lớn, thay đổi hoàn toàn cách mà chúng ta tương tác với string. Dẫn chứng đơn giản nhất thể hiện sự tuyệt vời của nó là hầu như mọi ngôn ngữ hiện tại đều support sử dụng regex trong xử lý string.
+Tất nhiên, không ai có thể thể nói cách làm của bạn không đúng - miễn là bạn có thể giải quyết vấn đề của bạn :)) Tuy nhiên trong thực tế những pattern trên string khá đa dạng và cần nhiều xử lý đặc biệt (VD: thay các địa chỉ email trong văn bản bằng ***). Bạn sẽ phải code nhiều hơn, điều này tương đương với nguy cơ bug nhiều hơn, khó maintain hơn,... Và người ta đã tạo ra `Regular Expression - Regex` để giải quyết vấn đề trên. Đây quả thật là một phát minh lớn, thay đổi hoàn toàn cách mà chúng ta tương tác với string. Dẫn chứng đơn giản nhất thể hiện sự tuyệt vời của nó là hầu như mọi ngôn ngữ hiện tại đều support sử dụng regex trong xử lý string.
 
 >Biểu thức chính quy (tiếng Anh: regular expression, viết tắt là regexp, regex hay regxp) là một chuỗi miêu tả một bộ các chuỗi khác, theo những quy tắc cú pháp nhất định. Biểu thức chính quy thường được dùng trong các trình biên tập văn bản và các tiện ích tìm kiếm và xử lý văn bản dựa trên các mẫu được quy định. (nguồn từ Wikipedia)
 
@@ -43,7 +43,7 @@ VerEx()
 .endOfLine();
 ``` 
 
-Nhìn qua chăc các bạn cũng có thể đoán được phần nào công dụng của đoạn code trên; đầu tiên là 1 dòng mới, yêu cầu có `http`, có thể có `s` hoặc không (`http` hay `https` đều được), cần thêm `://`, sau đó bất kỳ ký tự nào miễn không phải khoảng trống. Vậy là ta đã có thể match được 1 đoạn url rồi. Regex được sinh ra từ đoạn code trên là `/^(?:http)(?:s)?(?:\:\/\/)(?:[^ ]*)$/`, tuy có khác với đoạn regex ban đầu nhưng công dụng hoàn toàn như nhau.
+Công dụng của đoạn code trên có lẽ các bạn đều đã hiểu; đầu tiên là 1 dòng mới và `http`, có thể có `s` hoặc không (vì `http` hay `https` đều được), cần thêm `://`, sau đó bất kỳ ký tự nào miễn không phải khoảng trống. Vậy là ta đã có thể match được 1 đoạn url rồi. Regex được sinh ra từ đoạn code trên là `/^(?:http)(?:s)?(?:\:\/\/)(?:[^ ]*)$/`, tuy có khác với đoạn regex ban đầu nhưng công dụng hoàn toàn như nhau.
 
 VerbalExpressions đã giải quyết được vấn đề lớn nhất của regex là khó đọc, khó nhớ. Tiện lợi cũng như chúng ta chuyển từ viết query SQL sang dùng ORM vậy. Bên cạnh đó cú pháp đơn giản, dễ dùng và rất quen thuộc với lập trình viên; giúp người sử dụng có thể viết được đoạn code sinh ra regex cần thiết chỉ sau ít phút làm quen với VerbalExpressions.
 
