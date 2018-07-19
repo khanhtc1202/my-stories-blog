@@ -7,7 +7,7 @@ thumbnail: https://i.imgur.com/nMveuD7.png
 
 Một trong những đối tượng chính của programming là `string`. Khi tiếp cận với bất cứ ngôn ngữ nào mới, thứ tự học của bạn có lẽ sẽ theo trình tự như sau: variable, assignment, string, operators... Rõ ràng xử lý chuỗi là việc không thể thiếu trong công cuộc kiếm cơm của dev chúng ta :)
 
-Những tác vụ xử lý chuỗi thường gặp như: check match, replace,... Trong số các tác vụ đó có 1 vấn đề chung cần giải quyết là phải tìm cách xác định được 1 pattern nào đó của string, xem thành phần nào trong string mà bạn cần tương tác. Nhiều khả năng bạn đã giải quyết vấn đề đó khi mới học lập trình như thế này:
+Có 1 số tác vụ xử lý chuỗi thường gặp như: check match, replace,... Trong số đó có 1 vấn đề chung cần giải quyết là phải tìm cách xác định được 1 pattern nào đó trong string, tìm ra được phần mà bạn cần tương tác. Nhiều khả năng bạn đã giải quyết vấn đề đó khi mới học lập trình như thế này:
 
 ```C
 int checkMatchStubPattern(char* string) {
