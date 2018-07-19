@@ -7,7 +7,7 @@ thumbnail: https://i.imgur.com/nMveuD7.png
 
 Một trong những đối tượng chính của programming là `string`. Khi tiếp cận với bất cứ ngôn ngữ nào mới, thứ tự học của bạn có lẽ sẽ theo trình tự như sau: variable, assignment, string, operators... Rõ ràng xử lý chuỗi là việc không thể thiếu trong công cuộc kiếm cơm của dev chúng ta :)
 
-Có 1 số tác vụ xử lý chuỗi thường gặp như: check match, replace,... Trong số đó có 1 vấn đề chung cần giải quyết là phải tìm cách xác định được 1 pattern nào đó trong string, tìm ra được phần mà bạn cần tương tác. Nhiều khả năng bạn đã giải quyết vấn đề đó khi mới học lập trình như thế này:
+Có 1 số tác vụ xử lý chuỗi thường gặp như: check match, replace,... Trong số đó có 1 vấn đề chung cần giải quyết là phải tìm cách xác định được 1 pattern nào đó trong string, tìm ra được phần mà bạn cần tương tác. Nhiều khả năng khi mới học lập trình bạn đã giải quyết vấn đề đó như thế này:
 
 ```C
 int checkMatchStubPattern(char* string) {
@@ -19,11 +19,11 @@ int checkMatchStubPattern(char* string) {
 }
 ```
 
-Tất nhiên, không ai có thể thể nói cách làm của bạn không đúng - miễn là bạn có thể giải quyết vấn đề của bạn :)) Tuy nhiên trong thực tế những pattern trên string khá đa dạng và cần nhiều xử lý đặc biệt (VD: thay các địa chỉ email trong văn bản bằng ***). Bạn sẽ phải code nhiều hơn, điều này tương đương với nguy cơ bug nhiều hơn, khó maintain hơn,... Và người ta đã tạo ra `Regular Expression - Regex` để giải quyết vấn đề trên. Đây quả thật là một phát minh lớn, thay đổi hoàn toàn cách mà chúng ta tương tác với string. Dẫn chứng đơn giản nhất thể hiện sự tuyệt vời của nó là hầu như mọi ngôn ngữ hiện tại đều support sử dụng regex trong xử lý string.
+Tất nhiên, không ai có thể thể nói cách làm của bạn không đúng - miễn là bạn có thể giải quyết vấn đề :)) Tuy nhiên trong thực tế những pattern trên string khá đa dạng và cần nhiều xử lý đặc biệt (VD: thay các địa chỉ email trong văn bản bằng ***). Bạn sẽ phải code nhiều hơn, tương đương với nguy cơ nhiều bug hơn, khó maintain hơn,... Và người ta đã tạo ra `Regular Expression - Regex` để giải quyết vấn đề trên. Có thể nói đây là một phát minh lớn giúp thay đổi hoàn toàn cách mà chúng ta tương tác với string. Dẫn chứng đơn giản nhất thể hiện sự tuyệt vời của nó là hầu như mọi ngôn ngữ hiện tại đều support sử dụng regex trong xử lý string.
 
 >Biểu thức chính quy (tiếng Anh: regular expression, viết tắt là regexp, regex hay regxp) là một chuỗi miêu tả một bộ các chuỗi khác, theo những quy tắc cú pháp nhất định. Biểu thức chính quy thường được dùng trong các trình biên tập văn bản và các tiện ích tìm kiếm và xử lý văn bản dựa trên các mẫu được quy định. (nguồn từ Wikipedia)
 
-Regex quả là 1 cách hiệu quả để giải quyết vấn đề liên quan đến string , thế nhưng regex lại đi kèm đến một vấn đề khác là nó thực sự khó tiếp cận (có lẽ do bản thân các pattern trên string khá phức tạp, bạn có thể nhận ra phần nào dựa vào ví dụ dưới đây).
+Regex quả là 1 cách hiệu quả để giải quyết vấn đề liên quan đến string, thế nhưng regex lại đi kèm đến một vấn đề khác là nó thực sự khó tiếp cận (có lẽ do bản thân các pattern trên string khá phức tạp, bạn có thể nhận ra phần nào dựa vào ví dụ dưới đây).
 
 ![Đoạn regex để kiểm tra 1 chuỗi có phải là url hay không](https://i.imgur.com/nMveuD7.png)
 
