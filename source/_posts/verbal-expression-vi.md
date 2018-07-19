@@ -1,5 +1,5 @@
 ---
-title: Từ bỏ Regex VerbalExpressions
+title: VerbalExpressions - RegularExpression made easy
 date: 2018-07-03 23:47:27
 tags: technical
 thumbnail: https://i.imgur.com/nMveuD7.png
@@ -33,7 +33,7 @@ Cú pháp rối mắt; khó đọc và khó hiểu là lý do lớn cản trở 
 
 Để giải quyết vấn đề đó thì có 1 cách khác hiệu quả hơn là [`Verbal Expressions`](http://verbalexpressions.github.io/); đây là 1 thư viện giúp đơn giản hoá việc xây dựng, hoặc có thể nói là thay thế cho việc viết regex. Thư viện mã nguồn mở hỗ trợ hầu hết các ngôn ngữ phổ biến (Java, C, JS...); và được cộng đồng đánh giá rất cao (JSVerbalExpressions có trên 10k stars trên github). 
 
-``` javascript
+```javascript
 VerEx()
 .startOfLine()
 .then('http')
