@@ -41,7 +41,7 @@ Hãy chọn hạng vé bằng cách ấn vào phần "○ hoặc số"<br/>
 ○ hoặc số: còn chỗ (lưu ý: số hiển thị là số phòng còn trống)<br/>
 ×: hết chỗ hoặc kết thúc thời gian đặt chỗ<br/>
 －: chưa mở bán<br/>
-☆: đăng ký vào dan sách chờ<br/>
+☆: đăng ký vào danh sách chờ<br/>
 
 #### Giá phòng tính theo đầu người
 
