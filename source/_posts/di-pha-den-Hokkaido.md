@@ -1,7 +1,7 @@
 title: Đi phà đến Hokkaido
 author: Bach Nguyen
 date: 2018-08-06 22:59:58
-tags:
+tags: travel
 ---
 Phương tiện giao thông công cộng của Nhật vô cùng phát triển; đủ cả từ tàu điện, tàu cao tốc, máy bay,... (đáng tiếc là tàu điện từ maglev còn chưa xây dựng xong). Khoảng cách gần có thể đi tàu điện; xa hơn chút nữa thì đi máy bay, Shinkansen. Sắp tới có đợt nghỉ khá dài, mình định đi Hokkaido chơi; với khoảng cách đó có thể đi Shinkansen hoặc máy bay. Máy bay thường có thể tìm được vé rẻ hơn, thế nhưng Shinkansen lại êm hơn, còn được đi qua đoạn hầm xuyên biển Seikan nối giữa đảo Honshu và Hokkaido nữa chứ. 
 
