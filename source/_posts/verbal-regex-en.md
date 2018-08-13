@@ -80,6 +80,6 @@ You can try this tool by accessing [verbalregex.com](https://verbalregex.com/).
 
 ### Conclusion
 
-`VerbalExpressions` is not a replacement of `regex`; but an easy way to write readable `regex`. `Regex` seem to be the best choice in some complicated cases. `VerbalExpressions` can ease the pain of `regex`, and actually make writing expressions fun again. 
+`VerbalExpressions` is not a replacement of `regex`; but an easy way to write readable `regex`. But keep in mind that `Regex` still seem to be the best choice in some complicated cases. `VerbalExpressions` can ease the pain of `regex`, and actually make writing expressions fun again. 
 
 VerbalExpressions không thể thay thế cho regex, cũng giống như ORM không thể thay cho những câu query được. Chúng ta vẫn cần phải sử dụng regex cho những trường hợp phức tạp. Tuy nhiên VerbalExpressions là 1 cách sử dụng regex gián tiếp hiệu quả và dễ dùng, đơn giản hoá việc xây dựng những đoạn regex "lạ" mà chúng ta "không may" gặp phải.
