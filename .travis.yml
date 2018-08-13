@@ -13,11 +13,11 @@ before_install:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: npm install && hexo generate && scp -r $TRAVIS_BUILD_DIR/public/* hoangnm@mystories.vn:/home/hoangnm/web/mystories.vn/html
+    script: npm install && hexo generate && scp -r $TRAVIS_BUILD_DIR/public/* blog@mystories.vn:/home/blog/web/mystories.vn/bach
     on:
       branch: develop
   - provider: script
     skip_cleanup: true
-    script: scp -r $TRAVIS_BUILD_DIR/* hoangnm@125.212.227.42:/home/hoangnm/web/mystories.vn/html
+    script: scp -r $TRAVIS_BUILD_DIR/* blog@mystories.vn:/home/blog/web/mystories.vn/bach
     on:
       branch: master
