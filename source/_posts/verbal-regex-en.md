@@ -26,7 +26,7 @@ Not a wrong way, but a time consuming. You must change the checking logic in eve
 
 ![Check whether a string is a valid url or not](https://i.imgur.com/nMveuD7.png)
 
-Because of complicated syntax, it is very hard to read and understand `Regex`. Futhermore, you seems not to work with `Regex` too often. ROI (return-on-investment) is too low; almost common `Regex` you need to use can be found on the internet (password, url, IP address,...). Are you willing to spend some weeks for learning something that you only use 4 or 5 times a year? Or just skimming over some sites for the result in around 5 minutes? That way of thinking make developers tend to google some `Regex` and modify to fit into their needs. Sometime it can cost some hours to a whole day for the repetition process of searching - modifying...
+Because of complicated syntax, it is very hard to read and understand `Regex`. Furthermore, you seems not to work with `Regex` too often. ROI (return-on-investment) is too low; almost common `Regex` you need to use can be found on the internet (password, url, IP address,...). Are you willing to spend some weeks for learning something that you only use 4 or 5 times a year? Or just skimming over some sites for the result in around 5 minutes? That way of thinking make developers tend to google some `Regex` and modify to fit into their needs. Sometime it can cost some hours to a whole day for the repetition process of searching - modifying...
 
 ![In every angel a demon hides...](https://i.imgur.com/j3G9xyP.png)
 
@@ -53,10 +53,10 @@ VerbalExpressions solve the biggest probelem of `Regex`. It is readable and easy
 
 Anyways, `VerbalExpressions` still have some drawbacks. You need to install a new library to your project, sometimes it is quite painful (e.g. you client, manager... don't think it's neccessary). In that case, you can go to [VerbalRegex](https://verbalregex.com/); write the code and it will generate the `Regex` for you.
 
-![Online tool for generating `Regex`](https://i.imgur.com/w0uMzYE.png)
+![Online tool for generating Regex](https://i.imgur.com/w0uMzYE.png)
 
 Try this tool by accessing [verbalregex.com](https://verbalregex.com/).
 
 ### Conclusion
 
-`VerbalExpressions` is not a replacement of `Regex`; but an easy way to write readable `Regex`. It can ease the pain of `Regex`, and actually make writing expressions fun again. But keep in mind that `Regex` still seem to be the best choice in some complicated cases.
+`VerbalExpressions` is not a replacement of `Regex`; but an easy way to write readable `Regex`. It can ease the pain of `Regex`, and actually make writing expressions fun again. But keep in mind that `Regex` still seems to be the best choice in some complicated cases.
