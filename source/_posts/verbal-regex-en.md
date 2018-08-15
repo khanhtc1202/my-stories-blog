@@ -59,4 +59,4 @@ Try this tool by accessing [verbalregex.com](https://verbalregex.com/).
 
 ### Conclusion
 
-`VerbalExpressions` is not a replacement of `Regex`; but an easy way to write readable `Regex`. It can ease the pain of `Regex`, and actually make writing expressions fun again. But keep in mind that `Regex` still seem to be the best choice in some complicated cases. Finally, 
+`VerbalExpressions` is not a replacement of `Regex`; but an easy way to write readable `Regex`. It can ease the pain of `Regex`, and actually make writing expressions fun again. But keep in mind that `Regex` still seem to be the best choice in some complicated cases.
