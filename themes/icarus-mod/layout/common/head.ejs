@@ -45,4 +45,13 @@
 
     <%- js('libs/jquery/2.1.3/jquery.min') %>
     <%- partial('plugin/scripts', { isHead: true }) %>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123065796-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123065796-2');
+    </script>
 </head>
