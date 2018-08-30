@@ -25,7 +25,7 @@ Thật ra mình cũng chẳng để ý đến vấn đề này nhiều cho đế
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oLt5qSm9U80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Là 1 người châu Á, ngoại hình cũng không quá khác biệt so với người Nhật nên đôi khi mình cũng cảm thấy hơi ngại ngại khi "hoá trang" thành người Nhật không thành công vì tiếng Nhật kém. Thậm chí có lúc còn nghĩ là nếu có ngoại hình của 1 người Ấn Độ hay là châu Âu, khác biết hẳn thì có vẻ mọi thứ dễ dàng hơn nhiều rồi. Tất nhiên đó cũng chỉ là 1 suy nghĩ thoáng qua thôi chứ mình cũng chẳng phiền lòng nhiều, phàm là những thứ không thay đổi được thì nên bỏ qua. Có khoản học tiếng Nhật chăm chỉ hơn thì vẫn còn bị lười nên vẫn chưa cải thiện được mấy...
+Là 1 người châu Á, ngoại hình cũng không quá khác biệt so với người Nhật nên đôi khi mình cũng cảm thấy hơi ngại ngại khi "hoá trang" thành người Nhật không thành công vì tiếng Nhật kém quá. Thậm chí có lúc còn nghĩ là nếu có ngoại hình của 1 người Ấn Độ hay là châu Âu, khác biệt hẳn thì có vẻ mọi thứ dễ dàng hơn nhiều rồi. Tất nhiên đó cũng chỉ là 1 suy nghĩ thoáng qua thôi chứ mình cũng chẳng phiền lòng nhiều, phàm là những thứ không thay đổi được thì nên bỏ qua. Có khoản học tiếng Nhật chăm chỉ hơn thì vẫn còn bị lười nên vẫn chưa cải thiện được mấy...
 
 Cũng có lúc mình nghĩ phải chăng là do tinh thần おもてなし, họ không muốn mình phải cố gắng, phiền lòng gì về mặt giao tiếp nên cố nói chuyện bằng ngôn ngữ quốc tế với mình chăng?  
 
