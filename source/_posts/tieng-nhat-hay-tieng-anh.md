@@ -2,6 +2,7 @@
 title: Tiếng Nhật hay tiếng Anh?
 date: 2018-08-30 20:51:51
 tags: experience
+thumbnail: https://i.imgur.com/8iy3DS5.jpg
 ---
 
 Hôm nay ra khỏi ga thì gặp 1 anh đang ngồi chơi Hang (1 loại nhạc cụ mới được phát minh vào đầu thế kỷ XXI). Trước mặt là 1 hộp đựng, 1 bên là hộp đựng tiền, 1 bên là kẹo "lại quả" cho người ủng hộ.
