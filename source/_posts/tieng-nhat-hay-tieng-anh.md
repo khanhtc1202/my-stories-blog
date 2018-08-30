@@ -5,7 +5,7 @@ tags: experience
 thumbnail: https://i.imgur.com/8iy3DS5.jpg
 ---
 
-Hôm nay ra khỏi ga thì gặp 1 anh đang ngồi chơi Hang (1 loại nhạc cụ mới được phát minh vào đầu thế kỷ XXI). Trước mặt là 1 hộp đựng, 1 bên là hộp đựng tiền, 1 bên là kẹo "lại quả" cho người ủng hộ.
+Hôm nay ra khỏi ga thì gặp 1 anh đang ngồi chơi Hang (1 loại nhạc cụ mới được phát minh vào đầu thế kỷ XXI). Trước mặt là 1 hộp 2 ngăn, ngăn đựng tiền, ngăn đựng kẹo "lại quả" cho người hâm mộ.
 
 Đứng nghe hoài cũng kỳ nên là mình có thả tiền vào hộp và hỏi xem có thể chụp ảnh được không.
 
