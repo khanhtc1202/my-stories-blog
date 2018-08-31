@@ -29,7 +29,7 @@ Là 1 người châu Á, ngoại hình cũng không quá khác biệt so với n
 
 Cũng có lúc mình nghĩ phải chăng là do tinh thần おもてなし, họ không muốn mình phải cố gắng, phiền lòng gì về mặt giao tiếp nên cố nói chuyện bằng ngôn ngữ quốc tế với mình chăng?  
 
-Thật ra họ muốn nói bằng tiếng gì thì cũng chẳng phiền lòng mình nhiều. Vì tiếng Anh thì mình có thể giỏi hơn họ, chứ tiếng Nhật là chắc chắn kém hơn rồi. Người ta từ 1 mặt tốt hơn chuyển sang 1 mặt kém hơn thì mình cũng nên cảm thấy vui hơn chứ. Nghĩ như vậy thành thử lại không thấy vấn đề gì nữa.
+Dù họ muốn nói bằng tiếng Anh hay Nhật thì cũng không phải là vấn đề quá lơn. Tiếng Anh thì mình có thể giỏi hơn họ, chứ tiếng Nhật thì chắc chắn kém hơn rồi. Người ta từ 1 mặt tốt hơn chuyển sang 1 mặt kém hơn thì mình cũng nên cảm thấy vui hơn chứ; nghĩ như vậy thành thử lại không còn vấn đề gì nữa.
 
 Việc sống ở nước ngoài có hàng trăm ngàn vấn đề phát sinh; có hẳn lý thuyết về shock văn hoá và cách vượt qua, thứ mà mình chỉ tiếc là biết quá muộn.
 
