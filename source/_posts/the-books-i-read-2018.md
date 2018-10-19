@@ -1,10 +1,8 @@
----
 title: Sách mình đã đọc trong năm 2018
-date: 2018-05-20 19:30:48
 tags: learning
-thumbnail: https://i.imgur.com/z4ZbKIq.jpg
+thumbnail: 'https://i.imgur.com/z4ZbKIq.jpg'
+date: 2018-05-20 19:30:48
 ---
-
 Chuyện bắt đầu từ chuyến về VN đợt tuần lễ vàng 2018; mình có qua nhà thầy chơi. Trong lúc trò chuyện thầy có hỏi đã đọc xong cuốn “Tiếng chim hót trong bụi mận gai” chưa. Nguyên cớ là ngày xưa trong 1 buổi học thầy có hỏi tháng tới có định làm gì chưa, để cuộc đời có vẻ đỡ nhạt nhẽo mình đã nói là em sẽ đọc cuốn này. 
 
 Và mãi vẫn chưa đọc, đến tận mấy hôm sau vẫn nghĩ là chưa đọc. Chỉ trong lúc đi mua sách mới nhận ra là đọc rồi mà quên mất tiêu 😐
@@ -17,6 +15,7 @@ Và mãi vẫn chưa đọc, đến tận mấy hôm sau vẫn nghĩ là chưa �
 1. [Người tị nạn](#the-refugees)
 2. [Hiệu ứng chim mồi 1 & 2](#hieu-ung-chim-moi)
 3. [Ở lại thành phố hay về quê](#o-lai-thanh-pho-hay-ve-que)
+4. [Những người đàn ông không có đàn bà](#nhung-nguoi-dan-ong-khong-co-dan-ba)
 
 ***
 
@@ -104,3 +103,24 @@ Mọi người thường đăng ảnh du lịch, checkin khoe với mọi ngư�
 Có những mục tiêu cần sự rèn luyện, chuẩn bị trong 1 thời gian dài mới thành công. Bình tĩnh chờ thời, tập trung giới hạn vào mục tiêu nào đó rồi sẽ có lúc bạn đạt được.
 
 Ngoài ra còn nhiều câu chuyện khác mà mình thấy áp dụng được trong cuộc sống của mình. Có 1 điểm không ưng ở cuốn sách là cách viết thấy hơi ngắn ngắn, cụt cụt; y như mình viết blog vậy.
+
+### <a name="nhung-nguoi-dan-ong-khong-co-dan-ba">Những người đàn ông không có đàn bà</a>
+- Tác giả: Haruki Murakami
+- Thể loại: truyện ngắn
+- Khuyên đọc: 6.5/10 - các bạn trẻ thất tình nên đọc thử 1 lần xem sao
+
+> Trở thành người đàn ông không có đàn bà đơn giản lắm. Chỉ cần yêu sâu sắc một người và nàng biến đi đâu mất là xong.
+
+Trước đây mình có đôi lần nghe về Murakami qua 1Q84, rừng Nauy,... Đây là lần đầu tiên mình đọc 1 tác phẩm của Murakami. Nguyên cớ là trong 1 lần nọ tham dự hội chia sẻ sách có 1 cậu bạn từ hồi đại học mang đến cuốn sách này. Cậu nhận được cuốn sách từ 1 người bạn - với mục đích trêu chọc hoàn cảnh "phòng không" khi đó. Nghe cậu ta kể về cuốn sách cũng thấy hay hay, thú vị nên mình mượn về đọc.
+
+Cuốn sách gồm 7 câu chuyện - về 7 người đàn ông, mỗi người ôm 1 nỗi niềm riêng. Ngoài chuyện "Samsa đang yêu" hơi kỳ lạ chưa rõ vui buồn ra thì đều phảng phất chút buồn đâu đó. Có người đàn ông trải qua bao nhiêu người phụ nữ rồi cuối cùng bị người mình yêu nhất phản bội, quyết định chết bằng cách tuyệt thực; có người quyết định bỏ việc biến mất sau khi thấy vợ mình đang trên giường cùng người khác. Và câu chuyện cuối cùng về người đàn ông không sao quên được mối tình năm 14 tuổi; dù đã có gia đình rồi vẫn không quên được người con gái ấy; vẫn luôn bất lực, vô vọng, chỉ còn mong sao người phụ nữ ấy sẽ hạnh phúc, an lạc ở 1 nơi nào đó.
+
+"Samsa biết yêu" và "Kino" là 2 chuyện có 1 số yếu tố hư cấu mà mình không hiểu rõ dụng ý của tác giả khi sử dụng. Thử đọc review ở [đây](https://hoanghannom.com/2015/02/17/kino/) thì thấy được khen rất nhiều; âu chắc là do mình quen đọc sách phi hư cấu nhiều quá nên khả năng tưởng tượng, suy ngẫm cũng mai một hết rồi.
+
+Trước đây mình có nói với 1 người bạn rằng mình đọc sách và đồng cảm với nỗi đau của nhân vật; từ ấy mình không còn cảm thấy quá bất ngờ với những chuyện buồn trong cuộc sống nữa. Có những chuyện vẫn khiến mình suy nghĩ, dằn vặt; thế nhưng càng biết nhiều thêm những éo le, trắc trở có thể xảy ra thì mình cũng dần mạnh mẽ hơn, nỗi buồn cũng nhẹ nhàng đi nhiều.
+
+Nỗi buồn trong cuốn sách này cũng lạ lắm! Mình cảm thấy càng gai góc, trải đời thì sẽ lại càng thấm thía. Chuyện tình cảm thật phức tạp; thỉnh thoảng mình lại ngồi thơ thẩn nghĩ về cách mà 2 người xa lạ đến với nhau; rồi biết đâu 1 ngày nào đó lại xa nhau, quay về làm 2 người xa lạ. Có hàng vạn lý do để xa nhau, bây giờ thì lại thấy cũng chỉ là 1 lý do, thực ra chúng ta có còn muốn tiếp tục gắn bó với nhau nữa hay không thôi?
+
+Tình yêu - 1 kiểu "đặc biệt" của quan hệ người với người; chính là thứ mang đến nhiều bi ai, phiền não nhất. Các bạn hãy thử 1 lần tìm đọc, lắng nghe những chuyện tình buồn như thế này xem; những nỗi đau về tình cảm rồi cũng sẽ biến mất - một khi bạn đã đồng cảm với những nỗi đau trong cuốn sách này.
+
+
