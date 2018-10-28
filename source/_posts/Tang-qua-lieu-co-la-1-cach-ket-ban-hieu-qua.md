@@ -4,7 +4,7 @@ date: 2018-10-29 00:10:50
 tags: thinking
 thumbnail: https://i.imgur.com/UK4m2vL.png
 ---
-Chuyện là đầu ngõ có ông chú nuôi 1 con chó to đùng, mấy lần gặp chú đó mà chưa nói chuyện lần nào. Nay đi chơi về thì chú bấm chuông bảo vợ tao mua cái chảo ở Trung Quốc về mà không dùng bao giờ, chắc người Việt Nam cũng dùng loại thế này nhỉ. Nếu dùng thì lấy đi, không thì chú mang vứt.
+Chuyện là đầu ngõ có ông chú nuôi 1 con chó to đùng, mấy lần gặp chú đó mà chưa nói chuyện lần nào. Nay đi chơi về thì chú bấm chuông bảo vợ tao mua cái chảo kiểu Trung Quốc (来京鍋) về mà không dùng bao giờ, chắc người Việt Nam cũng dùng loại thế này nhỉ. Nếu dùng thì lấy đi, không thì chú mang vứt.
 
 <!-- more -->
 
