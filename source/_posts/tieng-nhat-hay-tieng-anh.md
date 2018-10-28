@@ -1,7 +1,7 @@
 ---
 title: Tiếng Nhật hay tiếng Anh?
 date: 2018-08-30 20:51:51
-tags: experience
+tags: thinking
 thumbnail: https://i.imgur.com/8iy3DS5.jpg
 ---
 
