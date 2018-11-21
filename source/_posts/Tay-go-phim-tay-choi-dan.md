@@ -4,7 +4,7 @@ tags: thinking
 date: 2018-11-17 14:32:00
 thumbnail: https://i.imgur.com/1SkNpMo.jpg
 ---
-Tháng 2 năm 2018, mình quyết định sẽ mua đàn piano. Tập cho vui, và để hiện thực hoá mong ước của mình từ thời còn học sinh của mình.
+Tháng 2 năm 2018, mình quyết định sẽ mua đàn piano. Tập cho vui, và để hiện thực hoá mong ước của mình từ thời còn học sinh.
 
 Đến giờ cũng được gần 10 tháng từ ngày có đàn rồi; mình học qua udemy, youtube,... và bất kỳ tài liệu hay ho nào mà mình tìm thấy. Mấy ngày trước khi đọc 1 cuốn sách về tư thế tay khi chơi đàn mới chợt nhận ra chẳng khác gì tay lúc gõ bàn phím cả. Gõ máy tính hơn 10 năm, chơi đàn được vài tháng; cuối cùng cũng nhận ra sự tương đồng này.
 
