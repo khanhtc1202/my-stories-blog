@@ -3,6 +3,7 @@ author: Bach Nguyen
 tags: []
 categories:
   - thinking
+tags: thinking
 date: 2018-11-17 14:32:00
 thumbnail: https://i.imgur.com/1SkNpMo.jpg
 ---
