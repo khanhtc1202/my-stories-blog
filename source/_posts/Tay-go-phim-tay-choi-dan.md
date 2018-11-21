@@ -12,13 +12,13 @@ Tháng 2 năm 2018, mình quyết định sẽ mua đàn piano. Tập cho vui, v
 
 <!-- more -->
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/fQl5LjndfVKLlPX25G" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><em>Các ngón tay chiều dài khác nhau, nếu khum lại thì có thể dễ dàng dàn đều trên các phím rồi</em></p>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/fQl5LjndfVKLlPX25G" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><span class="caption">Các ngón tay chiều dài khác nhau, nếu khum lại thì có thể dễ dàng dàn đều trên các phím rồi</span></p>
 
 Nhân thể lại nhớ về 1 người bạn của mình gõ phím rất nhanh - và trùng hợp là biết chơi đàn pinao. Gõ nhanh thì cũng không làm mình ngạc nhiên lắm, quan trọng là nhanh hơn cả mình - trong khi công việc của bạn không cần phải làm việc với máy tính nhiều như mình. Gần đây khi phát hiện ra sự tương đồng này mới thấy cũng do bạn đã được rèn luyện các ngón tay với piano rồi; mà trong đó cả lực ngón tay và tốc độ đều yêu cầu cao hơn so với gõ bàn phím máy tính nhiều lần.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Wv7Vit5TNTaLeD2HNX" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><em>Ngón tay thẳng khi gõ phím rất dễ bị cong xuống; cần nhiều lực hơn khi gõ</em></p>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Wv7Vit5TNTaLeD2HNX" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><span class="caption">Ngón tay thẳng khi gõ phím rất dễ bị cong xuống; cần nhiều lực hơn khi gõ</span></p>
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/22Q6YQethHw0nknqVh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><em>Cong ngón tay lại 1 chút là vấn đề được giải quyết rồi :) </em></p>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/22Q6YQethHw0nknqVh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><span class="caption">Cong ngón tay lại 1 chút là vấn đề được giải quyết rồi :) </span></p>
 
 Nói về âm nhạc thì ngày xưa mình cũng có tập guitar; thế nhưng vẫn còn dang dở. Giờ có đưa cho mình cây đàn thì mình cũng chịu không chơi được nữa. Thế nhưng cũng là 1 cái may là vẫn còn có thể đọc được bản nhạc và nhớ 1 chút về nhạc lý. Vạn vật vốn tương thông cùng nhau, những khía cạnh của cuộc sống đều có 1 mối liên hệ nào đó. Thế nên khi còn đủ sức thì cố gắng trau dồi, bổ sung thêm; nhất định 1 ngày sẽ có ích.
 
