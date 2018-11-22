@@ -18,10 +18,10 @@ Nhân thể lại nhớ về 1 người bạn của mình gõ phím rất nhanh 
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/22Q6YQethHw0nknqVh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><span class="caption">Cong ngón tay lại 1 chút là vấn đề được giải quyết rồi :) </span></p>
 
-Nói về âm nhạc thì ngày xưa mình cũng có tập guitar; thế nhưng vẫn còn dang dở. Giờ có đưa cho mình cây đàn thì mình cũng chịu không chơi được nữa. Thế nhưng cũng là 1 cái may là vẫn còn có thể đọc được bản nhạc và nhớ 1 chút về nhạc lý. Vạn vật vốn tương thông cùng nhau, những khía cạnh của cuộc sống đều có 1 mối liên hệ nào đó. Thế nên khi còn đủ sức thì cố gắng trau dồi, bổ sung thêm; nhất định 1 ngày sẽ có ích.
+Nói về âm nhạc thì ngày xưa mình cũng có tập guitar; nhưng mà chẳng đâu vào đâu cả. Giờ có đưa cho mình cây đàn thì mình cũng chịu không chơi được nữa. Ấy thế vẫn còn 1 cái may là còn nhớ cách đọc bản nhạc và 1 chút về nhạc lý. Vạn vật tương thông, những khía cạnh của cuộc sống đều có 1 mối liên hệ nào đó. Thế nên khi còn đủ sức thì cố gắng trau dồi, học hỏi; nhất định 1 ngày sẽ có ích (như mẹ mình vẫn nói là chẳng bổ chỗ nọ thì bổ chỗ kia).
 
 
-Trong cuốn sách dậy đàn mình đọc kia cũng nói về những phương pháp khởi động tay trước khi tập đàn. Bàn tay cũng là tứ chi nhưng lại ít khi được ủ ấm, bao bọc như chân; lại phải làm việc hàng ngày. Những người phải cử động cổ tay, bàn tay nhiều (như là gõ máy tính lập trình chẳng hạn) rất dễ bị viêm ống cổ tay. Vì thế các bạn nhớ phải lưu ý giữ ấm, xoa bóp, khởi động cho đôi bàn tay của mình nhé.
+Trong cuốn sách dậy đàn kia cũng nói về những phương pháp khởi động tay trước khi tập đàn. Đôi tay cũng là tứ chi nhưng ít khi được ủ ấm, bao bọc như chân. Ít được chăm sóc mà việc nào cũng phải cần đến. Những người phải cử động cổ tay, bàn tay nhiều (như là suốt ngày gõ máy tính chẳng hạn) cũng có 1 bệnh nghề nghiệp là viêm ống cổ tay. Vì thế các bạn nhớ phải lưu ý giữ ấm, xoa bóp, khởi động cho đôi bàn tay của mình nhé!
 
 ![Chăm sóc đôi tay cho cẩn thận, tiền ở đấy chứ đâu :)) Ảnh từ blog.thanhdx.com](https://i.imgur.com/1SkNpMo.jpg)
 
