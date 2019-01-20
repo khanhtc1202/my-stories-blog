@@ -243,7 +243,7 @@ Cuốn sách về ngôn ngữ cơ thể, thế nhưng từ bản thân mình th�
 
 Có 1 người bạn của mình nói rằng nếu đọc nhiều sách ngôn ngữ cơ thể quá khéo cả lũ lại ngồi học theo rồi sau đó ai cũng 1 điệu bộ giống nhau. Mình thì không tán thành lắm; thế nhưng về ngôn ngữ cơ thể mình thấy nên biết 1 vài điều và dần cảm nhận chúng thông qua giao tiếp thì hiệu quả sẽ cao hơn là đọc 1 cuốn sách viết quá nhiều như thế này.   
 
-## Sách sẽ đọc lại (sắp xếp theo thứ tự muốn đoc giảm dần)
+## Sách sẽ còn đọc lại/đọc tiếp 
 
 1. [Ai che lưng cho bạn](#ai-che-lung-cho-ban)
 2. [Đừng bao giờ đi ăn một mình](#dung-bao-gio-di-an-mot-minh)
