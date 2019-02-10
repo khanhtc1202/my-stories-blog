@@ -1,8 +1,15 @@
 ---
-title: kubectl-in-action-note
+title: Note - Kubernetes in Action 
 date: 2019-01-24 17:41:03
-tags:
+thumbnail: 'https://i.imgur.com/uarzO5N.jpg'
+tags: technical
 ---
+
+I took notes during reading "Kubernetes in Action". 
+
+It can be found on [Amazon](https://www.amazon.co.jp/Kubernetes-Action-Marko-Luksa/dp/1617293725/). 
+
+<!-- more -->
 
 # Part 1: Overview
 
