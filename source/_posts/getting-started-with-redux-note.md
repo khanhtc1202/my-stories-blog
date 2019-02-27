@@ -5,8 +5,8 @@ thumbnail: 'https://cdn-images-1.medium.com/max/1600/1*VeM-5lsAtrrJ4jXH96h5kg.pn
 tags: technical
 ---
 
-I took notes during learning "Getting Started with Redux" by Dan Abramov - who created eact Hot Loader, Redux, React DnD...
-The course is offered free on [egghead.io](https://egghead.io/courses/getting-started-with-redux). 
+I took notes during learning "Getting Started with Redux" by Dan Abramov - who created React Hot Loader, Redux, React DnD...
+The course is offered for free at [egghead.io](https://egghead.io/courses/getting-started-with-redux). 
 
 <!-- more -->
 
@@ -30,11 +30,9 @@ The course is offered free on [egghead.io](https://egghead.io/courses/getting-st
 2. They may have any side effects like net­work or data­base calls
 3. They may modify the arguments which are passed to them
 
-_Some of function in Redux need to be pure_
-
 ### Redux: The Reducer Function
 
-Reducer the pure function takes the previous state, the action and return the next state of whole application.
+Reducer the pure function takes the previous state, the action and return the next state of the whole application.
 
 ### Redux: Writing a Counter Reducer with Tests
 
@@ -114,8 +112,7 @@ const toggleTodo = (todo)=>{
 
 #### Explicitly way
 
-```javascript
-
+```
 <Page store={store} />
 // ... which renders ...
 <PageLayout store={store} />
@@ -134,8 +131,8 @@ Using Context & Provider to wrap the ```store``` inside a Context, so every chil
 ```connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])```
 Connect: creates a higher-order component for making container components out of base React components. It will mount both the state and dispatch inside the store to the props of component.
 
-_Note:_ can pass null to mapStateToProps or mapDispatchToProps if you don't have any.
+_Note:_ mapStateToProps or mapDispatchToProps can be null if you don't need to pass them.
 
 ### End
 
-P/S: I am using [React Slingshot](https://github.com/coryhouse/react-slingshot/) as a starter project; I do not take a lots of note in the last past because I already learnt from Cory House when using his starter.
+P/S: Now I am using [React Slingshot](https://github.com/coryhouse/react-slingshot/) as a seed project; it contains everything you need from developing -> deploying. 
