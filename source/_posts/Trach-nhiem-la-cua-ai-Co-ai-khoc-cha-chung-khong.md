@@ -10,9 +10,9 @@ thumbnail: https://i.imgur.com/uIugXtK.png
 
 <!-- more -->
 
-Mạng xã hội, công cụ chat dần ra nhiều tính năng mới; người dùng thì ngày càng bị cuốn hút vào những tính năng tiện lợi của chúng. Trước đây để rủ được hội bạn bè đi chơi hay lập kế hoạch gì đó thì còn phải inbox từng người, soạn lịch trình và gửi cho từng thành viên. Giờ thì chỉ cần tạo 1 group chat những người có chung sở thích, đưa ra vài ý tưởng, sử dụng poll, plan,... để bình chọn, lập kế hoạch dễ dàng hơn.
+Trước đây để rủ được hội bạn bè đi chơi hay lập kế hoạch gì đó thì còn phải inbox từng người, soạn lịch trình và gửi cho từng thành viên. Giờ thì chỉ cần tạo 1 group chat những người có chung sở thích; đưa ra vài ý tưởng, lập poll, plan,... để bình chọn, lập kế hoạch.
 
-Thế nhưng sự tiện dụng đó lại có 1 mặt trái vô cùng lớn; đó chính là những chữ "đã xem" nhưng không 1 dòng hồi âm nào trở lại. Lý do có thể là:
+Thế nhưng sự tiện ích của các group chat lại đi kèm 1 mặt trái vô cùng lớn; chính là chữ "đã xem" và không 1 dòng hồi âm nào xuất hiện. Lý do thì có thể là:
 - *Không thấy mình có trách nhiệm phải hồi âm*
 - Không biết phải trả lời thế nào
 - Người đọc cảm thấy người khác trả lời sẽ hợp lý hơn
@@ -20,14 +20,14 @@ Thế nhưng sự tiện dụng đó lại có 1 mặt trái vô cùng lớn; đ
 - Chưa muốn nói
 - ...
 
-Vạn lý do có thể xuất hiện; mình gửi tin nhắn 1 lần mà người không ai trả lời có thể là do mình gửi chưa đúng giờ hoàng đoạ, nhưng mà đến lần thứ 2 thì 99% là lỗi của mình rồi (_đặc biệt khi mọi tin nhắn đều không ai nói gì thì xin chúc mừng. Bạn có những người bạn thật "đặc biệt"_). Mình nghĩ lỗi lớn nhất là do việc đưa ra ý tưởng/đặt câu hỏi chưa thông mình; có thể là 1 trong những lý do như sau:
+Vạn lý do có thể xuất hiện; mình gửi tin nhắn 1 lần mà người không ai trả lời có thể là do mình gửi chưa đúng giờ hoàng đạo, nhưng mà đến lần thứ 2 thì 99% là lỗi của mình rồi (_đặc biệt khi mọi tin nhắn đều không ai nói gì thì xin chúc mừng. Bạn có những người bạn thật "đặc biệt"_). Mình nghĩ lỗi lớn nhất là do việc đưa ra ý tưởng/đặt câu hỏi chưa thông mình; có thể là 1 trong những lý do như sau:
 
 - Sai thời điểm; gửi tin nhắn vào lúc rạng sáng khi mà mọi người mới mở mắt ra thì khả năng bị phớt là quá cao
 - Hỏi sai đối tượng 
 - Đặt câu hỏi quá "ngu" _(hỏi ngu là câu hỏi khiến cho người nghe phải hỏi lại mới có thể trả lời; nguyên do là quá thiếu dữ kiện)_
 - ...
 
-Sai đâu thì sửa đó, thế nhưng còn 1 lý do rất lớn nữa mà mình thấy là do việc hỏi chung chung, không nhắm tới 1 người cụ thể nào cả. Tốt nhất khi hỏi/đưa ra vấn đề thì nên nhắm vào 1 vài đối tượng nào đó có khả năng giải đáp, trò chuyện cùng mình để đảm bảo sẽ không rơi vào cô độc; dần dần mọi người sẽ có hứng thú hơn với câu chuyện của bạn. Ví dụ như là: “Em muốn mua máy ảnh kiểu này, tầm tiền là gần này, chắc anh abc biết nhỉ”
+Sai đâu thì sửa đó, thế nhưng mình thấy lý do lớn nhất là do việc hỏi chung chung, không nhắm tới 1 người cụ thể nào cả. Tốt nhất khi hỏi/đưa ra vấn đề thì nên nhắm vào 1 vài đối tượng nào đó có khả năng giải đáp, trò chuyện cùng mình để đảm bảo sẽ không rơi vào cô độc; dần dần mọi người sẽ có hứng thú hơn với câu chuyện của bạn. Ví dụ như là: “Em muốn mua máy ảnh kiểu này, tầm tiền là gần này, chắc anh @Abc biết nhỉ?”
 
 Còn nếu như bạn đã dùng hết những cách mà mình đã nghĩ ra mà không có ai trả lời thì... Hãy xem lại cách ăn ở của mình; ắt hẳn đâu đó có lý do để mọi người không quan tâm _(hay chính xác hơn là thiếu tôn trọng)_ bạn đến như vậy.
 
@@ -37,7 +37,7 @@ Còn nếu như bạn đã dùng hết những cách mà mình đã nghĩ ra mà
 
 Và khi mà thông tin, tin nhắn đến mọi lúc mọi nơi thì việc mở tin nhắn ra và không làm gì là điều rất dễ xảy ra. Thỉnh thoảng mình cũng vẫn nhắc mình kiểm tra lại 1 lượt xem mình có trót vô tâm bỏ quên thông tin từ ai đó chưa hồi âm, xử lý hay không. 
 
-Tất cả là để đề phòng gặp 1 ai đó có tính chấp vặt và nhỏ nhen như mình thù vì đã không trả lời tin nhắn kịp thời :)
+Tất cả là để đề phòng gặp 1 ai đó có tính chấp vặt và nhỏ nhen (cũng như mình) thù vì đã không trả lời tin nhắn của họ :)
 
 ### Những thành viên còn lại trong group chat thì nên làm gì?
 
