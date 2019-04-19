@@ -2,6 +2,7 @@ title: "Trách nhiệm là của ai? C\x1Dha chung \bcó nên khóc không?"
 author: Bach Nguyen
 date: 2019-04-19 23:29:08
 tags: thinking
+thumbnail: https://i.imgur.com/uIugXtK.png
 ---
 ### Cha chung có nên khóc không 
 
