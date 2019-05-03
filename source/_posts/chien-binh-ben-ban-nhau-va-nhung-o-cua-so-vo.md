@@ -23,9 +23,9 @@ Việt Nam là nước có phương tiện giao thông cá nhân phát triển n
 
 Người giàu có thể đi ô tô, còn người nghèo thì chỉ có thể đi xe máy/xe đạp. Phân hoá giàu nghèo thể hiện rõ ràng qua phương tiện giao thông cá nhân này. Và khi va chạm diễn ra, xương thịt va chạm với kim loại - rõ ràng xe máy luôn là người thua cuộc trong cuộc đụng độ này. An toàn cũng đi kèm với sức mạnh khủng khiếp - mà khi những người lái ô tô không còn đủ tỉnh táo để kiểm soát nữa thì tai nạn thương tâm là hậu quả nhãn tiền. Để lại hậu quả không chỉ người say mà cả gia đình, bạn bè của họ và những người tham gia giao thông cùng.
 
-Ở đô thị lớn của các nước phát triển thì phương tiện công cộng và ô tô lại là 2 phương tiện chủ yếu. Phương tiện công cộng giúp người dân lưu chuyển trong thành phố an toàn, tỉ lệ tai nạn thấp; phần nào hạn chế những người say gây ảnh hưởng đến an toàn giao thông đường bộ. 
+Ở đô thị lớn của các nước phát triển thì phương tiện công cộng và ô tô lại là 2 phương tiện chủ yếu. Phương tiện công cộng giúp người dân lưu chuyển trong thành phố an toàn, tỉ lệ tai nạn thấp; phần nào hạn chế những người say gây ảnh hưởng đến an toàn giao thông đường bộ. 
 
-Ở Việt Nam thì sự bùng nổ của các phương tiện giao thông cá nhân tăng lên quá nhanh khiến cơ sở hạ tầng không đáp ứng kịp (bãi đỗ xe, đường xá,…). Theo như số liệu từ báo An ninh thủ đô thì đến hết tháng 3/2018 Việt Nam có trên 55 triệu xe máy và gần 4 triêu ôtô đăng ký hoạt động. Gần 60 triệu phương tiện cá nhân, trong khi dân số Việt Nam chỉ vào cỡ 95 triệu người. Hàng chục triệu tham gia điều khiển phương tiện giao thông mỗi ngày, 1 lượng không nhỏ những người trong số đó chắc hẳn không đủ tỉnh táo để điều khiển phương tiện giao thông của mình.   
+Ở Việt Nam thì sự bùng nổ của các phương tiện giao thông cá nhân tăng lên quá nhanh khiến cơ sở hạ tầng không đáp ứng kịp (bãi đỗ xe, đường xá,…). Theo như số liệu từ báo An ninh thủ đô thì đến hết tháng 3/2018 Việt Nam có trên 55 triệu xe máy và gần 4 triêu ôtô đăng ký hoạt động. Gần 60 triệu phương tiện cá nhân, trong khi dân số Việt Nam chỉ vào cỡ 95 triệu người. Hàng chục triệu tham gia điều khiển phương tiện giao thông mỗi ngày, 1 lượng không nhỏ những người trong số đó chắc hẳn không đủ tỉnh táo để điều khiển phương tiện giao thông của mình.   
 
 
 ## Cửa sổ vỡ
@@ -35,9 +35,7 @@ Jame Q. Wilson và  George L. Kelling - 2 nhà xã hội học đã đưa ra thu
 
 > Nếu một chiếc cửa sổ bị phá hỏng, vỡ vụn mà cứ để vậy không sửa chữa thì những người đi ngang qua sẽ kết luận rằng, không ai quan tâm và không ai chịu trách nhiệm trước hiện trạng này. Rồi không lâu sau nhiều cánh cửa khác sẽ bị đập vỡ, dẫn đà ý thức về sự vô chủ, hỗn loạn sẽ lan rộng, truyền tải đi dấu hiệu về những gì đang diễn ra.
 
-Luật giao thông đường bộ Việt Nam có quy định về việc nghiêm cấm hành vi uống rượu bia khi tham gia giao thông. Thế nhưng liệu bạn đã bao giờ thực sự nghiêm túc nghĩ việc lái xe sau khi tham gia giao thông là phạm pháp và có thể bị xử phạt?
-
-Nhưng hiện nay ở Việt Nam thì việc kiểm tra, sử phạt các trường hợp vi phạm còn chưa đủ sức răn đe cho người dân. Trước cửa các quán nhậu, ô tô xe máy vẫn ra vào tấp nập và chẳng có ai đảm bảo được rằng tất cả những người ra khỏi quán nhậu đều đủ tỉnh táo để điều khiển phương tiện của mình. Thế nhưng thực tế ở Việt Nam nếu có áp dụng hình thức kiểm tra ngay cạnh quán nhậu thì những chủ quán sẽ có phản ứng vì ảnh hưởng đến tình hình kinh doanh của mình và ngay lập tức sẽ có những hình thức đối phó đầy "sáng tạo".
+Luật giao thông đường bộ Việt Nam có quy định về việc nghiêm cấm hành vi uống rượu bia khi tham gia giao thông. Thế nhưng liệu bạn đã bao giờ thực sự nghiêm túc nghĩ việc lái xe sau khi tham gia giao thông là phạm pháp và có thể bị xử phạt? Lý do chính của sự coi thường pháp luật này do việc kiểm tra, sử phạt các trường hợp vi phạm chưa đủ sức răn đe cho người dân. Trước cửa các quán nhậu, ô tô xe máy vẫn ra vào tấp nập và chẳng có ai đảm bảo được rằng tất cả những người ra khỏi quán nhậu đều đủ tỉnh táo để điều khiển phương tiện của mình. Thế nhưng thực tế ở Việt Nam nếu có áp dụng hình thức kiểm tra ngay cạnh quán nhậu thì những chủ quán sẽ có phản ứng vì ảnh hưởng đến tình hình kinh doanh của mình và ngay lập tức sẽ có những hình thức đối phó đầy "sáng tạo".
 
 Vậy là tâm lý từ ngàn xưa kết hợp với sự thiếu hiệu quả của lực lượng hành pháp kèm thêm chút linh hoạt của người Việt Nam đã trao cho người say một quyền lực đặc biệt, đó là quyền định đoạt số phận của những người tham gia giao thông chung cùng với mình.
 
