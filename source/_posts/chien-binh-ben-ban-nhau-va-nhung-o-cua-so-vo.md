@@ -35,7 +35,7 @@ Jame Q. Wilson và  George L. Kelling - 2 nhà xã hội học đã đưa ra thu
 
 > Nếu một chiếc cửa sổ bị phá hỏng, vỡ vụn mà cứ để vậy không sửa chữa thì những người đi ngang qua sẽ kết luận rằng, không ai quan tâm và không ai chịu trách nhiệm trước hiện trạng này. Rồi không lâu sau nhiều cánh cửa khác sẽ bị đập vỡ, dẫn đà ý thức về sự vô chủ, hỗn loạn sẽ lan rộng, truyền tải đi dấu hiệu về những gì đang diễn ra.
 
-Luật giao thông đường bộ Việt Nam có quy định về việc nghiêm cấm hành vi uống rượu bia khi tham gia giao thông. Thế nhưng liệu bạn đã bao giờ thực sự nghiêm túc nghĩ việc lái xe sau khi tham gia giao thông là phạm pháp và có thể bị sử phạt?
+Luật giao thông đường bộ Việt Nam có quy định về việc nghiêm cấm hành vi uống rượu bia khi tham gia giao thông. Thế nhưng liệu bạn đã bao giờ thực sự nghiêm túc nghĩ việc lái xe sau khi tham gia giao thông là phạm pháp và có thể bị xử phạt?
 
 Nhưng hiện nay ở Việt Nam thì việc kiểm tra, sử phạt các trường hợp vi phạm còn chưa đủ sức răn đe cho người dân. Trước cửa các quán nhậu, ô tô xe máy vẫn ra vào tấp nập và chẳng có ai đảm bảo được rằng tất cả những người ra khỏi quán nhậu đều đủ tỉnh táo để điều khiển phương tiện của mình. Thế nhưng thực tế ở Việt Nam nếu có áp dụng hình thức kiểm tra ngay cạnh quán nhậu thì những chủ quán sẽ có phản ứng vì ảnh hưởng đến tình hình kinh doanh của mình và ngay lập tức sẽ có những hình thức đối phó đầy "sáng tạo".
 
