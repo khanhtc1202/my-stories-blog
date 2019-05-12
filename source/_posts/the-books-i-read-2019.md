@@ -15,6 +15,7 @@ Như các cụ vẫn hay nói "Chậm mà chắc" vậy!
 # Mục lục
 
 1. [Một đời quản trị](#mot-doi-quan-tri)
+2. [Quyền lực đích thực](#quyen-luc-dich-thuc)
 
 ***
 
@@ -45,5 +46,23 @@ Qua những mẩu chuyện của cá nhân, tổ chức đã gặp trong suốt 
 
 Đọc hết cuốn sách cũng hiểu phần nào về những triết lý quản trị, phong cách được bác đúc kết qua mấy chục năm làm việc, qua đủ loại vị trí từ nhỏ nhất đến lúc bắt đầu đặt chân vào hàng ngũ ban lãnh đạo công ty. Mình nghĩ các anh chị em đang đi làm nên thử đọc cuốn sách này, cho dù có là nhân viên hay đã làm sếp rồi đi chăng nữa. Đọc để hiểu thế nào là 1 người lãnh đạo tốt, góc nhìn từ phía lãnh đạo ra sao; hiểu rằng sếp cũng là 1 nạn nhân của môi trường làm việc hiện tại, cũng gặp khó khăn chẳng kém gì chúng ta cả. Thấu hiểu và hỗ trợ sếp của mình là 1 cách hiệu quả để ta cải thiện môi trường làm việc của bản thân.
 
+### <a name="quyen-luc-dich-thuc">Quyền lực đích thực</a>
+
+> Quyền lực chỉ có ích khi đem lại hạnh phúc cho ta và mọi người xung quanh 
+
+Một cuốn sách viết về quyền lực và cách sử dụng quyền lực, do một thiền sư dưới góc nhìn của Phật Pháp viết lên. Tác giả viết nhiều ý tưởng hay về thiền định mà mình chưa gặp được bao giờ; do tầm của mình còn hạn chế nên chỉ xin tóm lại vài điểm mà mình thấy hay và có ảnh hưởng đến cuộc sống của mình hàng ngày thôi.
+
+1. Tâm và thân ta liên kết với nhau qua hơi thở
+Khi mà thân ta ở đây mà tâm lại tán loạn ở đâu đó thì chẳng thể tĩnh tâm được. Như là khi đang ngồi ăn mà đầu óc lại nghĩ đến trả lời email, hạn nộp công việc,… vậy. Tâm cứ lang thanh khắp nơi mà không ở cạnh thân thì chẳng mấy chốc mà thân cũng sẽ bắt đầu đổ bệnh; mà trong đó đau dạ dày có lẽ là dấu hiệu dễ nhận thấy nhất.
+ Những lúc như vậy hãy chú trọng vào hơi thở để đưa suy nghĩ của ta quay trở lại với thực tại; và lúc đó chỉ chú tâm vào công việc hiện tại mình đang làm thôi. 
+Khi bên cạnh những người thân yêu của ta mà suy nghĩ của ta lại ở khắp mọi nơi thì cũng như ta không ở bên vậy. Dù thân xác ở bên nhưng tâm hồn không bên cạnh nhau thì khó có thể tìm ra sự hoà hợp được.
+2. Chánh niệm (mindfullness)
+Là khả năng thấy rõ những gì đang xảy ra,  giúp ta nhận ra những gì đang xảy ra hiện tại. Từ chánh niệm đưa ta đến sức mạnh chánh định, nghĩa là tập trung 100% vào những gì mình đang làm. Khi ta tập trung cao độ làm việc thì hiệu suất tăng cao, thời gian làm việc giảm xuống. Ta sẽ lại có thời gian để quan tâm chăm sóc đến những người mà quyền lực của ta có thể ảnh hưởng đến; như quyền lực của người cha đối với con, quyền lực của sếp với nhân viên vậy.  Trong cuốn sách có đề cập đến nhiều khái niệm trong phật pháp và các bài thiền tập để ta rèn luyện được sức mạnh của tinh thần.
+3. Tuệ giác Vô Phân Biệt 
+Khi đóng đinh, vô tình tay phải ráng búa vào tay trái; chẳng lẽ tay trái lại đòi lấy búa để đánh lại vào tay phải. Hay khi tay phải bị phong bì thì liệu tay trái có đòi loại bỏ tay phải không hay tay phải sẽ nâng đỡ cho tay phải. Giữa người với người cũng vậy, khi ta gặp 1 người yếu kém hơn ta thì hãy dùng quyền lực của mình để giúp đỡ, hỗ trợ cho họ.
+4. 1 nhà lãnh đạo giỏi cần có Đoạn đức, Ân đức và Trí đức
+Trong cuốn “Một đời quản trị” có 1 chi tiết đại khái là khi mà nhân viên không tìm đến lãnh đạo mỗi khi có vấn đề nữa thì đấy là lúc mà vị lãnh đạo không còn khả năng lãnh đạo nữa rồi. Đó là biểu hiện của Trí đức, nghĩa là khả năng nhìn sâu đạt tới tuệ giác để giải quyết khó khăn và giúp đỡ mọi người.
+
+Cuốn sách đầu tiên mình đọc về Phật Pháp và ứng dụng trong đời sống hàng ngày; nhờ những ví dụ gần gũi của Thiền sư Thích Nhất Hạnh mà Phật Pháp lại dễ hiểu hơn. Một cuốn sách hay về chủ đề đáng đọc!
 
 ***
