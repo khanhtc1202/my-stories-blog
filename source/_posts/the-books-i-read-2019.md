@@ -65,4 +65,26 @@ Trong cuốn “Một đời quản trị” có 1 chi tiết đại khái là k
 
 Cuốn sách đầu tiên mình đọc về Phật Pháp và ứng dụng trong đời sống hàng ngày; nhờ những ví dụ gần gũi của Thiền sư Thích Nhất Hạnh mà Phật Pháp lại dễ hiểu hơn. Một cuốn sách hay về chủ đề đáng đọc!
 
+### <a name="mac-ke-thien-ha-song-nhu-nguoi-Nhat">Mặc kệ thiên hạ sống như người Nhật</a>
+
+Hay **もう、「あの人」のことで悩むのはやめる**
+Và cũng chính là **_Stop Letting Them Get to You_**
+
+Lại 1 cuốn sách self-help nữa, 4 chương gần như là 4 bước để xoá bỏ đi những khó khăn trong cuộc sống vậy:
+- Kiếm tìm sự xoa dịu chỉ khiến bạn thêm tổn thương
+- Vượt qua cảm giác bất lực
+- Gỡ bỏ những điều người khác áp đặt
+- Sống giấc mơ đời mình
+
+Cuộc đời của đa số những người trẻ Việt Nam được định sẵn đến hết Đại học. Từ lớp 1 đến lớp 12 là quãng thời gian sống cùng cha mẹ, nhiệm vụ chỉ có là học giỏi 1 vài môn trong toán - lý - hoá - sinh - ngoại ngữ - văn - sử - địa. 18 tuổi chọn và thi vào 1 trường đại học vừa tầm; đỗ thì theo học, trượt thì lại tìm 1 trường nào đó điểm thấp hơn 1 chút. Tiếp tục vài năm đại học, ra trường chọn lấy 1 công việc rồi hàng ngày hàng tuần gắn chặt lấy nó. Đến đây thì chúng ta đã đi hết đường mòn rồi, vậy bước tiếp theo là gì???
+
+Đó cũng là khi mà ta bước vào 1 cuộc khủng hoảng mới, không biết mình đang ở đâu, tương lai mình sẽ ra sao, tại sao đến giờ phút này mình vẫn chưa có nhà - xe - người yêu? Vậy 5, 10 năm nữa mình sẽ như thế nào, sẽ tốt hơn hay là tệ hơn bây giờ?
+
+Đến giờ thì mình nghĩ thì cần 4 bước: nhận ra mình ở đâu -> mình muốn làm gì -> ước mơ -> hành động. Có 1 mục tiêu nào đó trong tương lai và bắt đầu đi theo ước mơ đó; nỗi đau mất phương hướng cũng sẽ tiêu tan, thay vào đó là sự chuẩn bị cho từng bước nho nhỏ đến với mục tiêu cuộc đời mình. Thật ra cũng có nhiều cách khác, như là chìm đắm trong game, ăn nhậu,... chẳng hạn; vậy thì làm sao phân biệt được rằng mình đang chạy trốn hay là mình đang có hành động rõ ràng? 1 cách đơn giản là hãy thử cố nhớ xem 1 tuần, 1 tháng trước mình đang làm gì, có ấn tượng gì không. Nếu như không có ký ức gì thì điều bạn đang làm gần như là vô ích rồi.   
+
+Lại 1 cuốn sách self-help nữa, lần đầu tiên đọc thì mình thấy chán và không ấn tượng nhiều. Vứt 1 xó khá lâu, sau đó mình lại cũng được nghe 1 số tư vấn về tương lai của các anh chị lớn hơn và thấy 1 sự tương đồng đâu đó với cuốn sách này. Mở ra đọc lại thì lại thấy hay hơn so với những gì đánh giá ban đầu.
+
+1 điểm hay của sách self-help, đúng thời điểm nhất định sẽ phát huy tác dụng :3
+
+P/S: không biết có phải người Nhật có quá nhiều 悩み - nỗi đau tâm lý không mà mình thấy các sách kiểu này rất nhiều. Mình thì nghĩ do thừa cơm gạo rồi nên người ta dễ sinh ra đau khổ thôi; chứ phải chạy ăn từng bữa thì hơi sức đâu mà nghĩ về mấy cái đau đớn tinh thần nữa.
 ***
