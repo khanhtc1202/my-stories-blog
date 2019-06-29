@@ -16,6 +16,7 @@ Như các cụ vẫn hay nói "Chậm mà chắc" vậy!
 
 1. [Một đời quản trị](#mot-doi-quan-tri)
 2. [Quyền lực đích thực](#quyen-luc-dich-thuc)
+3. [Mặc kệ thiên hạ sống như người Nhật](#mac-ke-thien-ha-song-nhu-nguoi-Nhat)
 
 ***
 
@@ -86,5 +87,5 @@ Lại 1 cuốn sách self-help nữa, lần đầu tiên đọc thì mình thấ
 
 1 điểm hay của sách self-help, đúng thời điểm nhất định sẽ phát huy tác dụng :3
 
-P/S: không biết có phải người Nhật có quá nhiều 悩み - nỗi đau tâm lý không mà mình thấy các sách kiểu này rất nhiều. Mình thì nghĩ do thừa cơm gạo rồi nên người ta dễ sinh ra đau khổ thôi; chứ phải chạy ăn từng bữa thì hơi sức đâu mà nghĩ về mấy cái đau đớn tinh thần nữa.
+P/S: không biết có phải người Nhật có quá nhiều 悩み - nỗi đau tâm lý không mà các sách kiểu này rất nhiều. Mình thì nghĩ do thừa cơm gạo rồi nên người ta dễ sinh ra đau khổ thôi; chứ phải chạy ăn từng bữa thì hơi sức đâu mà đau đớn về tương lai nữa
 ***
