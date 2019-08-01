@@ -17,6 +17,8 @@ Như các cụ vẫn hay nói "Chậm mà chắc" vậy!
 1. [Một đời quản trị](#mot-doi-quan-tri)
 2. [Quyền lực đích thực](#quyen-luc-dich-thuc)
 3. [Mặc kệ thiên hạ sống như người Nhật](#mac-ke-thien-ha-song-nhu-nguoi-Nhat)
+4. [Hành Trình Xa Xứ – Giấc Mơ Quốc Gia Khởi Nghiệp](#hanh-trinh-xa-xu-giac-mo-quoc-gia-khoi-nghiep)
+5. [Elon Musk: Tesla, SpaceX Và Sứ Mệnh Tìm Kiếm Một Tương Lai Ngoài Sức Tưởng Tượng](#elon-musk-tesla-spacex-va-su-menh-tim-kiem-mot-tuong-lai-ngoai-suc-tuong-tuong)
 
 ***
 
@@ -88,4 +90,37 @@ Lại 1 cuốn sách self-help nữa, lần đầu tiên đọc thì mình thấ
 1 điểm hay của sách self-help, đúng thời điểm nhất định sẽ phát huy tác dụng :3
 
 P/S: không biết có phải người Nhật có quá nhiều 悩み - nỗi đau tâm lý không mà các sách kiểu này rất nhiều. Mình thì nghĩ do thừa cơm gạo rồi nên người ta dễ sinh ra đau khổ thôi; chứ phải chạy ăn từng bữa thì hơi sức đâu mà đau đớn về tương lai nữa
+
+### <a name="hanh-trinh-xa-xu-giac-mo-quoc-gia-khoi-nghiep">Hành Trình Xa Xứ – Giấc Mơ Quốc Gia Khởi Nghiệp</a>
+
+- Tác giả: Nguyễn Hữu Thái Hoà
+- Thể loại: Tâm Lý - Kỹ Năng Sống
+- Khuyên đọc: 7/10
+
+Trước đây thỉnh thoảng mình có thấy tên của tác giả trên 1 số băng-rôn quảng cáo sự kiện ở trường Đại học. Chủ yếu là làm diễn giả cho 1 số sự kiện của Langmaster thì phải. Đó là lần đầu tiên nghe đến cái tên Thái Hoà.
+
+Rồi đến thời mình bắt đầu nghe nhạc Trịnh, có những bài hát rất hay nhưng lại chỉ có những bản thu âm khá cũ; chất lượng cũng không được tốt cho lắm. Và đến khi mình tìm thấy những album của ca sĩ Thái Hoà thì đã thoả được phần nào cái mong muốn nghe nhạc Trịnh; giọng trầm trầm, luyến láy như tăng thêm cảm xúc khi nghe nhạc Trịnh.
+
+> Xin cho bốn mùa 
+Đất trời lặng gió 
+Đường trần em đi 
+Hoa vàng mấy độ     
+
+Theo như cá nhân mình thấy ông là 1 người có xuất phát điểm khá tốt so với những người cùng thế hệ. Tốt nghiệp đại học ở nước ngoài, khi còn ở nước ngoài nhờ khả năng đàn/hát của mình mà còn đi làm thêm nghề ca sĩ. Tốt nghiệp xong trở về nước, sau 1 thời gian ông đầu quân cho Schneider Việt Nam. Nhờ vào sự xuất sắc của mình mà lại được chuyển sang Pháp để tối ưu hoá cho hệ thống sản xuất của tập đoàn. 
+
+Và đến khi sự nghiệp đỉnh cao nhất thì ông quyết định về Việt Nam; trước hết là làm việc ở FPT, sau đó là làm ở các tập đoàn lớn khác ở vị trị chuyên gia chiến lược.
+
+Tuy cuộc sống của ông giống như bao người cùng thế hệ đều vất vả, khó khăn hơn ngày nay rất nhiều; thế nhưng quả là những người đứng đầu của 1 thế hệ thì chẳng mấy chốc cũng sẽ trở thành những nhà lãnh đạo trong tương lai.
+
+Mỗi chương cuốn sách được viết thành từng phần dài từ 2 ~ 3 trang kể về những quãng đời của tác giả; có 1 vài ý tưởng mình thấy rất hay mà vẫn còn ấn tượng khá lâu sau khi đọc như là.
+- Vào ngày mới sang Canada theo học do bị những người đồng hương làm khó dễ khi dịch bằng nên quá trình học tập của ông có vấn đề. Hệ tư tưởng khác nhau dẫn đến người ta quên đi mối quan hệ đồng hương với nhau.
+- Hiệu ứng bánh đà: trong một tổ chức trì trệ khi có một vài cá nhân năng động, bứt phá thì dần dần có thể kéo cả tổ chức làm việc theo. 
+- 1 chút khái niệm về ISO 9001 - thứ rất hay được các công ty quảng cáo trên truyền hình/
+
+Gần đây mình chuyển từ self-help, nghiêng sang loại hồi kỳ khá nhiều. Đọc những câu chuyện về cách con người vượt qua khó khăn cũng là 1 cách để có thêm những trải nghiệm trong cuộc sống.  
+
+### <a name="elon-musk-tesla-spacex-va-su-menh-tim-kiem-mot-tuong-lai-ngoai-suc-tuong-tuong">Elon Musk: Tesla, SpaceX Và Sứ Mệnh Tìm Kiếm Một Tương Lai Ngoài Sức Tưởng Tượng</a>
+
+...to be continued...
+
 ***
