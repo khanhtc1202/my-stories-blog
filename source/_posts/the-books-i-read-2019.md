@@ -94,7 +94,7 @@ P/S: không biết có phải người Nhật có quá nhiều 悩み - nỗi đ
 ### <a name="hanh-trinh-xa-xu-giac-mo-quoc-gia-khoi-nghiep">Hành Trình Xa Xứ – Giấc Mơ Quốc Gia Khởi Nghiệp</a>
 
 - Tác giả: Nguyễn Hữu Thái Hoà
-- Thể loại: Tâm Lý - Kỹ Năng Sống
+- Thể loại: Hồi ký
 - Khuyên đọc: 7/10
 
 Trước đây thỉnh thoảng mình có thấy tên của tác giả trên 1 số băng-rôn quảng cáo sự kiện ở trường Đại học. Chủ yếu là làm diễn giả cho 1 số sự kiện của Langmaster thì phải. Đó là lần đầu tiên nghe đến cái tên Thái Hoà.
