@@ -19,6 +19,8 @@ Như các cụ vẫn hay nói "Chậm mà chắc" vậy!
 3. [Mặc kệ thiên hạ sống như người Nhật](#mac-ke-thien-ha-song-nhu-nguoi-Nhat)
 4. [Hành Trình Xa Xứ – Giấc Mơ Quốc Gia Khởi Nghiệp](#hanh-trinh-xa-xu-giac-mo-quoc-gia-khoi-nghiep)
 5. [Elon Musk: Tesla, SpaceX Và Sứ Mệnh Tìm Kiếm Một Tương Lai Ngoài Sức Tưởng Tượng](#elon-musk-tesla-spacex-va-su-menh-tim-kiem-mot-tuong-lai-ngoai-suc-tuong-tuong)
+6. [Chinh phục đỉnh Phú Sĩ](#chinh-phuc-dinh-phu-si) 
+7. [Thiện, ác và smartphone](#thien-ac-va-smartphone)
 
 ***
 
@@ -121,6 +123,21 @@ Gần đây mình chuyển từ self-help, nghiêng sang loại hồi kỳ khá 
 
 ### <a name="elon-musk-tesla-spacex-va-su-menh-tim-kiem-mot-tuong-lai-ngoai-suc-tuong-tuong">Elon Musk: Tesla, SpaceX Và Sứ Mệnh Tìm Kiếm Một Tương Lai Ngoài Sức Tưởng Tượng</a>
 
+
+Elon Musk hiện lên trong mình 1 hình ảnh rất ngầu; tỉ phú tự thân, thiên tài công nghệ, kỹ sư tài năng, một người có thể hiện thực hoá mọi dự định của bản thân. Minh chứng là những cái tên như Zip2, X.com, Tesla,... Dường như mọi dự án mà Elon Musk bắt tay thực hiện chẳng sớm thì muộn đều dẫn tới thành công.
+
+Cuốn sách mô tả 1 hành trình thú vị; và quan trọng hơn hết tác giả tạo ra cảm giác cân bằng về những mặt tốt/xấu của ông.
+
+- Làm việc điên cuồng, theo như Musk viết trên twitter thì thời gian làm việc trung bình là 80 ~ 90 tiếng/tuần; những lúc cao điểm là 120 tiếng/tuần. Để hình dung khoảng thời gian này nhiều thế nào thì đây là 1 vài con số tham vấn: trung bình mọi người làm việc 8*5=40 tiếng/tuần; 1 tuần có 24*7=168 giờ.
+- Học hỏi cực nhanh, ông thường xuyên đặt nhiều câu hỏi về thiết kế, kiến thức,... của các kỹ sư. Ban đầu họ tưởng rằng đó là cách Elon Musk kiểm tra kiến thức của họ, nhưng có 1 kỹ sư đã nhận ra đó thực chất là cách để Elon Musk học từ những người xung quanh mình.
+- Tự mình làm prototype sản phẩm, sau đó thuyết phục những chuyên gia khác tham gia cùng mình. Trong quá trình phát triển cũng luôn gắn chặt với quá trình này. Cá nhân mình thấy đây là cách làm việc mà 1 người lãnh đạo nên sử dụng.
+- Độc đoán, lạnh lùng, có thể gọi là độc tài như 1 số người nhận xét. Điển hình như ông sẵn sàng sa thải bất kỳ kỹ sư nào, hay là câu chuyện về cô trợ lý đã làm việc cùng ông nhiều năm vậy.
+
+Elon Musk hay là phiên bản thực của Iron Man. Diễn viên Robert Downey Jr. đã tham khảo hình tượng của Elon Musk để phát triển hình ảnh người sắt, và phải nói là hình tượng này xuất hiện quá tuyệt vời; giàu có, thông minh, mạnh mẽ... nhưng vẫn đi kèm những khiếm khuyết vừa đủ để tạo nên hình ảnh 1 người đàn ông quyến rũ và đầy thú vị.
+
+### <a name="chinh-phuc-dinh-phu-si">Chinh phục đỉnh Phú Sĩ</a>
+...to be continued...
+### <a name="thien-ac-va-smartphone">Thiện, ác và smartphone</a>
 ...to be continued...
 
 ***
