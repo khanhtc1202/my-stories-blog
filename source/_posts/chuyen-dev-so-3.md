@@ -18,6 +18,7 @@ Ngồi gỡ rối 1 lúc mới phát hiện ra là sau khi cài xong hết các 
 Vài bài học rút ra là:
 - Viết tài liệu có tâm, luôn luôn ghi lại những gì mình đã làm. Nếu có gặp vấn đề gì đó mà fix được thì nên ghi lại cả lỗi đó, cách tư duy giải quyết vấn đề, nơi tra cứu,…
 - Như project của mình thì mỗi 1 thành phần có 1 repository riêng, vậy nên file cài đặt có thể nằm rải rác ở các repository; hướng dẫn cài đặt có thể lại nằm trong file readme đính kèm hoặc là ở wiki của team -> Nên lưu vào 1 nơi thôi (chém gió vĩ mô thì gọi là nguồn chân lý - Single Source of Truth).
+- Nên xác định rõ các đối tượng (stakeholder) sẽ đọc tài liệu sao cho nội dung phù hợp với mức độ hiểu biết của họ.   
 - Không to tiếng với đồng đội khi bị hỏi liên tục do tài liệu không update hay bị hỏi quá nhiều thứ đã có sẵn. Lý do chính đa phần là do bạn viết tài liệu quá khó hiểu.
 - Deploy hệ thống chạy bằng microservice chưa bao giờ là dễ.
 - …
