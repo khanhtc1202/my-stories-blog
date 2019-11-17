@@ -138,6 +138,33 @@ Elon Musk hay là phiên bản thực của Iron Man. Diễn viên Robert Downey
 ### <a name="chinh-phuc-dinh-phu-si">Chinh phục đỉnh Phú Sĩ</a>
 ...to be continued...
 ### <a name="thien-ac-va-smartphone">Thiện, ác và smartphone</a>
-...to be continued...
+
+> “đau lòng làm gì khi mà đã đi nhập cư trái phép thì đã xác định một cái chết rồi”
+
+> “Có những cái chết không đáng để thương cảm😤”
+
+Giữa hàng trăm bình luận trên 1 bài báo về vụ 39 người tử vong gần đây, đập vào mình là 2 bình luận trên. Những người comment đánh giá vụ việc như vậy, theo khái niệm mà tác giả Đặng Hoàng Giang giới thiệu là những “dân phòng trên mạng - digital vigilantism”. Họ ẩn sau màn hình máy tính/smartphone, hàng ngày đi tuần trên các hội nhóm, trang tin,… để khui ra và trừng phạt những kẻ xấu. Họ có thể giúp ích/gây hại cho 1 nhóm người nào đó - tuy nhiên sâu thẳm trong suy nghĩ mỗi “dân phòng” vẫn luôn tự cho rằng mình đang bảo vệ cộng đồng.
+
+Hàng trăm nghìn người “đi tuần”, kiểm tra, tìm kiếm thông tin. Và khi đám đông đủ cuồng nộ thì những hành động ảo bắt đầu lan sang thật. Đơn cử như clip 1 người đàn ông đánh con lan toả trên mạng xã hội, rất nhanh sau đó họ đã tìm ra thông tin của người đàn ông. Kéo đến và đánh hội đồng người này, với danh nghĩa là “đánh và trả thù cho con trai anh”. Những vụ việc như thế này lại được người dân rất ủng hộ và háo hức, đây có vẻ như cách mang lại cho người ta cảm giác công lý được thực thi tức thời. Không cần 1 phiên toà phán xét nào cả, chúng ta đi thẳng luôn đến màn thi hành án. Có những giang hồ ngoài đời thực đột nhiên trở lên nổi tiếng nhờ những pha nhân danh công lý như vậy.
+
+> Một lần mình có cảm giác rơi vào 1 phiên toà như vậy là khi chơi Ma sói. Có thành viên chỉ vào mình và nhận định: “Ván này muốn chọn treo cổ B, vì ván trước chẳng nói gì mà tự nhiên ván này lại bắt đầu nói.” 
+“Ơ nhưng mà ván trước em chưa kết luận được gì nên chưa nói thôi…” - mình yếu ớt chống trả
+“Mỗi đêm bắt buộc phải giết 1 người, nếu không thì sói sẽ càng có lợi”
+Thêm vài người bắt đầu đồng tình, và rất nhanh số đông chọn hình thức “treo cổ”. Trò chơi đối với mình đến đây là kết thúc.
+
+Đứng ẩn trong đám đông; tự phong cho mình quyền phán xét, kết tội - ẩn dưới danh nghĩa công lý đúng là rất thú vị. Khi đã lên cơn say quyền lực, ta sẵn sàng làm những việc khó mà có thể tưởng tượng ra. Và nạn nhân - đứng trước đám đông điên cuồng ấy chắc hẳn sẽ phải chịu nhiều tổn thương cả về thể, chất lẫn tinh thần. Vết thương có thể lành, nhưng dấu ấn về vết thương đó được Google / Facebook / Youtube/... lưu lại, và vĩnh viễn sẽ không bao giờ biến mất. Có thể coi như đó là 1 bản án vĩnh viễn đối với mỗi người.
+
+Trong cuốn sách tác giả có đề cập diễn biến tâm lý từ căm ghét đến làm nhục; hiểu được quá trình này cũng phần nào giúp ta giải phóng được cho chính bản thân mình. Bạn nào quan tâm đến vấn đề này có thể tìm đọc thêm.
+
+———————————————————————
+
+1 viên đá ta ném ra có thể không đủ giết người, nhưng khi có cả trăm, nghìn người cùng ném thì khó mà có thể chối đi tội lỗi của mình được. 
+Đọc xong cuốn này tự rút ra vài răn đe bản thân mỗi khi lên mạng:
+- Căm ghét, làm nhục, bắt nạt, hóng hớt rất vui - nhưng tha thứ mới làm bản thân mình thấy thoải mái dài lâu.
+- Điềm tĩnh giữa những cơn cuồng lộ.
+- Internet không bao giờ quên, để họ lưu lại bản án nào thì xác định hết đời không sạch.
+
+P/S: Tuy nhiên vẫn còn 1 câu hỏi mình đang phân vân là liệu việc quá nhiều người tự cho mình quyền phán xét, kết tội như vậy thì có phải là dấu hiệu của việc họ đang mất niềm tin vào công lý hay không? 
+
 
 ***
