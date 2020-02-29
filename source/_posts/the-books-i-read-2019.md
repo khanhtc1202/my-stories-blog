@@ -21,6 +21,20 @@ Như các cụ vẫn hay nói "Chậm mà chắc" vậy!
 5. [Elon Musk: Tesla, SpaceX Và Sứ Mệnh Tìm Kiếm Một Tương Lai Ngoài Sức Tưởng Tượng](#elon-musk-tesla-spacex-va-su-menh-tim-kiem-mot-tuong-lai-ngoai-suc-tuong-tuong)
 6. [Chinh phục đỉnh Phú Sĩ](#chinh-phuc-dinh-phu-si) 
 7. [Thiện, ác và smartphone](#thien-ac-va-smartphone)
+8. [Bong bóng lên trời](#bong-bong-len-troi)
+9. [Yêu một cô gái Việt](#yeu-mot-co-gai-viet)
+10. [Bức xúc không làm ta vô can](#buc-xuc-khong-lam-ta-vo-can)
+11. [Luật pháp](#luat-phap)
+12. [Một đời như kẻ tìm đường](#mot-doi-nhu-ke-tim-duong)
+
+##### Những cuốn sách còn dang dở
+
+13. Made in Japan
+14. Socialism... seriously
+15. TED Talks: The Official TED Guide to Public Speaking
+16. Naked statistics
+17. Vang bóng một thời
+18. Is it love or is it addiction?
 
 ***
 
@@ -123,6 +137,7 @@ Gần đây mình chuyển từ self-help, nghiêng sang loại hồi kỳ khá 
 
 ### <a name="elon-musk-tesla-spacex-va-su-menh-tim-kiem-mot-tuong-lai-ngoai-suc-tuong-tuong">Elon Musk: Tesla, SpaceX Và Sứ Mệnh Tìm Kiếm Một Tương Lai Ngoài Sức Tưởng Tượng</a>
 
+- Khuyên đọc: 6/10
 
 Elon Musk hiện lên trong mình 1 hình ảnh rất ngầu; tỉ phú tự thân, thiên tài công nghệ, kỹ sư tài năng, một người có thể hiện thực hoá mọi dự định của bản thân. Minh chứng là những cái tên như Zip2, X.com, Tesla,... Dường như mọi dự án mà Elon Musk bắt tay thực hiện chẳng sớm thì muộn đều dẫn tới thành công.
 
@@ -136,7 +151,13 @@ Cuốn sách mô tả 1 hành trình thú vị; và quan trọng hơn hết tác
 Elon Musk hay là phiên bản thực của Iron Man. Diễn viên Robert Downey Jr. đã tham khảo hình tượng của Elon Musk để phát triển hình ảnh người sắt, và phải nói là hình tượng này xuất hiện quá tuyệt vời; giàu có, thông minh, mạnh mẽ... nhưng vẫn đi kèm những khiếm khuyết vừa đủ để tạo nên hình ảnh 1 người đàn ông quyến rũ và đầy thú vị.
 
 ### <a name="chinh-phuc-dinh-phu-si">Chinh phục đỉnh Phú Sĩ</a>
-...to be continued...
+
+- Khuyên đọc: 6/10
+
+Cuốn này mình đọc do nghe thấy vụ lùm xùm về tác quyền của cuốn sách, kèm theo cảm hứng sau khi đọc cuốn "Hành Trình Xa Xứ – Giấc Mơ Quốc Gia Khởi Nghiệp". Thời kỳ gây dựng sự nghiệp của 1 người Việt Nam ra đi từ năm 17 tuổi, lênh đênh trên biển, đến Nhật và xây dựng sự nghiệp của mình.
+
+1 câu chuyện nữa mọi người cũng nên xem thêm là series video do VPJ làm về chú Trần Ngọc Phúc để biết thêm 1 con đường khác của người Việt Nam tại Nhật Bản ở [đây](https://www.youtube.com/watch?v=iE3eLqYPjwA).    
+
 ### <a name="thien-ac-va-smartphone">Thiện, ác và smartphone</a>
 
 > “đau lòng làm gì khi mà đã đi nhập cư trái phép thì đã xác định một cái chết rồi”
@@ -166,5 +187,58 @@ Trong cuốn sách tác giả có đề cập diễn biến tâm lý từ căm g
 
 P/S: Tuy nhiên vẫn còn 1 câu hỏi mình đang phân vân là liệu việc quá nhiều người tự cho mình quyền phán xét, kết tội như vậy thì có phải là dấu hiệu của việc họ đang mất niềm tin vào công lý hay không? 
 
+### <a name="bong-bong-len-troi">Bong bóng lên trời</a>
 
-***
+- Khuyên đọc: 5/10
+
+Mình ít khi đọc các thể loại truyện vì cảm thấy giá trị mang lại cho bản thân không cao lắm.
+
+Căn nguyên của đọc cuốn này là do mình và 1 số người bạn có góp lại 1 tủ sách nho nhỏ gọi là [Bookichi](https://bookichi.com/bookichi) và cho mọi người mượn miễn phí, có thể gửi nhận qua bưu điện đi toàn nước Nhật với giá khá rẻ. 
+
+Tuy nhiên số người đọc cũng chưa nhiều lắm nên mình có thử tìm xem thể loại nào được nhiều người quan tâm. Giai đoạn đó có phim "Mắt biếc" khởi chiếu, nhà nhà kéo nhau đi xem. Thế nên mình mới đề xuất mua gần đủ truyện của Nguyễn Nhật Ánh; thế nhưng cuối cùng kết quả cũng không được như mong đợi.
+
+Cuốn này là 1 lần đi du lịch trên xe bus không có gì làm mình đã lôi ra đọc thử. Đọc giải trí và thấy đỡ mệt não hơn các thể loại sách khác khá nhiều. Motif của cuốn này khá mới so với những truyện khác của Nguyễn Nhật Ánh mà mình đọc, kết thúc mở - nhưng mình nghĩ là 1 kết thúc đẹp và có thể dừng tại đây được rồi.
+  
+### <a name="yeu-mot-co-gai-viet">Yêu một cô gái Việt</a>
+
+- Khuyên đọc: 8/10
+
+Một cuốn sách đáng yêu - cánh cửa mở hé cho mình 1 góc nhìn nho nhỏ về cách suy nghĩ của phụ nữ khi họ nghĩ về 1 mối quan hệ.
+
+Yêu đương, quà cáp, sex hay thậm chí là "mùa gió chán"; cuốn sách bao gồm nhiều gợi ý thú vị mà chúng ta có thể áp dụng để gìn giữ và làm mới cho mối quan hệ của mình.
+
+### <a name="buc-xuc-khong-lam-ta-vo-can">Bức xúc không làm ta vô can</a>
+  
+- Khuyên đọc: 7/10
+
+Đặng Hoàng Giang - 1 trong số những tác giả mà hễ cứ ra sách là mình sẽ tìm đọc. Cuốn sách có 3 chương, tiêu đề mỗi chương là tên 1 bài viết ở trong đó; và tiêu đề của cuốn sách cũng là tiêu đề của 1 bài viết.
+
+Cuốn sách như thường lệ vẫn là những bài viết phân tích về các vấn đề trong xã hội. Mình nghĩ đọc những cuốn sách như thế này rất cần thiết để luyện về tư duy phản biển (critical thinking).   
+
+### <a name="luat-phap">Luật pháp</a>
+
+- Khuyên đọc: 8/10
+  
+Cuốn sách về xã hội - quyền lực - luật pháp mà Claude Frédéric Bastiat viết vào thế kỷ XIX. Đây là 1 cuốn mình phải cố để đọc hết, nhiều tư tưởng mình thấy khá vô lý và phản đối. Thế nhưng xét vào bối cảnh thế giới ngày đó thì biết đâu đây là 1 cuốn sách hữu ích?
+
+Mình nghĩ nên đọc cuốn này, ít nhất cũng để luyện tư duy phản biện.
+
+Đoạn này là trích dẫn từ 1 bình luận trên [Tiki](https://tiki.vn/luat-phap-p536206.html), mời các bạn cùng tham khảo:
+> Lịch sử đã chứng minh Bastiat đã đúng mà cũng sai về phần đúng thì mình ko xét nữa nhưng xin những hậu thế của ông hãy nhìn những gì. Đức, hay các nước Bắc Âu làm được nơi thuế cao chót vót mà an sinh xã hội được đảm bảo tạo nên một đất nước tuyệt vời như thế nào khi ai ai cũng được học hành và chăm sóc y tế miễn phí, lo ngại về một chính phủ quan liêu hoàn toàn đúng đắn nhưng không vì thế mà không thể tồn tại những chính phủ liêm chính.
+
+### <a name="mot-doi-nhu-ke-tim-duong">Một đời như kẻ tìm đường</a>
+
+- Khuyên đọc: 10/10
+
+Cuốn sách mình đã mua từ lâu và mong chờ mãi mới được đọc. Và quan trọng nhất là thoả mãn câu hỏi của mình xem nên lựa chọn gì trong cuộc đời. Theo lời của tác giả thì làm gì cũng được, miễn là ta hết mình và xuất sắc trong cái lựa chọn đó.
+
+Bên cạnh đó tác giả cũng tư vấn thêm những hướng đi ta có thể suy nghĩ và thực hiện; cách mà ta giảm áp lực cho cuộc đời của mình, vì khi tác giả nhìn lại cuộc đời thì cho đến khi về già, người hạnh phúc nhất lại không phải là người có nhiều tiền nhất, lại càng không phải người mà ngày xưa đã đạt điểm số cao nhất ở trường.    
+
+
+## Lời kết
+
+Năm nay ăn gian vì đến tận 29/02/2020 mình mới chốt lại những cuốn sách mình đọc trong năm 2019. Thế nên số sách có tăng thêm 1 vài cuốn so với 2018. 
+
+Có 1 điều là mình mua hơi nhiều sách nên ở nhà có đến tầm 2 chục cuốn chưa đọc rồi (có 1 đợt thú vui khi rảnh của mình là vào BookOff lượn lờ, thấy cuốn sách tiếng Anh - chủ đề bất kỳ nào đó đủ thú vị thì sẽ mua). 
+
+Và năm nay - năm 2020 sẽ cố gắng đọc và hấp thụ những thứ hay ho đó!!!   
