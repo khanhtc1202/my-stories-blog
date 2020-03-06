@@ -11,6 +11,8 @@ Most of frontend application need to fetching data from server side to display d
 
 ## Development - proxy for stay away from CORS
 
+_Update: React supports a better way by using proxy. I pushed the link in the bottom of this post._
+
 The most painful things is CORS, at the first time I always need to inject `Access-Control-Allow-Origin` to the header for supporting calling api from localhost.
 
 Using the proxy like this you can call the api from `/api/v1`
@@ -58,3 +60,5 @@ server
 Every requests will be forwarded also. Do notice of the path, that's a slight difference between 2 methods.
 
 Tell me if you have any better ideas.
+
+_Update: this is the better way to make the request, by using_ [proxy](https://create-react-app.dev/docs/proxying-api-requests-in-development/). 
