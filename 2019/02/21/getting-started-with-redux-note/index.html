@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Note - Getting started with redux | My Stories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="I took notes during learning “Getting Started with Redux” by Dan Abramov - who created React Hot Loader, Redux, React DnD…The course is offered for free at egghead.io.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Note - Getting started with redux">
+<meta property="og:url" content="https://bach.mystories.vn/2019/02/21/getting-started-with-redux-note/index.html">
+<meta property="og:site_name" content="My Stories">
+<meta property="og:description" content="I took notes during learning “Getting Started with Redux” by Dan Abramov - who created React Hot Loader, Redux, React DnD…The course is offered for free at egghead.io.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn-images-1.medium.com/max/1600/1*VeM-5lsAtrrJ4jXH96h5kg.png">
+<meta property="article:published_time" content="2019-02-21T08:41:03.000Z">
+<meta property="article:modified_time" content="2019-05-11T09:04:42.284Z">
+<meta property="article:author" content="Bach Nguyen">
+<meta property="article:tag" content="technical">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn-images-1.medium.com/max/1600/1*VeM-5lsAtrrJ4jXH96h5kg.png">
+<meta property="fb:app_id" content="142641123032947">
+    
+
+    
+    <link rel="alternate" href="/" title="My Stories" type="application/atom+xml" />
+    
+
+    
+    <link rel="icon" href="/css/images/logo-center.png" />
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/open-sans/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123065796-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123065796-2');
+    </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">My Stories</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/logo-center.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Articles',
+            PAGES: 'Pages',
+            CATEGORIES: 'Catégories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/logo-center.png" />
+            <h2 id="name">My Stories Blog</h2>
+            <h3 id="title">Just wandering around</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
+            <a id="follow" target="_blank" href="https://www.facebook.com/my12stories/">SUIVRE</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                35
+                <span>Articles</span>
+            </div>
+            <div class="article-info-block">
+                7
+                <span>Tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/khanhtc1202/my-stories-blog" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.facebook.com/my12stories/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-getting-started-with-redux-note" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Note - Getting started with redux
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/02/21/getting-started-with-redux-note/">
+            <time datetime="2019-02-21T08:41:03.000Z" itemprop="datePublished">2019-02-21</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/technical/" rel="tag">technical</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>I took notes during learning “Getting Started with Redux” by Dan Abramov - who created React Hot Loader, Redux, React DnD…<br>The course is offered for free at <a href="https://egghead.io/courses/getting-started-with-redux" target="_blank" rel="noopener">egghead.io</a>. </p>
+<a id="more"></a>
+<h3 id="The-Single-Immutable-State-Tree"><a href="#The-Single-Immutable-State-Tree" class="headerlink" title="The Single Immutable State Tree"></a>The Single Immutable State Tree</h3><p>1st principle: the whole state of the application is describe with single JS Object.</p>
+<h3 id="Redux-Describing-State-Changes-with-Actions"><a href="#Redux-Describing-State-Changes-with-Actions" class="headerlink" title="Redux Describing State Changes with Actions"></a>Redux Describing State Changes with Actions</h3><p>2nd principle: the state is readonly. Can not change the state without using action.</p>
+<h3 id="Redux-Pure-and-Impure-Functions"><a href="#Redux-Pure-and-Impure-Functions" class="headerlink" title="Redux: Pure and Impure Functions"></a>Redux: Pure and Impure Functions</h3><h4 id="Pure-functions"><a href="#Pure-functions" class="headerlink" title="Pure functions:"></a>Pure functions:</h4><ol>
+<li>The return value of the pure functions solely depends on its arguments Hence, if you call the pure functions with the same set of arguments, you will always get the same return values.</li>
+<li>They do not have any side effects like net­work or data­base calls</li>
+<li>They do not mod­ify the arguments which are passed to them</li>
+</ol>
+<h4 id="Impure-functions"><a href="#Impure-functions" class="headerlink" title="Impure functions:"></a>Impure functions:</h4><ol>
+<li>The return value of the impure functions does not solely depend on its arguments Hence, if you call the impure functions with the same set of arguments, you might get the different return values For example, Math.random(), Date.now()</li>
+<li>They may have any side effects like net­work or data­base calls</li>
+<li>They may modify the arguments which are passed to them</li>
+</ol>
+<h3 id="Redux-The-Reducer-Function"><a href="#Redux-The-Reducer-Function" class="headerlink" title="Redux: The Reducer Function"></a>Redux: The Reducer Function</h3><p>Reducer the pure function takes the previous state, the action and return the next state of the whole application.</p>
+<h3 id="Redux-Writing-a-Counter-Reducer-with-Tests"><a href="#Redux-Writing-a-Counter-Reducer-with-Tests" class="headerlink" title="Redux: Writing a Counter Reducer with Tests"></a>Redux: Writing a Counter Reducer with Tests</h3><p>See video <a href="https://egghead.io/lessons/react-redux-writing-a-counter-reducer-with-tests" target="_blank" rel="noopener">here</a></p>
+<h3 id="Redux-Store-Methods-getState-dispatch-and-subscribe"><a href="#Redux-Store-Methods-getState-dispatch-and-subscribe" class="headerlink" title="Redux: Store Methods: getState(), dispatch(), and subscribe()"></a>Redux: Store Methods: getState(), dispatch(), and subscribe()</h3><p>What is the store: </p>
+<ul>
+<li>It holds the current application’s state object.</li>
+<li>It lets you dispatch actions. </li>
+<li>When you create it, you need to specify the reducer that tells how state is updated with actions.</li>
+</ul>
+<p>Method of the store (getState, dispatch, subscribe):</p>
+<ul>
+<li>getState(): get the current state</li>
+<li>dispatch(): it lets you dispatch actions to change the state of your application.</li>
+<li>subscribe(): register a callback that the Redux store will call any time an action has been dispatched. Useful for tracking the current application state.</li>
+</ul>
+<p>The basic implementation of the store is in the <a href="https://egghead.io/lessons/react-redux-implementing-store-from-scratch" target="_blank" rel="noopener">video</a>.</p>
+<h3 id="Redux-React-Counter-Example"><a href="#Redux-React-Counter-Example" class="headerlink" title="Redux: React Counter Example"></a>Redux: React Counter Example</h3><p><em>Note: smart component and dumb component</em> </p>
+<p>Better to read on this <a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0" target="_blank" rel="noopener">post</a>.<br>Dumb components: the same with presentational components<br>Smart components: is equal with container components</p>
+<h3 id="Redux-Avoiding-Array-Mutations-with-concat-slice-and-…spread"><a href="#Redux-Avoiding-Array-Mutations-with-concat-slice-and-…spread" class="headerlink" title="Redux: Avoiding Array Mutations with concat(), slice(), and …spread"></a>Redux: Avoiding Array Mutations with concat(), slice(), and …spread</h3><p>Reducer is required to be not a mutation between input and output value. Using concat(), slice and …spread operator can be useful.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">// remove list[index]</span><br><span class="line">const removeItem = (list, index) =&gt;&#123;</span><br><span class="line">    return [</span><br><span class="line">        ...list.slice(0, index),</span><br><span class="line">        ...list.slice(index + 1),</span><br><span class="line">    ];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// remove list[index]</span><br><span class="line">const removeItem = (list, index) =&gt;&#123;</span><br><span class="line">    return list</span><br><span class="line">        .slice(0, index)</span><br><span class="line">        .concat(list.slice(index+1));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Redux-Avoiding-Object-Mutations-with-Object-assign-and-…spread"><a href="#Redux-Avoiding-Object-Mutations-with-Object-assign-and-…spread" class="headerlink" title="Redux: Avoiding Object Mutations with Object.assign() and …spread"></a>Redux: Avoiding Object Mutations with Object.assign() and …spread</h3><p>Object.assign() and …spread can be used to avoid mutation by returning a new object.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">todo = &#123;</span><br><span class="line">    id: <span class="number">0</span>,</span><br><span class="line">    text: <span class="string">'Learn Redux'</span>,</span><br><span class="line">    completed: <span class="literal">true</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> toggleTodo = <span class="function">(<span class="params">todo</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">Object</span>.assign(&#123;&#125;, todo, &#123;<span class="attr">completed</span>: !todo.completed&#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// is the same with the above code</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> toggleTodo = <span class="function">(<span class="params">todo</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="comment">// because the last one wins</span></span><br><span class="line">    <span class="keyword">return</span> &#123;...todo, <span class="attr">completed</span>: !todo.completed&#125;;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h3 id="11-23-Should-watch-directly-include-how-to-organize-program-to-dummy-amp-smart-component"><a href="#11-23-Should-watch-directly-include-how-to-organize-program-to-dummy-amp-smart-component" class="headerlink" title="(11 ~ 23) Should watch directly, include how to organize program to dummy &amp; smart component"></a>(11 ~ 23) Should watch directly, include how to organize program to dummy &amp; smart component</h3><h3 id="Passing-the-Store-Down-Explicitly-via-Props-Implicitly-via-Context"><a href="#Passing-the-Store-Down-Explicitly-via-Props-Implicitly-via-Context" class="headerlink" title="Passing the Store Down (Explicitly via Props, Implicitly via Context)"></a>Passing the Store Down (Explicitly via Props, Implicitly via Context)</h3><h4 id="Explicitly-way"><a href="#Explicitly-way" class="headerlink" title="Explicitly way"></a>Explicitly way</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;Page store=&#123;store&#125; /&gt;</span><br><span class="line">// ... which renders ...</span><br><span class="line">&lt;PageLayout store=&#123;store&#125; /&gt;</span><br><span class="line">// ... which renders ...</span><br><span class="line">&lt;NavigationBar store=&#123;store&#125; /&gt;</span><br></pre></td></tr></table></figure>
+<p>Passing like this can be complicated sometimes, for example when I only need to use the store inside the <navigationbar> component but still need to pass it through <pagelayout> </pagelayout></navigationbar></p>
+<h4 id="Implicitly-way"><a href="#Implicitly-way" class="headerlink" title="Implicitly way"></a>Implicitly way</h4><p>Using Context &amp; Provider to wrap the <figure class="highlight plain"><figcaption><span>inside a Context, so every child component inside can use the ```store```. Better to check this [link](https://reactjs.org/docs/context.html).</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">### Redux: Generating Containers with connect() from React Redux</span><br><span class="line"></span><br><span class="line">```connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])</span><br></pre></td></tr></table></figure></p>
+<p>Connect: creates a higher-order component for making container components out of base React components. It will mount both the state and dispatch inside the store to the props of component.</p>
+<p><em>Note:</em> mapStateToProps or mapDispatchToProps can be null if you don’t need to pass them.</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>P/S: Now I am using <a href="https://github.com/coryhouse/react-slingshot/" target="_blank" rel="noopener">React Slingshot</a> as a seed project; it contains everything you need from developing -&gt; deploying. </p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://bach.mystories.vn/2019/02/21/getting-started-with-redux-note/" data-id="cjvjacwa5000od3aqwy2ref75" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://bach.mystories.vn/2019/02/21/getting-started-with-redux-note/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bach.mystories.vn/2019/02/21/getting-started-with-redux-note/">0</span>&nbsp;Commentaires</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2019/04/19/Trach-nhiem-la-cua-ai-Co-ai-khoc-cha-chung-khong/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Plus récent</strong>
+            <div class="article-nav-title">
+                
+                    Trách nhiệm là của ai? Cha chung có nên khóc không?
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2019/02/10/the-books-i-read-2019/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Plus ancien</strong>
+            <div class="article-nav-title">Sách mình đã đọc trong năm 2019</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+        <section id="comments">
+    <div class="fb-comments" data-width="100%" data-href="https://bach.mystories.vn/2019/02/21/getting-started-with-redux-note/" data-num-posts="5"></div>
+
+</section>
+    
+
+</section>
+            
+                
+<aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">Récents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/03/06/back-to-basics-tcp-source-port/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/OSOKsx4.gif)" alt="Back-to-basics - Source port in TCP connection" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2020/03/06/back-to-basics-tcp-source-port/" class="title">Back-to-basics - Source port in TCP connection</a></p>
+                            <p class="item-date"><time datetime="2020-03-05T15:41:03.000Z" itemprop="datePublished">2020-03-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/11/19/calling-api-with-create-react-app/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/yRDVADV.png)" alt="Calling api within Create-react-app" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2019/11/19/calling-api-with-create-react-app/" class="title">Calling api within Create-react-app</a></p>
+                            <p class="item-date"><time datetime="2019-11-19T08:41:03.000Z" itemprop="datePublished">2019-11-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/09/13/chuyen-dev-so-3/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/K9PCRkM.jpg)" alt="Chuyện dev số 3 - viết tài liệu có tâm" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2019/09/13/chuyen-dev-so-3/" class="title">Chuyện dev số 3 - viết tài liệu có tâm</a></p>
+                            <p class="item-date"><time datetime="2019-09-12T15:27:48.000Z" itemprop="datePublished">2019-09-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/07/19/dung-khi-song-xin/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/NIOLssJ.jpg)" alt="Bạn đủ dũng khí để “sống xịn” chưa???" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2019/07/19/dung-khi-song-xin/" class="title">Bạn đủ dũng khí để “sống xịn” chưa???</a></p>
+                            <p class="item-date"><time datetime="2019-07-19T02:51:53.000Z" itemprop="datePublished">2019-07-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2019/05/11/van-te-rang/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://i.imgur.com/oFgLjQg.jpg)" alt="Văn tế răng khôn" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2019/05/11/van-te-rang/" class="title">Văn tế răng khôn</a></p>
+                            <p class="item-date"><time datetime="2019-05-11T09:05:30.000Z" itemprop="datePublished">2019-05-11</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">Archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">September 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">July 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">February 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">Tags</h3>
+        <div class="widget">
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/devstories/" rel="tag">devstories</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/experience/" rel="tag">experience</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learning/" rel="tag">learning</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/relax/" rel="tag">relax</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technical/" rel="tag">technical</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/thinking/" rel="tag">thinking</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/travel/" rel="tag">travel</a><span class="tag-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">Nuage de tags</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/devstories/" style="font-size: 12.5px;">devstories</a> <a href="/tags/experience/" style="font-size: 10px;">experience</a> <a href="/tags/learning/" style="font-size: 17.5px;">learning</a> <a href="/tags/relax/" style="font-size: 15px;">relax</a> <a href="/tags/technical/" style="font-size: 20px;">technical</a> <a href="/tags/thinking/" style="font-size: 20px;">thinking</a> <a href="/tags/travel/" style="font-size: 12.5px;">travel</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">Liens</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.facebook.com/xubaxabu" target="_blank" rel="noopener">Writer&#39;s fb</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2020 Bach Nguyen<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice" target="_blank" rel="noopener">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=142641123032947";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+    </div>
+</body>
+</html>
