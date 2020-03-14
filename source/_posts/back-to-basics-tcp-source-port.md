@@ -44,6 +44,7 @@ $ curl http://localhost:8080/display-local-port/ --local-port 2333-2444
 It leads to a new question, how many connection a server can handle. As in Linux it is a specific number (`Many Linux kernels use the port range 32768 to 61000`), so is it limited by opening ports left?
 
 It turns out more complicated, as discussions in [here](https://superuser.com/questions/251596/is-there-a-hard-limit-of-65536-open-tcp-connections-per-ip-address-on-linux?answertab=votes&fbclid=IwAR2g7OrnVRsPjms-Lbit3MAcXAFMVr8tDQiGZKwL0KFjt2P6Eg7AwfXvOcA#tab-top)
+
 ```
 You may be thinking of number of ports. There are 65536 ports available in the TCP in the current versions of IPv4. This is not just a Linux limitation, its part of the protocol. Your IP address identifies your machine, and the port identifies a program on your machine.
 
