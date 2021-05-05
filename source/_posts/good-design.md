@@ -58,6 +58,6 @@ Giữ vững niềm tin đó thì bài này sẽ dành riêng để đăng ảnh
 ![Bạn đã bao giờ thử kéo 1 cánh cửa lẽ ra phải đẩy? Thiết kế này giúp người dùng không bao giờ nhầm :) Tìm thêm với từ khóa "Norman Doors"](https://i.imgur.com/2kda4ZC.jpg)
 
 #### Khay bàn ăn trên máy bay; ngoài cái kẹp đầu tiên ra còn có 1 cái móc nhỏ như lưỡi câu ở trong
-![Khay bàn ăn trên máy bay; ngoài cái kẹp đầu tiên ra còn có 1 cái móc nhỏ như lưỡi câu ở trong](https://i.imgur.com/zhQ4Xd9.jpg
+![Khay bàn ăn trên máy bay; ngoài cái kẹp đầu tiên ra còn có 1 cái móc nhỏ như lưỡi câu ở trong](https://i.imgur.com/zhQ4Xd9.jpg)
 
-**~Còn tiếp~**
+**Còn tiếp**
