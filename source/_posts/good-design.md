@@ -30,29 +30,34 @@ Giữ vững niềm tin đó thì bài này sẽ dành riêng để đăng ảnh
 
 *Những đồ vật hay ho mà mình gặp sẽ được đăng dần dần trong bài này :)*
 
+#### Không sợ thìa tụt hẳn vào bát nữa
+![Không sợ thìa tụt hẳn vào bát nữa](https://i.imgur.com/7OPHssw.jpg)
+
+#### Ống hút kéo dài được, giấu vừa xinh phía sau cái nhãn
 ![Ống hút kéo dài được, giấu vừa xinh phía sau cái nhãn](https://i.imgur.com/Xo3ycKi.jpg)
 
+#### Cái này thiết kế không ổn lắm vì vẫn phải dùng chữ để chỉ dẫn. Tuy nhiên vẫn khá hơn khẩu trang của Việt Nam không có HDSD
 ![Cái này thiết kế không ổn lắm vì vẫn phải dùng chữ để chỉ dẫn. Tuy nhiên vẫn khá hơn khẩu trang của Việt Nam không có HDSD](https://i.imgur.com/XEywHfi.jpg)
 
-![Mới lấy được 1 quyển lịch ở công ty](https://i.imgur.com/vX2wpwOg.jpg)
-
-![Bóc tầm đầu tiên ra sẽ thấy tháng 2, 3. Bóc tiếp tháng 1 ra sẽ thấy tháng 4, tháng 2 sẽ lộ ra tháng 5, tháng 3 sẽ ra tháng 6](https://i.imgur.com/Fz4gzihg.jpg)
-
+#### Trường hợp này liệu có thể xếp vào thiết kế sản phẩm tận tâm với người sử dụng được không nhỉ :-?
 ![Trường hợp này liệu có thể xếp vào thiết kế sản phẩm tận tâm với người sử dụng được không nhỉ :-?](https://i.imgur.com/Y30E2ifg.jpg)
 
+#### Đồ của Apple khá hay ho. Lực không mạnh lắm; đủ giữ cho bút khỏi chạy mất
 ![Đồ của Apple khá hay ho. Lực không mạnh lắm; đủ giữ cho bút khỏi chạy mất](https://media.giphy.com/media/l49JTYrbShLPxfzck/giphy.gif)
 
+#### Bàn thay đổi chiều cao giá gần 30 củ khoai. Nút tăng chiều cao nhô ra; và nút hạ chiều cao thụt vào
 ![Bàn thay đổi chiều cao giá gần 30 củ khoai. Nút tăng chiều cao nhô ra; và nút hạ chiều cao thụt vào](https://i.imgur.com/jh23IOv.jpg)
 
-![Hộp thịt giăm bông, các thanh niên xa mẹ có thể dùng luôn mà không dùng thêm bát](https://i.imgur.com/C2G5Uwu.jpg)
+#### Hộp thịt giăm bông, có thể dùng luôn mà không dùng thêm bát
+![Hộp thịt giăm bông, có thể dùng luôn mà không dùng thêm bát](https://i.imgur.com/C2G5Uwu.jpg)
 
+#### Gương ở cửa thang máy giúp quan sát xem còn ai chuẩn bị vào không
 ![Gương ở cửa thang máy giúp quan sát xem còn ai chuẩn bị vào không](https://i.imgur.com/HDzcNBF.jpg)
 
+#### Bạn đã bao giờ thử kéo 1 cánh cửa lẽ ra phải đẩy? Thiết kế này giúp người dùng không bao giờ nhầm :) Tìm thêm với từ khóa "Norman Doors"
 ![Bạn đã bao giờ thử kéo 1 cánh cửa lẽ ra phải đẩy? Thiết kế này giúp người dùng không bao giờ nhầm :) Tìm thêm với từ khóa "Norman Doors"](https://i.imgur.com/2kda4ZC.jpg)
 
-![Khay bàn ăn trên máy bay; ngoài cái kẹp đầu tiên ra còn có 1 cái móc nhỏ như lưỡi câu ở trong. Quả là 1 trong những cỗ máy vĩ đại của loài người](https://i.imgur.com/zhQ4Xd9.jpg)
-
-![Gương chiếu hậu trong thang máy; người sử dụng có thể quan sát 2 phía trước khi đóng cửa](https://i.imgur.com/9d9dxZC.jpg)
-
+#### Khay bàn ăn trên máy bay; ngoài cái kẹp đầu tiên ra còn có 1 cái móc nhỏ như lưỡi câu ở trong
+![Khay bàn ăn trên máy bay; ngoài cái kẹp đầu tiên ra còn có 1 cái móc nhỏ như lưỡi câu ở trong](https://i.imgur.com/zhQ4Xd9.jpg
 
 **~Còn tiếp~**
